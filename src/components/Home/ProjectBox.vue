@@ -5,7 +5,7 @@
         <p class="card-header-title">
           {{project.name}}
         </p>
-        <a href="#" class="card-header-icon" aria-label="more information">
+        <a :href="project.url" class="card-header-icon" aria-label="more information">
           <span class="icon">
             <i class="icon-book-open"></i>
           </span>

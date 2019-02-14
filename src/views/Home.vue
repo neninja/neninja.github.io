@@ -26,7 +26,7 @@
             Meus projetos
           </h2>
           <div class="columns is-multiline">
-            <div class="column is-narrow" v-for="project in projects" :key="project.key">
+            <div class="column is-narrow" v-for="project in this.$store.state.projects" :key="project.key">
               <ProjectBox :project="project"/>
             </div>
           </div>
@@ -46,40 +46,7 @@ export default {
     ProjectBox
   },
   data: () => ({
-    projects: [
-      {
-        name: 'Randomaster',
-        url: 'https://github.com/felipedacs/kros-randomaster',
-        langs: ['python'],
-        frameworks: ['flask'],
-        libs: [],
-        percentConcluido: 80
-      },
-      {
-        name: 'Kamas',
-        url: 'https://github.com/felipedacs/kamas',
-        langs: ['javascript'],
-        frameworks: [],
-        libs: ['jquery'],
-        percentConcluido: 95
-      },
-      {
-        name: 'Carrinho top',
-        url: 'https://github.com/felipedacs/carrinho-top',
-        langs: ['javascript'],
-        frameworks: ['vuejs'],
-        libs: [],
-        percentConcluido: 75
-      },
-      {
-        name: 'Yugo',
-        url: 'https://github.com/felipedacs/yugo',
-        langs: ['go', 'javascript'],
-        frameworks: ['vuejs'],
-        libs: [],
-        percentConcluido: 65
-      }
-    ]
+
   })
 }
 </script>
