@@ -14,5 +14,5 @@ npm run serve
 
 ### Deploy
 ```
-npm run serve deploy
+npm run deploy
 ```
