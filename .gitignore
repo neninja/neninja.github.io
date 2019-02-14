@@ -1,6 +1,27 @@
+readme.pdf
+*.aux
+*.log
+*.out
+*.xmpi
+*.blg
+*.bbl
+*.bbl
+*-blx.bib
+*.maf
+*.mtc
+*.mtc0
+*.run.xml
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
 .DS_Store
 node_modules
 /dist
+
+/tests/e2e/reports/
+selenium-debug.log
 
 # local env files
 .env.local
