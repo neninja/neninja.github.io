@@ -5,9 +5,14 @@
         <p class="card-header-title">
           {{project.name}}
         </p>
-        <a :href="project.url" class="card-header-icon" aria-label="more information">
+        <a :href="project.play" v-if="'play' in project" class="card-header-icon" title="Play or download this project" aria-label="Play or download this project">
           <span class="icon">
-            <i class="icon-book-open"></i>
+            <i class="icon-play"></i>
+          </span>
+        </a>
+        <a :href="project.url" class="card-header-icon" title="Read more about this project" aria-label="Read more about this project">
+          <span class="icon">
+            <i class="icon-book"></i>
           </span>
         </a>
       </header>

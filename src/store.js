@@ -1,5 +1,5 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from "vue"
+import Vuex from "vuex"
 
 Vue.use(Vuex)
 
@@ -7,31 +7,34 @@ export default new Vuex.Store({
   state: {
     projects: [
       {
-        name: 'Randomaster',
-        url: 'https://github.com/nenitf/kros-randomaster/#readme',
-        langs: ['python'],
-        frameworks: ['flask'],
+        name: "Randomaster",
+        url: "https://github.com/felipedacs/randomaster/#readme",
+        play: "http://ceife.pythonanywhere.com/",
+        langs: ["python"],
+        frameworks: ["flask"],
         libs: []
       },
       {
-        name: 'Kamas',
-        url: 'https://github.com/nenitf/kamas/#readme',
-        langs: ['javascript'],
+        name: "Kamas",
+        url: "https://github.com/nenitf/kamas/#readme",
+        play: "http://neni.dev/kamas",
+        langs: ["javascript"],
         frameworks: [],
-        libs: ['jquery']
+        libs: ["jquery"]
       },
       {
-        name: 'Carrinho top',
-        url: 'https://github.com/nenitf/carrinho-top/#readme',
-        langs: ['javascript'],
-        frameworks: ['vuejs'],
+        name: "Carrinho top",
+        url: "https://github.com/nenitf/carrinho-top/#readme",
+        play: "http://neni.dev/carrinho-top",
+        langs: ["javascript"],
+        frameworks: ["vuejs"],
         libs: []
       },
       {
-        name: 'Yugo',
-        url: 'https://github.com/nenitf/yugo/#readme',
-        langs: ['go', 'javascript'],
-        frameworks: ['vuejs'],
+        name: "Yugo",
+        url: "https://github.com/nenitf/yugo/#readme",
+        langs: ["go", "javascript"],
+        frameworks: ["vuejs"],
         libs: []
       }
     ],

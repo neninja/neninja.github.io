@@ -10,7 +10,7 @@
           <h2 class="subtitle">
             Sobre mim
           </h2>
-          <p>Olá, me chamo Felipe mas pode me chamar de Neni. Sou Desenvolvedor Jr, possuo 23 anos e resido em Porto Alegre/RS. Comecei a aprender sobre programação em 2016, quando iniciei a faculdade de ADS na <a href="https://www.ftec.com.br/">Ftec</a>, logo após ter cursado Técnico em Edificações. Tenho interesse em estudar <strong>go</strong>, <strong>c# com unity</strong>, <strong>php</strong>, <strong>python</strong> e o framework <strong>vuejs</strong>.</p>
+          <p>Olá, me chamo Felipe mas pode me chamar de Neni. Sou Desenvolvedor Jr, tenho 23 anos e resido em Porto Alegre/RS. Comecei a aprender sobre programação em 2016, quando iniciei a faculdade de ADS na <a href="https://www.ftec.com.br/">Ftec</a>, logo após ter cursado Técnico em Edificações. Tenho interesse em estudar <strong>go</strong>, <strong>c# com unity</strong>, <strong>php</strong>, <strong>python</strong> e o framework <strong>vuejs</strong>.</p>
         </div>
       </div>
       <div class="hero-foot">
