@@ -8,9 +8,9 @@
     </div> -->
     <div>
       <ul class="networking-field">
-      <li v-for="SocialLink in SocialLinks" :key="SocialLink.key">
-        <a class="button is-light is-large is-fullwidth" role="link" :aria-label="SocialLink.aria" :href="SocialLink.url" :title="SocialLink.aria">
-          <span :class="SocialLink.icon"></span>
+      <li v-for="socialLink in socialLinks" :key="socialLink.key">
+        <a class="button is-light is-large is-fullwidth" role="link" :aria-label="socialLink.aria" :href="socialLink.url" :title="socialLink.aria">
+          <span :class="socialLink.icon"></span>
         </a>
       </li>
       </ul>
@@ -18,29 +18,9 @@
 </template>
 <script>
 export default {
+  props: ['socialLinks'],
   data: () => ({
-    SocialLinks: [
-      {
-        icon: "icon-github",
-        aria: "Goto my github account",
-        url: "https://github.com/nenitf/"
-      },
-      {
-        icon: "icon-gitlab",
-        aria: "Goto my gitlab account",
-        url: "https://gitlab.com/nenitf/"
-      },
-      {
-        icon: "icon-linkedin",
-        aria: "Goto my linkedin account",
-        url: "https://www.linkedin.com/in/nenitf"
-      },
-      {
-        icon: "icon-mail",
-        aria: "Send me a email",
-        url: "mailto:ola@neni.dev"
-      }
-    ]
+
   })
 }
 </script>

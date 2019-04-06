@@ -1,6 +1,6 @@
-# ceife.run
-* Source code of [ceife.run](https://ceife.run) and [ceife.gitlab.io](http://ceife.gitlab.io) with deploy on branch master on [github](https://github.com/ceife/ceife.github.io) and [gitlab](https://gitlab.com/ceife/ceife.gitlab.io);
-* Some links that I want preserve but don't want to put on site: [replit](https://repl.it/@felipe_dacs), [codepen](https://codepen.io/ceife), [jsfiddle](https://jsfiddle.net/user/ceife), [deviantart](https://www.deviantart.com/neninja), [itch](https://ceife.itch.io/), [reddit](https://www.reddit.com/user/nenitfate) and [slideshare](https://www.slideshare.net/ceife)
+# neni.dev
+* Source code of [neni.dev](https://neni.dev) and [nenitf.gitlab.io](http://nenitf.gitlab.io) with deploy on branch master on [github](https://github.com/nenitf/nenitf.github.io) and [gitlab](https://gitlab.com/nenitf/nenitf.gitlab.io);
+* Some links that I want preserve but don't want to put on site: [replit](https://repl.it/@felipe_dacs), [codepen](https://codepen.io/nenitf), [jsfiddle](https://jsfiddle.net/user/nenitf), [deviantart](https://www.deviantart.com/neninja), [itch](https://nenitf.itch.io/), [reddit](https://www.reddit.com/user/nenitfate) and [slideshare](https://www.slideshare.net/nenitf).
 
 ## Project
 ```
@@ -16,3 +16,6 @@ npm run serve
 ```
 npm run deploy
 ```
+
+### Update icomoon
+* Unzip [icomoon](https://icomoon.io/app/#/select/font) on /src/assets/icomoon

@@ -21,7 +21,7 @@ git add -A
 git commit -m 'deploy :octocat:'
 
 # https://<USERNAME>.exemplo.io é obrigatorio ser na branch master!
-git push -f https://github.com/nenitf/neni.dev.git master
+git push -f https://github.com/nenitf/nenitf.github.io.git master
 
 # https://<USERNAME>.exemplo.io/repo deve ser dado push na branch gh-pages/gl-pages
 # git push -f https://gitlab.com/felipedacs/repo master:gh-pages
