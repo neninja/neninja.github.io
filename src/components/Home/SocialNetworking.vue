@@ -23,22 +23,22 @@ export default {
       {
         icon: "icon-github",
         aria: "Goto my github account",
-        url: "https://github.com/ceife/"
+        url: "https://github.com/nenitf/"
       },
       {
         icon: "icon-gitlab",
         aria: "Goto my gitlab account",
-        url: "https://gitlab.com/ceife/"
+        url: "https://gitlab.com/nenitf/"
       },
       {
         icon: "icon-linkedin",
         aria: "Goto my linkedin account",
-        url: "https://www.linkedin.com/in/ceife"
+        url: "https://www.linkedin.com/in/nenitf"
       },
       {
         icon: "icon-mail",
         aria: "Send me a email",
-        url: "mailto:felipe.dacs@gmail.com"
+        url: "mailto:ola@neni.dev"
       }
     ]
   })
