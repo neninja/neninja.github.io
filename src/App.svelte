@@ -89,10 +89,10 @@
 
 <table class="snippet">
     <Linha><Let/> neni = {c}</Linha>
-    <Linha tabs={1}><Let/> sobre = <String>{neni.sobre}</String>;</Linha>
+    <Linha tabs={1}>sobre: <String>{neni.sobre}</String>;</Linha>
     <Linha/>
 
-    <Linha tabs={1}><Let/> contato = [</Linha>
+    <Linha tabs={1}>contato: [</Linha>
     <Linha tabs={2}>
         {#each neni.contatos as contato}
             <a href="{contato.url}"><String>{contato.nome.toLowerCase()}</String></a>,&nbsp;
@@ -102,7 +102,7 @@
 
     <Linha/>
 
-    <Linha tabs={1}><Let/> codigo = [</Linha>
+    <Linha tabs={1}>codigo: [</Linha>
     <Linha tabs={2}><Comment>repositorios</Comment></Linha>
     <Linha tabs={2}>
         {#each neni.codigos.projetos as projeto}
