@@ -7,7 +7,7 @@ set -e
 npm run build
 
 # navigate into the build output directory
-cd dist
+cd public
 
 # diretorio recriado, git reinicializado
 git init
@@ -30,10 +30,10 @@ git push -f https://github.com/nenitf/nenitf.github.io.git master
 #============================================
 # gitlab
 #============================================
-cp ../.gitlab-ci.yml .gitlab-ci.yml
-
-git add -A
-git commit -m 'deploy :fox_face:'
-git push -f https://gitlab.com/nenitf/nenitf.gitlab.io.git master
+# cp ../.gitlab-ci.yml .gitlab-ci.yml
+# 
+# git add -A
+# git commit -m 'deploy :fox_face:'
+# git push -f https://gitlab.com/nenitf/nenitf.gitlab.io.git master
 
 cd -
