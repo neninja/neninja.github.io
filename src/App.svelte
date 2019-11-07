@@ -105,7 +105,7 @@
 <Command mostraPromptEm={0} inicioType={1}>cat sobre</Command>
 <Answer showIn={2}>
 Olá, me chamo Felipe mas pode me chamar de Neni.
-Sou Desenvolvedor Jr, tenho 23 anos e resido em Porto Alegre/RS. Comecei a aprender sobre programação em 2016, quando iniciei a faculdade de ADS na Ftec. Tenho interesse em trabalhar com go, php, python, godot e javascript. Rascunho alguma coisa no <a href="http:/wtf.neni.dev">wtf neni?</a>
+Sou Desenvolvedor Jr, tenho 23 anos e resido em Porto Alegre/RS. Comecei a aprender sobre programação em 2016, quando iniciei a faculdade de ADS na Ftec. Tenho interesse em trabalhar com go, php, python, godot e javascript. Escrevo para o <a href="http:/wtf.neni.dev">wtf neni?</a>
 </Answer>
 
 <Command mostraPromptEm={2} inicioType={3}>cat contato</Command>
