@@ -85,6 +85,23 @@
         counter-reset: line;
         font-family: monospace;
     }
+    :global(body) {
+        background-color: black;
+        color:  white;
+        font-size: 1.3em;
+    }
+
+    :global(a) {
+        background-color: #2d313c;
+        text-decoration: none;
+        display: inline-flex;
+        transition: .5s;
+    }
+
+    :global(a:hover) {
+        background-color: #1e1f23;
+        transition: .5s;
+    }
 </style>
 
 <table class="snippet">
