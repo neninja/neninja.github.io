@@ -13,26 +13,13 @@
   div :global(ul) {
     padding: 0;
     margin: 0;
-    display: flex;
   }
   div :global(li) {
     /*margin: 0 0.5em 0 0;*/
-    margin: 0.2em 0 0 0;
+    margin: 0.3em;
     padding: 0;
     list-style: none;
-  }
-  div :global(li::after) {
-    content: ", ";
-    white-space: pre; /* permite utilização de espaço no content */
-  }
-  div :global(li:last-child) {
-    list-style: none;
-  }
-  div :global(li:nth-last-child(2)::after) {
-    content: " e ";
-  }
-  div :global(li:last-child::after) {
-    content: "";
+    display: inline-flex;
   }
 </style>
 {#if visible}
