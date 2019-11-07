@@ -10,6 +10,7 @@ npm run build
 cd public
 
 # diretorio recriado, git reinicializado
+rm -rf .git
 git init
 echo '[source](https://github.com/nenitf/neni.dev.git)' > README.md
 
