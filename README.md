@@ -1,11 +1,11 @@
 # [neni.dev](http://neni.dev)
 
 - ``npm run dev`` inicia o servidor
-- ``./deploy.sh`` realiza o deploy no gh-pages
+- ``npm run deploy`` realiza o deploy no gh-pages
 
 ## TODO
-- [ ] Versionar index.html e global.css
-
-## Inspiração para o site
-- Capa do [@felipefialho_](https://twitter.com/felipefialho_) do twitter;
-- [music for programming](http://musicforprogramming.net/);
+- [ ] Add cursor piscando antes de cada enter
+- [ ] Melhorar semântica do html
+- [ ] Pensar na rotulação clara de códigos para projetos/algoritmos/snippets
+- [ ] Add listener ctrl-L para reiniciar os comandos e ctrl-C para impedir sua continuação
+- [ ] Add possibilidade de digitar após o site terminar
