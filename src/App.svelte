@@ -17,67 +17,66 @@
         let res = await fetch('https://api.github.com/gists/d48ef344b22a15e6b3d6efa7390d4d23')
         let json = await res.json()
         neni = await JSON.parse(json.files["neni.dev.json"].content)
-            
-                // esperado
-                /*
-                let neni = {
-                    "sobre": "Olá, me chamo Felipe mas pode me chamar de Neni. Sou Desenvolvedor Jr, tenho 23 anos e resido em Porto Alegre/RS. Comecei a aprender sobre programação em 2016, quando iniciei a faculdade de ADS na Ftec. Tenho interesse em trabalhar com go, php, python, godot e javascript.",
-                    "contatos": [
-                        {
-                            "nome": "Email",
-                            "url": "mailto:ola@neni.dev"
-                        },
-                        {
-                            "nome": "Linkedin",
-                            "url": "http://linkedin.com/in/nenitf"
-                        },
-                        {
-                            "nome": "Telegram",
-                            "url": "https://t.me/nenitf"
-                        }
-                    ],
-                    "codigos": {
-                        "projetos": [
-                            {
-                                "nome": "Github",
-                                "url": "http://github.com/nenitf"
-                            },
-                            {
-                                "nome": "Gitlab",
-                                "url": "http://gitlab.com/nenitf"
-                            },
-                            {
-                                "nome": "CodeSandBox",
-                                "url": "https://codesandbox.io/u/nenitf"
-                            },
-                            {
-                                "nome": "Itch",
-                                "url": "https://nenitf.itch.io"
-                            }
-                        ],
-                        "algoritmos": [
-                            {
-                                "nome": "HackerRank",
-                                "url": "https://www.hackerrank.com/nenitf"
-                            },
-                            {
-                                "nome": "CodeSignal",
-                                "url": "http://gitlab.com/nenitf"
-                            }
-                        ],
-                        "snippets": [
-                            {
-                                "nome": "Replit",
-                                "url": "https://repl.it/@felipe_dacs"
-                            },
-                            {
-                                "nome": "Codepen",
-                                "url": "https://codepen.io/nenitf"
-                            }
-                        ]
-                    }
+        // esperado
+        /*
+        let neni = {
+            "sobre": "Olá, me chamo Felipe mas pode me chamar de Neni. Sou Desenvolvedor Jr, tenho 23 anos e resido em Porto Alegre/RS. Comecei a aprender sobre programação em 2016, quando iniciei a faculdade de ADS na Ftec. Tenho interesse em trabalhar com go, php, python, godot e javascript.",
+            "contatos": [
+                {
+                    "nome": "Email",
+                    "url": "mailto:ola@neni.dev"
+                },
+                {
+                    "nome": "Linkedin",
+                    "url": "http://linkedin.com/in/nenitf"
+                },
+                {
+                    "nome": "Telegram",
+                    "url": "https://t.me/nenitf"
                 }
-                */
+            ],
+            "codigos": {
+                "projetos": [
+                    {
+                        "nome": "Github",
+                        "url": "http://github.com/nenitf"
+                    },
+                    {
+                        "nome": "Gitlab",
+                        "url": "http://gitlab.com/nenitf"
+                    },
+                    {
+                        "nome": "CodeSandBox",
+                        "url": "https://codesandbox.io/u/nenitf"
+                    },
+                    {
+                        "nome": "Itch",
+                        "url": "https://nenitf.itch.io"
+                    }
+                ],
+                "algoritmos": [
+                    {
+                        "nome": "HackerRank",
+                        "url": "https://www.hackerrank.com/nenitf"
+                    },
+                    {
+                        "nome": "CodeSignal",
+                        "url": "http://gitlab.com/nenitf"
+                    }
+                ],
+                "snippets": [
+                    {
+                        "nome": "Replit",
+                        "url": "https://repl.it/@felipe_dacs"
+                    },
+                    {
+                        "nome": "Codepen",
+                        "url": "https://codepen.io/nenitf"
+                    }
+                ]
+            }
+        }
+        */
         });
 </script>
 <style>
