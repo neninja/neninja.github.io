@@ -81,8 +81,9 @@
 
 <style>
     :global(body) {
+        padding: 0.3em;
         font-family: monospace;
-        font-size: 1.3em;
+        font-size: 1.2em;
         background-color: black;
         color: #bbbbbc;
     }
