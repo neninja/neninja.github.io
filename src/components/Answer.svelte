@@ -16,7 +16,7 @@
   }
   div :global(li) {
     /*margin: 0 0.5em 0 0;*/
-    margin: 0.3em;
+    margin: .3em 0.3em 0.3em 0;
     padding: 0;
     list-style: none;
     display: inline-flex;
