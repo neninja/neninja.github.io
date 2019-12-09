@@ -70,12 +70,13 @@
       };
      */
 
-    onMount(async () => {
-        let res = await fetch('https://api.github.com/gists/d48ef344b22a15e6b3d6efa7390d4d23');
-        let json = await res.json();
-        let neni = await JSON.parse(json.files["neni.dev.json"].content);
-        contatos = neni.contatos;
-        codigos = neni.codigos;
+    onMount(() => {
+        fetch('https://raw.githubusercontent.com/nenitf/fakeapi/master/neni.dev/links.json')
+            .then(res => res.json())
+            .then(function(data) {
+                contatos = data.contatos
+                codigos = data.codigos
+            })
     });
 </script>
 
