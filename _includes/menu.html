@@ -1,0 +1,11 @@
+<header>
+    <nav class="menu">
+        <ul>
+            {% for item in site.menu %}
+              <li>
+                <a href="{{ item.link }}">{{ item.texto }}</a>
+              </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>

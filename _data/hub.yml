@@ -1,0 +1,39 @@
+github:
+    texto: Github
+    link: http://github.com/nenitf
+gitlab:
+    texto: Gitlab
+    link: http://gitlab.com/nenitf
+linkedin:
+    texto: Linkedin
+    link: http://linkedin.com/in/nenitf
+email:
+    texto: Email
+    link: mailto:ola@neni.dev
+telegram:
+    texto: Telegram
+    link: https://t.me/nenitf
+codesandbox:
+    texto: CodeSandBox
+    link: https://codesandbox.io/u/nenitf
+itch:
+    texto: Itch
+    link: https://nenitf.itch.io
+gamejolt:
+    texto: Game Jolt
+    link: https://gamejolt.com/@nenitf
+hackerrank:
+    texto: HackerRank
+    link: https://www.hackerrank.com/nenitf
+codesignal:
+    texto: CodeSignal
+    link: https://app.codesignal.com/profile/nenitf
+replit:
+    texto: Replit
+    link: https://repl.it/@nenitf
+codepen:
+    texto: Codepen
+    link: https://codepen.io/nenitf
+piskelapp:
+    texto: Piskelapp
+    link: https://www.piskelapp.com/user/5625764215521280
