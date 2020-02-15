@@ -21,7 +21,7 @@
     --onedark-dark-grey: #4b5263;
 
     --ui-border-color: var(--onedark-green);
-    --ui-background-color: var(--onedark-dark-black);
+    --ui-background-color: #000;
     --ui-base-color: var(--onedark-light-white);
     --ui-selection-text: var(--ui-background-color);
     --ui-selection-background: var(--ui-base-color);

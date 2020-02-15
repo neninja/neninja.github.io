@@ -15,7 +15,7 @@ function escolheTema(tema){
     let buttonThemeElement = document.querySelector("button.toggle-theme")
     switch(tema){
         case 'dark':
-            root.style.setProperty('--ui-background-color', "var(--onedark-dark-black)")
+            root.style.setProperty('--ui-background-color', "#000")
             root.style.setProperty('--ui-base-color', "var(--onedark-light-white)")
             root.style.setProperty('--ui-link-rodape-color', "var(--onedark-light-red)")
             root.style.setProperty('--ui-border-color', "var(--onedark-green)")
