@@ -113,14 +113,13 @@ p {
     margin-bottom:12px;
     padding-left:0px;
     list-style-type:none;
-    display: flex;
 }
 .menu ul li {
-    margin-right:10px
+    margin-right:10px;
+    display: inline-block;
 }
 .menu.cabecalho ul li:last-child {
-    flex: content;
-    text-align: end;
+    float: right;
 }
 .menu ul li a {
     text-decoration:none;
