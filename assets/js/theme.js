@@ -1,5 +1,11 @@
 let root = document.documentElement
-let temaAtual = localStorage.getItem('tema') || 'dark'
+let temaAtual = localStorage.getItem('tema')
+
+if(!temaAtual){
+    temaAtual = 'dark'
+    localStorage.setItem('tema', temaAtual)
+}
+
 escolheTema(temaAtual)
 
 let buttonThemeElement = document.querySelector("button.toggle-theme")
