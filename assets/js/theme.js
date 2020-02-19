@@ -10,6 +10,18 @@ escolheTema(temaAtual)
 
 let buttonThemeElement = document.querySelector("button.toggle-theme")
 
+buttonThemeElement.onmouseover = function(){
+    let temaAtual = localStorage.getItem('tema')
+    let temaNovo = temaAtual === 'dark' ? 'Light' : 'Dark'
+    this.innerHTML = temaNovo
+}
+
+buttonThemeElement.onmouseleave = function(){
+    let temaAtual = localStorage.getItem('tema')
+    temaAtual = temaAtual === 'dark' ? 'Dark' : 'Light'
+    this.innerHTML = temaAtual
+}
+
 buttonThemeElement.onclick = function(){
     let temaAtual = localStorage.getItem('tema')
     let temaNovo = temaAtual === 'dark' ? 'light' : 'dark'
