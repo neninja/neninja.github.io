@@ -6,6 +6,6 @@
 [![Codepen badge](https://img.shields.io/badge/-CodePen-000000?style=flat-square&logo=Codepen&logoColor=white)](https://codepen.io/nenitf/collections/popular?grid_type=list)
 [![Devto badge](https://img.shields.io/badge/-Blog-000000?style=flat-square&logo=DEV.to&logoColor=white)](https://dev.to/nenitf/)
 
-I'm a web programmer and I like animes/mangas, local multiplayer games and [studying](http://neni.dev/ead).
+I'm a web programmer and I like animes/mangas, local multiplayer games, [studying](http://neni.dev/ead) and build systems/tools to automate repetitive boring stuffs.
 
 [![Github Profile Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nenitf&layout=compact)](https://github.com/nenitf?tab=repositories&q=&type=source)
