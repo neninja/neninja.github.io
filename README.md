@@ -7,7 +7,7 @@
 [![Codepen badge](https://img.shields.io/badge/-CodePen-000000?style=flat-square&logo=Codepen&logoColor=white)](https://codepen.io/nenitf/collections/popular?grid_type=list)
 [![Devto badge](https://img.shields.io/badge/-Blog-000000?style=flat-square&logo=DEV.to&logoColor=white)](https://dev.to/nenitf/)
 
-I'm a web programmer and I like build systems/tools to automate repetitive boring stuffs.
+I'm a web programmer and I like to build systems/tools to automate repetitive boring stuffs.
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nenitf&layout=compact" alt="Neni's top languages on Github"> 
@@ -16,10 +16,10 @@ I'm a web programmer and I like build systems/tools to automate repetitive borin
 # Portfolio
 
 <p align="center">
-  <a href="https://github.com/nenitf/rancho">
+  <a href="https://github.com/nenitf/rancho#readme">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=rancho" alt="Rancho project on Github"> 
   </a>
-  <a href="https://github.com/nenitf/offlinha">
+  <a href="https://github.com/nenitf/offlinha#readme">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=offlinha" alt="Offlinha project on Github"> 
   </a>
 </p>
