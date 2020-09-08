@@ -7,7 +7,11 @@
 [![Codepen badge](https://img.shields.io/badge/-CodePen-000000?style=flat-square&logo=Codepen&logoColor=white)](https://codepen.io/nenitf/collections/popular?grid_type=list)
 [![Devto badge](https://img.shields.io/badge/-Blog-000000?style=flat-square&logo=DEV.to&logoColor=white)](https://dev.to/nenitf/)
 
-I'm a web programmer and I like to build systems/tools to automate repetitive boring stuffs.
+I'm a web programmer and I able to create:
+
+- [x] Systems/tools to do repetitive stuffs
+- [x] Informational simple sites and blogs
+- [x] Web Crawlers to automate data scraping
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nenitf&layout=compact" alt="Neni's top languages on Github"> 
