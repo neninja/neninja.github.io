@@ -9,3 +9,5 @@
 I'm a web programmer and I like animes/mangas, local multiplayer games, [studying](http://neni.dev/ead) and build systems/tools to automate repetitive boring stuffs.
 
 [![Github Profile Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nenitf&layout=compact)](https://github.com/nenitf?tab=repositories&q=&type=source)
+
+> See my portfolio at [neni.dev/portfolio](http://neni.dev/portfolio) and my others profiles on internet at [neni.dev/hub](http://neni.dev/hub)
