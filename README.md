@@ -9,9 +9,9 @@
 
 I'm a web programmer and I able to create:
 
-- [x] Systems/tools to do repetitive stuffs
-- [x] Informational simple sites and blogs
-- [x] Web Crawlers to automate data scraping
+- Systems to do repetitive stuffs
+- Informational simple sites and blogs
+- Web Crawlers to automate data scraping
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nenitf&layout=compact" alt="Neni's top languages on Github"> 
