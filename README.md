@@ -8,4 +8,4 @@
 
 I'm a web programmer and I like animes/mangas, local multiplayer games and [studying](http://neni.dev/ead).
 
-![stats](https://github-readme-stats.vercel.app/api/top-langs/?username=nenitf&layout=compact)
+[![Github Profile Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nenitf&layout=compact)](https://github.com/nenitf?tab=repositories&q=&type=source)
