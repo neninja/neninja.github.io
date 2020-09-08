@@ -10,23 +10,14 @@
 I'm a web programmer and I able to create:
 
 - Systems to do especific stuffs
+- Web Applications
 - Informational simple sites and blogs
 - Web Crawlers to automate data scraping
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nenitf&layout=compact" alt="Neni's top languages on Github"> 
-</p>
+![Neni's top languages on Github](https://github-readme-stats.vercel.app/api/top-langs/?username=nenitf&layout=compact)
 
 ## Portfolio
 
-<p align="center">
-  <a href="https://github.com/nenitf/rancho#readme">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=rancho" alt="Rancho project on Github"> 
-  </a>
-  <a href="https://github.com/nenitf/offlinha#readme">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=offlinha" alt="Offlinha project on Github"> 
-  </a>
-  <a href="https://github.com/nenitf/kamas#readme">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=kamas" alt="Kamas project on Github"> 
-  </a>
-</p>
+[![Rancho project on Github](https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=rancho)](https://github.com/nenitf/rancho#readme)
+[![Offlinha project on Github](https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=offlinha)](https://github.com/nenitf/offlinha#readme)
+[![Kamas project on Github](https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=kamas)](https://github.com/nenitf/kamas#readme)
