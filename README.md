@@ -13,7 +13,7 @@ I'm a web programmer and I like build systems/tools to automate repetitive borin
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nenitf&layout=compact" alt="Neni's top languages on Github"> 
 </p>
 
-# Projects
+# Portfolio
 
 <p align="center">
   <a href="https://github.com/nenitf/rancho">
