@@ -10,19 +10,19 @@
 I'm a web programmer and I like to build systems/tools to automate repetitive boring stuffs.
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nenitf&layout=compact&theme=onedark" alt="Neni's top languages on Github"> 
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nenitf&layout=compact" alt="Neni's top languages on Github"> 
 </p>
 
 ## Portfolio
 
 <p align="center">
   <a href="https://github.com/nenitf/rancho#readme">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=rancho&theme=onedark" alt="Rancho project on Github"> 
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=rancho" alt="Rancho project on Github"> 
   </a>
   <a href="https://github.com/nenitf/offlinha#readme">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=offlinha&theme=onedark" alt="Offlinha project on Github"> 
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=offlinha" alt="Offlinha project on Github"> 
   </a>
   <a href="https://github.com/nenitf/kamas#readme">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=kamas&theme=onedark" alt="Kamas project on Github"> 
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=kamas" alt="Kamas project on Github"> 
   </a>
 </p>
