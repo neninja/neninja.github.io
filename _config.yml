@@ -1,3 +1,4 @@
 title: neni.dev
 theme: jekyll-theme-cayman
-github: nenitf
+github:
+  another_url: github.com/nenitf
