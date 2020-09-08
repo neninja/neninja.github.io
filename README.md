@@ -10,7 +10,6 @@
 I'm a web programmer and I able to create:
 
 - Systems to do especific stuffs
-- Web Applications
 - Informational simple sites and blogs
 - Web Crawlers to automate data scraping
 
