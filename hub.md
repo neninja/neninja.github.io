@@ -1,7 +1,5 @@
 # Hub
 
-> Links das minhas contas na internet
-
 ## Contato
 
 - [Linkedin](http://linkedin.com/in/nenitf)
