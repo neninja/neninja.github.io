@@ -1,6 +1,6 @@
 # Hi there 👋, I'm ~~Felipe~~ Neni
 
-[![Github badge](https://img.shields.io/badge/-Github-000000?style=flat-square&logo=Github&logoColor=white)](https://www.linkedin.com/in/nenitf)
+[![Github badge](https://img.shields.io/badge/-Github-000000?style=flat-square&logo=Github&logoColor=white)](https://www.github.com/nenitf)
 [![Linkedin badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/nenitf)
 [![Telegram badge](https://img.shields.io/badge/-Telegram-1ca0f1?style=flat-square&logo=telegram&logoColor=white)](https://t.me/nenitf)
 [![Discord badge](https://img.shields.io/badge/-Discord-7389D8?style=flat-square&logo=Discord&logoColor=white)](https://discord.com/users/298546270451269642)
@@ -21,5 +21,8 @@ I'm a web programmer and I like to build systems/tools to automate repetitive bo
   </a>
   <a href="https://github.com/nenitf/offlinha#readme">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=offlinha&theme=onedark" alt="Offlinha project on Github"> 
+  </a>
+  <a href="https://github.com/nenitf/kamas#readme">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=kamas&theme=onedark" alt="Kamas project on Github"> 
   </a>
 </p>
