@@ -12,7 +12,7 @@ I'm a web programmer and I able to create:
 
 - Systems to do especific stuffs
 - Informational simple sites and blogs
-- Web Crawlers to automate data scraping
+- Tools to automate repetitive tasks
 
 ![Neni's top languages on Github](https://github-readme-stats.vercel.app/api/top-langs/?username=nenitf&layout=compact)
 
