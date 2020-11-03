@@ -19,20 +19,20 @@ I'm a web programmer and I able to create:
 ## Portfolio
 
 <!--
-[![ProjectName project on Github](https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=projectname)](https://github.com/nenitf/projectname#readme)
+[![ProjectName project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=projectname)](https://github.com/nenitf/projectname#readme)
 -->
 
 ### Systems
 
-[![Backend chat project on Github](https://github-readme-stats.vercel.app/api/pin/?username=Qemuridama&repo=realtime-chat-backend)](https://github.com/Qemuridama/realtime-chat-backend#readme)
-[![Offlinha project on Github](https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=offlinha)](https://github.com/nenitf/offlinha#readme)
-[![Rancho project on Github](https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=rancho)](https://github.com/nenitf/rancho#readme)
-[![Kamas project on Github](https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=kamas)](https://github.com/nenitf/kamas#readme)
+[![Backend chat project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=Qemuridama&repo=realtime-chat-backend)](https://github.com/Qemuridama/realtime-chat-backend#readme)
+[![Offlinha project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=offlinha)](https://github.com/nenitf/offlinha#readme)
+[![Rancho project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=rancho)](https://github.com/nenitf/rancho#readme)
+[![Kamas project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=kamas)](https://github.com/nenitf/kamas#readme)
 
 <!--
-### Systems
+### Sites
 -->
 
 ### Tools
 
-[![Esquecicio project on Github](https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=esquecicio)](https://github.com/nenitf/esquecicio#readme)
+[![Esquecicio project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=esquecicio)](https://github.com/nenitf/esquecicio#readme)
