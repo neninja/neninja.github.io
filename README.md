@@ -36,3 +36,5 @@ I'm a web programmer and I able to create:
 ### Tools
 
 [![Esquecicio project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=esquecicio)](https://github.com/nenitf/esquecicio#readme)
+[![Devtou project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=devtou)](https://github.com/nenitf/devtou#readme)
+[![Simplient project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=simplient)](https://github.com/nenitf/simplient#readme)
