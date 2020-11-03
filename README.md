@@ -34,4 +34,4 @@ I'm a web programmer and I able to create:
 
 ### Tools
 
-[![Esquecicio](https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=esquecicio)](https://github.com/nenitf/esquecicio#readme)
+[![Esquecicio project on Github](https://github-readme-stats.vercel.app/api/pin/?username=nenitf&repo=esquecicio)](https://github.com/nenitf/esquecicio#readme)
