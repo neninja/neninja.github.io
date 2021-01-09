@@ -24,6 +24,7 @@ I'm a web programmer and I able to create:
 
 ### Systems
 
+[![CRUD project](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=isb-conecta)](https://github.com/nenitf/isb-conecta#readme)
 [![Backend chat project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=Qemuridama&repo=realtime-chat-backend)](https://github.com/Qemuridama/realtime-chat-backend#readme)
 [![Offlinha project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=offlinha)](https://github.com/nenitf/offlinha#readme)
 [![Rancho project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=rancho)](https://github.com/nenitf/rancho#readme)
