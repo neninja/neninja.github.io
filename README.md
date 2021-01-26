@@ -14,7 +14,7 @@ I'm a web programmer and I able to create:
 - Informational simple sites and blogs
 - Tools to automate repetitive stuffs
 
-![Neni's top languages on Github](https://github-readme-stats.vercel.app/api/top-langs/?username=nenitf&layout=compact)
+![Neni's top languages on Github](https://github-readme-stats.vercel.app/api/top-langs/?username=nenitf&bg=00000000&layout=compact)
 
 ## Portfolio
 
@@ -24,7 +24,7 @@ I'm a web programmer and I able to create:
 
 ### Systems
 
-[![CRUD project](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=isb-conecta)](https://github.com/nenitf/isb-conecta#readme)
+[![CRUD project](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&bg=00000000&repo=isb-conecta)](https://github.com/nenitf/isb-conecta#readme)
 [![Backend chat project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=Qemuridama&repo=realtime-chat-backend)](https://github.com/Qemuridama/realtime-chat-backend#readme)
 [![Offlinha project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=offlinha)](https://github.com/nenitf/offlinha#readme)
 [![Rancho project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=rancho)](https://github.com/nenitf/rancho#readme)
