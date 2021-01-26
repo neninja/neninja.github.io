@@ -14,7 +14,7 @@ I'm a web programmer and I able to create:
 - Informational simple sites and blogs
 - Tools to automate repetitive stuffs
 
-![Neni's top languages on Github](https://github-readme-stats.vercel.app/api/top-langs/?username=nenitf&layout=compact&bg_color=00000000&title_color=2F80ED&icon_color=36393F&text_color=36393F)
+![Neni's top languages on Github](https://github-readme-stats.vercel.app/api/top-langs/?username=nenitf&layout=compact&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F)
 
 ## Portfolio
 
