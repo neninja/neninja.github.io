@@ -33,6 +33,7 @@ I'm a web programmer and I able to create:
 ### Sites and Blogs
 
 [![Snippets blog project](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=blog_snippets&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/nenitf/blog_snippets#readme)
+[![Curriculum Vitae](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=cv&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/nenitf/cv#readme)
 
 ### Tools
 
