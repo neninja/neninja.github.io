@@ -22,8 +22,6 @@ I'm a web programmer and I able to create:
 ### Systems
 
 [![CRUD project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=isb-conecta&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/nenitf/isb-conecta#readme)
-[![Offlinha project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=offlinha&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/nenitf/offlinha#readme)
-[![Rancho project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=rancho&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/nenitf/rancho#readme)
 
 ### Sites and Blogs
 
