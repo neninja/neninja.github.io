@@ -31,5 +31,4 @@ I'm a web programmer and I able to create:
 ### Tools
 
 [![Zombicards project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=jooaopc&repo=zombicards&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/jooaopc/zombicards#readme)
-
 [![Esquecicio project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=esquecicio&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/nenitf/esquecicio#readme)
