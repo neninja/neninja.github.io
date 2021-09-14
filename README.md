@@ -21,15 +21,16 @@ I'm a web programmer and I able to create:
 
 ### Systems
 
-[![CRUD project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=isb-conecta&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/nenitf/isb-conecta)
+[![Report system](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=isb-conecta&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/nenitf/isb-conecta)
 [![Daily](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=dailypong&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/nenitf/dailypong)
+[![Elefanteca API](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=elefanteca_api&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/nenitf/elefanteca_api)
 
 ### Sites and Blogs
 
-[![Snippets blog project](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=blog_snippets&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/nenitf/blog_snippets)
+[![Snippets blog](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=blog_snippets&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/nenitf/blog_snippets)
 [![Curriculum Vitae](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=cv&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/nenitf/cv)
 
 ### Tools
 
-[![Zombicards project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=jooaopc&repo=zombicards&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/jooaopc/zombicards)
-[![Esquecicio project on Github](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=esquecicio&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/nenitf/esquecicio)
+[![Zombicards project](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=jooaopc&repo=zombicards&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/jooaopc/zombicards)
+[![Esquecicio project](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=nenitf&repo=esquecicio&bg_color=00000000&title_color=2F80ED&icon_color=7F7F7F&text_color=7F7F7F&hide_border=true)](https://github.com/nenitf/esquecicio)
