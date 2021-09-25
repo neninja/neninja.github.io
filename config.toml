@@ -27,42 +27,42 @@ languageCode = "pt-br"
   userName = "neni"
   pcName = "laptop"
   workDir = "dev"
-  profile = "profile.txt"
+  profile = "profile.md"
 
   # Note: speed at which text is displayed on the terminal
   # Note: if set to 0, typing animation will be disabled
   # Note:
   # Note: If you want to enable Mathjax, you need to set it to 0
   # Note: and set "math: true" at front matter in your Markdown file
-  terminalDelay = 20
+  terminalDelay = 0
 
   # Note: speed at which text is displayed on the activity pages
   # Note: if set to 0, typing animation will be disabled
   # Note: 
   # Note: If you want to enable Mathjax, you need to set it to 0
   # Note: and set "math: true" at front matter in your Markdown file
-  activityDelay = 20
+  activityDelay = 0
 
-  description = """
-  Hi I am Neni!
-  Nice to meet you!
+  #description = """
+  #Hi I am Neni!
+  #Nice to meet you!
 
-  I’m a web programmer and I <strong>love</strong> create:
- 
-  - Systems to simplify tasks
-  - Tools to automate repetitive stuffs
- 
-  You can find me in these links:
- 
-  - <a href="https://github.com/nenitf">Github</a>
-  - <a href="https://www.linkedin.com/in/nenitf">LinkedIn</a>
-  - <a href="https://codepen.io/nenitf/collections/popular?grid_type=list">CodePen</a>
-  - <a href="https://dev.to/nenitf">Blog</a>
-
-  """
+  #I’m a web programmer and I <strong>love</strong> create:
+  #
+  #- Systems to simplify tasks
+  #- Tools to automate repetitive stuffs
+  #
+  #You can find me in these links:
+  #
+  #- <a href="https://github.com/nenitf">Github</a>
+  #- <a href="https://www.linkedin.com/in/nenitf">LinkedIn</a>
+  #- <a href="https://codepen.io/nenitf/collections/popular?grid_type=list">CodePen</a>
+  #- <a href="https://dev.to/nenitf">Blog</a>
+  #
+  #"""
 
   # Note: If you want to use a Markdown file, you can use the following
-  #description = "/profile.md"
+  description = "/profile.md"
   # Note: and put the description.md in /content/description.md
 
   [Params.Tree]
