@@ -1,9 +1,9 @@
-Hi I am Neni!  Nice to meet you!
+Hi, I'm Neni! Nice to meet you!
 
-I’m a web programmer and I **love** create:
+I **love** the software development cause it:
  
-- Systems to simplify tasks
-- Tools to automate repetitive stuffs
+- Simplify tasks
+- Automate boring stuff
 
 You can find me in these links:
 
@@ -12,5 +12,3 @@ You can find me in these links:
 - [CodePen](https://codepen.io/nenitf/collections/popular?grid_type=list)
 - [Blog](https://dev.to/nenitf)
 - [Resume](http://neni.dev/cv)
-
-> "Done is better than perfect"
