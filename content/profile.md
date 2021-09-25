@@ -12,3 +12,5 @@ You can find me in these links:
 - [CodePen](https://codepen.io/nenitf/collections/popular?grid_type=list)
 - [Blog](https://dev.to/nenitf)
 - [Resume](http://neni.dev/cv)
+
+> "Done is better than perfect"
