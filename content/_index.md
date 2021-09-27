@@ -1,6 +1,6 @@
-# Hi there 👋, I'm ~~Felipe~~ Neni
+# Hi there 👋
 
-Nice to meet you!
+I'm ~~Felipe~~ Neni, nice to meet you!
 
 I'm a programmer and I **love** the software development cause it:
  
