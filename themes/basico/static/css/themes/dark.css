@@ -8,8 +8,6 @@
         --ui-base-color: var(--onedark-light-white);
         --ui-text-color: var(--ui-base-color);
         --ui-background-color: #000;
-        --ui-selection-text: var(--ui-background-color);
-        --ui-selection-background: var(--ui-base-color);
 
         --ui-link-color: var(--onedark-blue);
 
@@ -17,7 +15,6 @@
         --ui-background-color-pre: var(--onedark-dark-black);
 
         --ui-border-color: var(--onedark-green);
-
         --border: dashed 2px var(--ui-border-color);
     }
 }

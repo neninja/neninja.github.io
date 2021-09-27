@@ -34,7 +34,37 @@ body {
 a {
     color: var(--ui-link-color);
 }
+
 a:hover {
-    color:var(--ui-background-color);
-    background-color:var(--ui-base-color)
+    color: var(--ui-background-color);
+    background-color: var(--ui-base-color)
+}
+
+header {
+    margin-top: 25px;
+    margin-bottom:10px;
+    border-bottom: var(--border);
+}
+footer {
+    color: var(--ui-text-color);
+    margin: 20px auto 15px;
+    text-align: right;
+    margin-bottom: 20px;
+    border-top: var(--border);
+}
+
+footer ul{
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding-left: 0px;
+}
+
+footer li {
+    margin-right: 10px;
+    display: inline-block;
 }

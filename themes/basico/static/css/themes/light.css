@@ -3,16 +3,13 @@
         --ui-base-color: var(--onedark-dark-black);
         --ui-text-color: var(--ui-base-color);
         --ui-background-color: var(--onedark-light-white);
-        --ui-selection-text: var(--ui-background-color);
-        --ui-selection-background: var(--ui-base-color);
 
         --ui-link-color: var(--onedark-dark-red);
 
         --ui-text-color-pre: var(--onedark-light-white);
         --ui-background-color-pre: var(--onedark-dark-black);
 
-        --ui-border-color: var(--onedark-dark-red);
-
+        --ui-border-color: var(--onedark-dark-grey);
         --border: dashed 2px var(--ui-border-color);
 
         /*
