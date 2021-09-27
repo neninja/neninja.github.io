@@ -17,7 +17,6 @@
         --ui-background-color-pre: var(--onedark-dark-black);
 
         --ui-border-color: var(--onedark-green);
-
         --border: dashed 2px var(--ui-border-color);
     }
 }
