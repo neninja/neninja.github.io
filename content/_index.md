@@ -15,7 +15,7 @@ I'm a programmer and I **love** the software development cause it:
         - [Living documentation](https://neni.dev/elefanteca_api/) with [testdox](https://phpunit.readthedocs.io/en/9.5/textui.html#testdox)
         - Independent architecture of framework ([Lumen](https://lumen.laravel.com/)) and database ([Doctrine](https://www.doctrine-project.org/) with [PostgreSQL](https://www.postgresql.org/))-->
     - [Front-end](https://github.com/nenitf/isb-conecta_ui)
-        - UX/UI made from Figma
+        - UI/UX made from Figma
         - Independent development with [MirageJS](https://miragejs.com/)
         - CI with unit/integration/e2e tests powered by [Github Actions](https://docs.github.com/en/actions)
 - [Elefanteca](https://github.com/nenitf/elefanteca_api#readme): [LMS](https://en.wikipedia.org/wiki/Integrated_library_system) POC API with:
