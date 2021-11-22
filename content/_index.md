@@ -9,7 +9,7 @@ I'm a programmer and I **love** the software development cause it:
 
 ## Portfolio
 
-- [ISB Conecta UI](https://github.com/nenitf/isb-conecta_ui): Report system interface
+- [ISB Conecta UI](https://github.com/nenitf/isb-conecta_ui#readme): Report system interface
     - Tests
     - CI/CD
     - Figma
@@ -18,8 +18,8 @@ I'm a programmer and I **love** the software development cause it:
     - CI
     - OpenAPI Specification
     - Docker
-- [Esquecicio](https://github.com/nenitf/esquecicio#readme): Executable (cross-platform) for training circuit creation (push-day, pull-day, ABS-day and legs-day)
+- [Esquecicio](https://github.com/nenitf/esquecicio#readme): Training circuit creation (push, pull, ABS and legs day)
     - Tests
     - CD
-- [Zombicards](https://github.com/jooaopc/zombicards#readme): [WebApp](https://jooaopc.github.io/zombicards/) to assist [Zombicide Green Horde](https://www.zombicide.com/pt-br/green-horde/)
+- [Zombicards](https://github.com/jooaopc/zombicards#readme): [Zombicide Green Horde](https://www.zombicide.com/pt-br/green-horde/) assistant
     - CD
