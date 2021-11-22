@@ -18,7 +18,7 @@ I'm a programmer and I **love** the software development cause it:
     - CI
     - OpenAPI Specification
     - Docker
-- [Esquecicio](https://github.com/nenitf/esquecicio#readme): Training circuit creation (push, pull, ABS and legs day) executable
+- [Esquecicio](https://github.com/nenitf/esquecicio#readme): Training circuit creation executable
     - Tests
     - CD
 - [Zombicards](https://github.com/jooaopc/zombicards#readme): [Zombicide Green Horde](https://www.zombicide.com/pt-br/green-horde/) assistant
