@@ -9,15 +9,10 @@ I'm a programmer and I **love** the software development cause it:
 
 ## Portfolio
 
-- ISB Conecta: Report system divided by API and SPA
-    <!--- [Back-end](https://github.com/nenitf/isb-conecta)
-        - CI with unit/integration/e2e tests powered by [Github Actions](https://docs.github.com/en/actions)
-        - [Living documentation](https://neni.dev/elefanteca_api/) with [testdox](https://phpunit.readthedocs.io/en/9.5/textui.html#testdox)
-        - Independent architecture of framework ([Lumen](https://lumen.laravel.com/)) and database ([Doctrine](https://www.doctrine-project.org/) with [PostgreSQL](https://www.postgresql.org/))-->
-    - [Front-end](https://github.com/nenitf/isb-conecta_ui)
-        - Tests
-        - CI/CD
-        - Figma
+- [ISB Conecta UI](https://github.com/nenitf/isb-conecta_ui): Report system interface
+    - Tests
+    - CI/CD
+    - Figma
 - [Elefanteca](https://github.com/nenitf/elefanteca_api#readme): [LMS](https://en.wikipedia.org/wiki/Integrated_library_system) POC API with:
     - Tests
     - CI
