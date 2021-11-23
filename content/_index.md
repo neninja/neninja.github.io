@@ -21,7 +21,7 @@ I'm a programmer and I **love** the software development cause it:
       ![PHP 8](https://img.shields.io/badge/%20-PHP%208-blue)
       ![Doctrine](https://img.shields.io/badge/%20-Doctrine-blue)
       ![Lumen](https://img.shields.io/badge/%20-Lumen-blue)
-      ![Swagger](https://img.shields.io/badge/%20-Swagger-blue)
+      ![SwaggerUI](https://img.shields.io/badge/%20-SwaggerUI-blue)
     - Tests
     - CI
 - [Esquecicio](https://github.com/nenitf/esquecicio#readme): Training circuit creation executable
