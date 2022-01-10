@@ -9,9 +9,9 @@ I'm a programmer and I **love** the software development cause it:
 
 ## Portfolio
 
-- [ISB Conecta](https://github.com/nenitf/isb-conecta_ui#readme)
-- [Conceitório](https://github.com/nenitf/conceitorio_ui#readme)
-- [Elefanteca API](https://github.com/nenitf/elefanteca_api#readme)
+- [ISB Conecta](https://github.com/nenitf/isb-conecta_ui#readme) ![wip](https://img.shields.io/badge/%20-WIP-blue)
+- [Conceitório](https://github.com/nenitf/conceitorio_ui#readme) ![wip](https://img.shields.io/badge/%20-WIP-blue)
+- [Elefanteca API](https://github.com/nenitf/elefanteca_api#readme) ![wip](https://img.shields.io/badge/%20-WIP-blue)
 - [Devtome](https://github.com/nenitf/devtome#readme)
 - [Esquecicio](https://github.com/nenitf/esquecicio#readme)
 - [Zombicards](https://github.com/jooaopc/zombicards#readme)
