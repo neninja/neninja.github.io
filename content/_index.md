@@ -4,7 +4,8 @@ I'm ~~Felipe~~ Neni, nice to meet you!
 
 I'm a programmer and I **love** the software development cause it:
  
-- Simplify tasks
+- Makes tasks easier
+- Avoid repetition errors
 - Automate boring stuff
 
 ## Portfolio
