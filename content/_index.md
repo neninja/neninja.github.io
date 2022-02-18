@@ -10,6 +10,7 @@ I'm a programmer and I **love** the software development cause it:
 
 ## Open source projects
 
+- [Elefanteca](https://github.com/nenitf/elefanteca_api#readme)
 - [Projeto Bilíngue](https://github.com/nenitf/blog_projeto-bilingue#readme)
 - [Devtome](https://github.com/nenitf/devtome#readme)
 - [Zombicards](https://github.com/jooaopc/zombicards#readme)
