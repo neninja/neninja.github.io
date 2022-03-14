@@ -12,7 +12,7 @@ I'm a programmer and I **love** the software development cause it:
 
 - [Elefanteca](https://github.com/nenitf/elefanteca_api#readme)
 - [Async Poll](https://github.com/nenitf/async-poll#readme)
-- [Conta 66](http://neni.dev/conta66)
+- [66](http://neni.dev/66)
 - [Projeto Bilíngue](http://b.neni.dev)
 - [Devtome](https://github.com/nenitf/devtome#readme)
 - [Zombicards](https://jooaopc.github.io/zombicards)
