@@ -1,3 +1,6 @@
+---
+images: ["/og.png"]
+---
 # Hi there 👋
 
 I'm ~~Felipe~~ Neni, nice to meet you!
