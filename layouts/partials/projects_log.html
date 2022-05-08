@@ -7,8 +7,8 @@
 {{ end }}
 {{ $types = $types | append .type }}
 {{ end }}
-{{ $techs = uniq $techs }}
-{{ $types = uniq $types }}
+{{ $techs = sort (uniq $techs) }}
+{{ $types = sort (uniq $types) }}
 
 {{ if(.showForm) }}
 <form id="filter">
