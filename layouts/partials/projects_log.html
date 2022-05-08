@@ -1,0 +1,106 @@
+{{ $types := slice }}
+{{ $techs := slice }}
+{{ range .projects }}
+{{ $techsP :=  .technologies }}
+{{ range $techsP }}
+{{ $techs = $techs | append . }}
+{{ end }}
+{{ $types = $types | append .type }}
+{{ end }}
+{{ $techs = uniq $techs }}
+{{ $types = uniq $types }}
+
+{{ if(.showForm) }}
+<form id="filter">
+    <fieldset data-field="techs">
+        <legend>Tecnologias</legend>
+        <div class="checkboxes">
+            {{ range $techs }}
+            <label>
+                <input type="checkbox" name="{{urlize .}}"> {{.}}
+            </label>
+            {{ end }}
+        </div>
+    </fieldset>
+
+    <fieldset data-field="types">
+        <legend>Tipos</legend>
+        <div class="checkboxes">
+            {{ range $types }}
+            <label>
+                <input type="checkbox" name="{{.}}"> {{.}}
+            </label>
+            {{ end }}
+        </div>
+    </fieldset>
+
+    <fieldset data-field="links">
+        <legend>Links disponíveis</legend>
+        <label>
+            <input type="checkbox" name="has-doc"> Documentação
+        </label>
+
+        <label>
+            <input type="checkbox" name="has-demo"> Demo
+        </label>
+
+        <label>
+            <input type="checkbox" name="has-download"> Download
+        </label>
+    </fieldset>
+
+    <fieldset data-field="status">
+        <legend>Situação</legend>
+        <div class="checkboxes">
+            <label>
+                <input type="checkbox" name="wip"> Em andamento
+            </label>
+        </div>
+    </fieldset>
+</form>
+
+{{ $script := resources.Get "/js/log.js" | minify | fingerprint }}
+<script src="{{$script.Permalink}}"></script>
+{{ end }}
+
+<ul id="projects" aria-label="projects">
+    {{ range sort .projects "date" "desc" }}
+    {{ $techsH := slice }}
+    {{ range .technologies }}
+    {{ $techsH = $techsH | append (urlize .) }}
+    {{ end }}
+    <li
+        class="project"
+        data-techs="{{jsonify $techsH}}"
+        data-type="{{.type}}"
+        data-date='{{time.Format "02/01/2006" .date}}'
+        data-hasdoc='{{isset .links "doc"}}'
+        data-hasdemo='{{isset .links "demo"}}'
+        data-hasdownload='{{isset .links "download"}}'
+        data-wip="{{eq .wip true}}">
+        {{ .name }}
+        <ul aria-label="detalhes">
+            <li class="type">{{.type}}</li>
+            <li class="date">{{time.Format "2006" .date}}</li>
+        </ul>
+        <ul aria-label="tecnologias">
+            {{ range .technologies }}
+            <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+        <ul aria-label="links">
+            {{ if .links.doc }}
+            <li><a href="{{.links.doc}}">Documentação</a></li>
+            {{ end }}
+
+            {{ if .links.demo }}
+            <li><a href="{{.links.demo}}">Demo</a></li>
+            {{ end }}
+
+            {{ if .links.download }}
+            <li><a href="{{.links.download}}">Download</a></li>
+            {{ end }}
+        </ul>
+    </li>
+    {{ end }}
+</ul>

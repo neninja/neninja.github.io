@@ -1,4 +1,19 @@
-title = "Neni dev"
-theme = "basico"
+title = "Neni"
 languageCode = "pt-br"
 description = "Neni's portfolio"
+
+[[menus.header]]
+name="Portfolio"
+url="/portfolio"
+
+[[menus.footer]]
+name = "Github"
+url = "https://github.com/nenitf"
+
+[[menus.footer]]
+name = "Linkedin"
+url = "https://www.linkedin.com/in/nenitf"
+
+[[menus.footer]]
+name = "Blog"
+url = "https://wtf.neni.dev"

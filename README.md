@@ -7,5 +7,5 @@ Site "cartão de visita". Créditos do tema ao [txtii](https://txti.es/) e [moth
 - Baixar versão estendida do [hugo](https://github.com/gohugoio/hugo/releases)
 - Subir servidor e acessar ``localhost:1313``
 ```sh
-hugo server -w
+hugo server --disableFastRender
 ```

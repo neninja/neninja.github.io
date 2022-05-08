@@ -1,0 +1,8 @@
+{{ define "main" }}
+<main id="log">
+    {{- .Content -}}
+    {{ $projects := .Site.Data.projects }}
+    {{ $projects := where .Site.Data.projects "portfolio" true }}
+    {{ partial "projects_log.html" (dict "context" . "projects" $projects "showForm" false) }}
+</main>
+{{ end }}
