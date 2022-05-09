@@ -63,7 +63,7 @@
 <script src="{{$script.Permalink}}"></script>
 {{ end }}
 
-<ul id="projects" aria-label="projects">
+<ul id="projects" class="projects-container" aria-label="projects">
     {{ range sort .projects "date" "desc" }}
     {{ $techsH := slice }}
     {{ range .technologies }}

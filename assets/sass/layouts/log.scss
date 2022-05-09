@@ -6,10 +6,20 @@
         }
     }
 
+    .projects-container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 2rem 1rem;
+
+        & > li {
+            list-style: none;
+        }
+
+    }
+
     ul[aria-label="projects"] {
         .project {
-            margin-bottom: 1rem;
-
             .type, .date {
                 font-size: 0.8rem;
                 color: v("background-color");
