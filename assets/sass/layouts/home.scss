@@ -1,0 +1,55 @@
+@mixin single-home {
+    .avatar-container {
+        margin: 2rem 0;
+
+        display: flex;
+        justify-content: center;
+
+        img {
+            border-radius: 50%;
+            border: 1px solid v("text-color");
+            max-width: 96px;
+        }
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(7rem, max-content));
+
+        padding: 0;
+        grid-gap: 1rem;
+        justify-content: center;
+    }
+
+    .link {
+        transition: 0.3s;
+
+        &:hover {
+            border: 1px solid v("background-color");
+        }
+
+        width: 5rem;
+        aspect-ratio: 1;
+        overflow: hidden;
+
+        text-decoration: none;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+
+        font-size: 1.2rem;
+
+        border: 1px solid v("link-color");
+        border-radius: 3px;
+
+        list-style: none;
+        padding: 1rem;
+
+        i {
+            font-size: 2rem;
+        }
+    }
+}

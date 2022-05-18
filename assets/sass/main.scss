@@ -1,12 +1,18 @@
 @import './themes.scss';
 @import './_helpers.scss';
 @import './layouts/log.scss';
+@import './layouts/home.scss';
 
 html {
     -webkit-text-size-adjust: 100%;
     padding-bottom: 4em;
-    color: v("text-color");
     background: v("background-color");
+
+    color: v("text-color");
+
+    i {
+        color: v("text-color");
+    }
 }
 
 body {
@@ -29,7 +35,11 @@ a {
 
 a:hover {
     color: v("background-color");
-    background-color: v("base-color")
+    background-color: v("base-color");
+
+    i::before {
+        color: v("background-color");
+    }
 }
 
 ul {
@@ -80,5 +90,9 @@ footer {
 }
 
 #log {
-    @include single;
+    @include single-log;
+}
+
+#home {
+    @include single-home;
 }

@@ -1,3 +1,4 @@
+{{ if or (not (isset .Params "footer")) (.Params.footer) }}
 <footer>
     <ul>
         {{ range .Site.Menus.footer }}
@@ -6,3 +7,4 @@
     </ul>
     </ul>
 </footer>
+{{ end }}

@@ -1,3 +1,4 @@
+{{ if or (not (isset .Params "nav")) (.Params.nav) }}
 <header>
     <nav class="menu cabecalho" role="navigation">
         <ul>
@@ -16,3 +17,4 @@
         </ul>
     </nav>
 </header>
+{{ end }}

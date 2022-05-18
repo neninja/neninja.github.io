@@ -1,0 +1,55 @@
+- name: "Linkedin"
+  href: "https://www.linkedin.com/in/nenitf"
+  icon: "fa-brands fa-linkedin"
+
+- name: "Github"
+  href: "https://github.com/nenitf"
+  icon: "devicon-github-original"
+
+- name: "Curriculo"
+  href: "http://neni.dev/cv"
+  icon: "fa-solid fa-briefcase"
+
+- name: "Portfolio"
+  href: "/portfolio"
+  icon: "fa-solid fa-briefcase"
+
+- name: "Log"
+  href: "/log"
+  icon: "fa-solid fa-timeline"
+
+- name: "Blog"
+  href: "https://wtf.neni.dev"
+  icon: "fa fa-rss"
+
+- name: "Codepen"
+  href: "https://codepen.io/nenitf/collections"
+  icon: "devicon-codepen-plain"
+
+- name: "Discord"
+  href: "https://discord.com/users/298546270451269642"
+  icon: "fab fa-discord"
+
+- name: "Telegram"
+  href: "http://t.me/nenitf"
+  icon: "fa-brands fa-telegram"
+
+#- name: "SandBox"
+#  href: "https://codesandbox.io/u/nenitf"
+#  icon: "fa-solid fa-arrows-spin"
+#
+#- name: "Replit"
+#  href: "https://repl.it/@nenitf"
+#  icon: "fa-solid fa-arrows-spin"
+#
+#- name: "Wishlist"
+#  href: "https://www.udemy.com/user/99575496-6e04-455c-9a67-348d577597c8/?key=wishlisted_courses&wishlisted_courses=1"
+#  icon: "fa-solid fa-gift"
+#
+#- name: "Wishlist"
+#  href: "https://www.amazon.com.br/hz/wishlist/ls/2SUJA4C9DQ612/ref=nav_wishlist_lists_1"
+#  icon: "fa-solid fa-gift"
+
+- name: "Vimrc"
+  href: "https://vimrc.neni.dev"
+  icon: "devicon-vim-plain"
