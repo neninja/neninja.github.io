@@ -37,7 +37,7 @@
     <fieldset data-field="links">
         <legend>Links disponíveis</legend>
         <label>
-            <input type="checkbox" name="has-doc"> Informações
+            <input type="checkbox" name="has-doc"> Informação
         </label>
 
         <label>
@@ -90,7 +90,7 @@
         </ul>
         <ul aria-label="links">
             {{ if .links.doc }}
-            <li><a href="{{.links.doc}}">Documentação</a></li>
+            <li><a href="{{.links.doc}}">Informação</a></li>
             {{ end }}
 
             {{ if .links.demo }}
