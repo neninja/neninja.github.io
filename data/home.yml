@@ -26,14 +26,14 @@
   href: "https://codepen.io/nenitf/collections"
   icon: "devicon-codepen-plain"
 
-- name: "Discord"
-  href: "https://discord.com/users/298546270451269642"
-  icon: "fab fa-discord"
-
-- name: "Telegram"
-  href: "http://t.me/nenitf"
-  icon: "fa-brands fa-telegram"
-
+#- name: "Discord"
+#  href: "https://discord.com/users/298546270451269642"
+#  icon: "fab fa-discord"
+#
+#- name: "Telegram"
+#  href: "http://t.me/nenitf"
+#  icon: "fa-brands fa-telegram"
+#
 #- name: "SandBox"
 #  href: "https://codesandbox.io/u/nenitf"
 #  icon: "fa-solid fa-arrows-spin"
