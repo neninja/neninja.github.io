@@ -1,3 +1,21 @@
+- name: Local WS
+  wip: true
+  date: 2022-11-21
+  type: Sistema
+  links:
+    doc: https://github.com/nenitf/local-ws#readme
+  technologies: 
+    - Rust
+
+- name: Kros6
+  wip: true
+  date: 2022-10-21
+  type: App
+  links:
+    doc: https://github.com/nenitf/kros6#readme
+  technologies: 
+    - Flutter
+
 - name: Proderit
   wip: true
   date: 2022-05-26
@@ -6,7 +24,7 @@
     doc: https://github.com/nenitf/proderit#readme
   technologies: 
     - Hugo
-
+    
 - name: Precomar
   wip: true
   date: 2022-05-10
