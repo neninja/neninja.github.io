@@ -11,13 +11,17 @@
             max-width: 96px;
         }
     }
+    
+    .container {
+        max-width: 35rem;
+    }
 
     ul {
         display: grid;
-        grid-template-columns: repeat(4, minmax(7rem, max-content));
-
+        grid-template-columns: repeat(auto-fill, minmax(7rem, max-content));
+        
         padding: 0;
-        grid-gap: 1rem;
+        grid-gap: 2rem;
         justify-content: center;
     }
 
