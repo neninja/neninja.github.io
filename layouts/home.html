@@ -4,17 +4,19 @@
         <img src="https://github.com/nenitf.png">
     </div>
 
-    <ul>
-        {{ range .Site.Data.home }}
-        <a class="link" role="listitem" aria-label="{{.name}}" href="{{.href}}">
-            {{with .icon}}
-            <i class="{{.}}"></i>
-            {{end}}
-            <span>
-                {{.name}}
-            </span>
-        </a>
-        {{ end }}
-    </ul>
+    <div class="container">
+        <ul>
+            {{ range .Site.Data.home }}
+            <a class="link" role="listitem" aria-label="{{.name}}" href="{{.href}}">
+                {{with .icon}}
+                <i class="{{.}}"></i>
+                {{end}}
+                <span>
+                    {{.name}}
+                </span>
+            </a>
+            {{ end }}
+        </ul>
+    </div>
 </main>
 {{ end }}
