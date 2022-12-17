@@ -8,7 +8,7 @@
     - Rust
 
 - name: Kros6
-  wip: true
+  wip: false
   date: 2022-10-21
   type: App
   links:
