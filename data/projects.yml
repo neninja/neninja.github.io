@@ -8,6 +8,7 @@
     - Rust
 
 - name: Kros6
+  portfolio: true
   wip: false
   date: 2022-10-21
   type: App
@@ -221,6 +222,7 @@
     - Github Actions
 
 - name: Blog de snippets
+  portfolio: true
   date: 2021-03-18
   type: Blog
   links:
