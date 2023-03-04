@@ -63,6 +63,10 @@
         list-style: none;
         padding: 1rem;
 
+        &:hover {
+            background-color: unset;
+        }
+
         i {
             font-size: 2rem;
         }
