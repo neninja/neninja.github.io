@@ -1,5 +1,6 @@
 @import './themes.scss';
 @import './_helpers.scss';
+@import './random-colors.scss';
 @import './layouts/log.scss';
 @import './layouts/home.scss';
 
@@ -95,4 +96,5 @@ footer {
 
 #home {
     @include single-home;
+    @include random-colors;
 }

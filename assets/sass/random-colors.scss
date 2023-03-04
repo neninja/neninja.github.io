@@ -1,0 +1,32 @@
+@import './themes.scss';
+@import './_helpers.scss';
+
+@mixin random-colors {
+    @keyframes rainbow{
+        100%,0%{
+            background-color: v("dynamic-green");
+            border-color: v("dynamic-green");
+        }
+        16%{
+            background-color: v("dynamic-cyan");
+            border-color: v("dynamic-cyan");
+        }
+        32%{
+            background-color: v("dynamic-blue");
+            border-color: v("dynamic-blue");
+        }
+        48%{
+            background-color: v("dynamic-magenta");
+            border-color: v("dynamic-magenta");
+        }
+        64%{
+            background-color: v("dynamic-red");
+            border-color: v("dynamic-red");
+        }
+        80%{
+            background-color: v("dynamic-yellow");
+            border-color: v("dynamic-yellow");
+        }
+    }
+}
+

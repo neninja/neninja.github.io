@@ -38,5 +38,7 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
+.hugo_build.lock
+
 # Local
 /_local

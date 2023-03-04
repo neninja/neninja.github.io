@@ -1,7 +1,11 @@
 {{ define "main" }}
 <main id="home">
-    <div class="avatar-container">
-        <img src="https://github.com/nenitf.png">
+    <div class="header">
+        <div class="avatar-container">
+            <img src="https://github.com/nenitf.png">
+        </div>
+
+        <pre id="ascii" aria-hidden="true"></pre>
     </div>
 
     <div class="container">
@@ -19,4 +23,6 @@
         </ul>
     </div>
 </main>
+{{ $script := resources.Get "/js/home.js" | minify | fingerprint }}
+<script src="{{$script.Permalink}}"></script>
 {{ end }}

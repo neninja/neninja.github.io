@@ -15,6 +15,15 @@ $onedark-dark-grey: #4b5263;
 
 @media (prefers-color-scheme: light) {
     :root {
+        --dynamic-black: #{$onedark-light-black};
+        --dynamic-white: #{$onedark-light-white};
+        --dynamic-red: #{$onedark-light-red};
+        --dynamic-yellow: #{$onedark-light-yellow};
+        --dynamic-blue: #{$onedark-blue};
+        --dynamic-magenta: #{$onedark-magenta};
+        --dynamic-cyan: #{$onedark-cyan};
+        --dynamic-green: #{$onedark-green};
+
         --base-color: #{$onedark-dark-black};
         --text-color: var(--base-color);
         --background-color: white;
@@ -36,6 +45,15 @@ $onedark-dark-grey: #4b5263;
 
 @media (prefers-color-scheme: dark) {
     :root {
+        --dynamic-black: #{$onedark-dark-black};
+        --dynamic-white: #{$onedark-dark-white};
+        --dynamic-red: #{$onedark-dark-red};
+        --dynamic-yellow: #{$onedark-dark-yellow};
+        --dynamic-blue: #{$onedark-blue};
+        --dynamic-magenta: #{$onedark-magenta};
+        --dynamic-cyan: #{$onedark-cyan};
+        --dynamic-green: #{$onedark-green};
+
         --base-color: #{$onedark-dark-white};
         --text-color: var(--base-color);
         --background-color: #000;

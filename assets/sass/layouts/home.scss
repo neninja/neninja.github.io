@@ -1,14 +1,30 @@
 @mixin single-home {
     .avatar-container {
-        margin: 2rem 0;
-
         display: flex;
+        align-items: center;
         justify-content: center;
 
         img {
             border-radius: 50%;
             border: 1px solid v("text-color");
             max-width: 96px;
+            max-height: 96px;
+        }
+    }
+
+    .header {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        gap: 1em;
+
+        margin: 2rem 0;
+
+        pre {
+            font-family: "Courier New", Courier, monospace;
+            line-height: 1em;
+            white-space: pre;
+            font-size: 0.6rem;
         }
     }
     
@@ -26,10 +42,6 @@
 
     .link {
         transition: 0.3s;
-
-        &:hover {
-            border: 1px solid v("background-color");
-        }
 
         width: 5rem;
         aspect-ratio: 1;
