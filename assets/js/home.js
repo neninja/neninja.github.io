@@ -15,26 +15,43 @@ function randomColor() {
   return random(varColors);
 }
 
-document.getElementById("ascii").style.setProperty("color", "var("+randomColor()+")");
-document.querySelectorAll(".link").forEach(function (e) {
+function updateFgLinkRandomColor(e) {
   var color = randomColor();
   e.style.setProperty("color", "var("+color+")");
+  e.style.setProperty("background", "var(--background-color)")
   e.style.setProperty("border", "1px solid var("+color+")");
   e.querySelector("i").style.setProperty("color", "var("+color+")")
 
-  e.addEventListener("mouseover", function() {
-    e.style.setProperty("color", "var(--background-color)")
-    e.style.setProperty("animation", "rainbow 2.5s linear")
-    e.style.setProperty("animation-iteration-count", "infinite")
-    e.style.setProperty("animation-delay", "-"+random([0, 0.5, 1, 1.5, 2, 2.5])+"s")
+  e.querySelectorAll("i", function(i) {
+    i.style.setProperty("background", "var("+color+")");
   });
+}
 
-  e.addEventListener("mouseleave", function() {
-    e.style.setProperty("transition", "0s")
-    e.style.setProperty("color", "var("+color+")")
-    e.style.setProperty("background", "var(--background-color)")
-    e.style.setProperty("animation", "unset")
-    e.style.setProperty("animation-iteration-count", "unset")
+function updateBgLinkRandomColor(e) {
+  var color = randomColor();
+  e.style.setProperty("color", "var(--background-color)");
+  e.style.setProperty("background", "var("+color+")")
+  e.style.setProperty("border", "1px solid var("+color+")");
+  e.querySelector("i").style.setProperty("color", "var(--background-color)")
+
+  e.querySelectorAll("i", function(i) {
+    i.style.setProperty("background", "var(--background-color)");
+  });
+}
+
+document.getElementById("ascii").style.setProperty("color", "var("+randomColor()+")");
+document.querySelectorAll(".link").forEach(function (e) {
+  updateFgLinkRandomColor(e);
+
+  e.addEventListener("mouseover", function() {
+    if (e.getAttribute("data-type-style") === "bg") {
+      updateFgLinkRandomColor(e);
+      e.setAttribute("data-type-style", "fg");
+      return;
+    }
+
+    updateBgLinkRandomColor(e);
+    e.setAttribute("data-type-style", "bg");
   });
 });
 

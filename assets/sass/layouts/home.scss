@@ -21,6 +21,7 @@
         margin: 2rem 0;
 
         pre {
+            user-select: none;
             font-family: "Courier New", Courier, monospace;
             line-height: 1em;
             white-space: pre;
@@ -65,10 +66,25 @@
 
         &:hover {
             background-color: unset;
+
+            i::before {
+                color: unset;
+            }
         }
 
         i {
             font-size: 2rem;
+        }
+
+        * {
+            pointer-events: none;
+        }
+    }
+
+    #ascii {
+        &:hover {
+            animation: rainbow 2.5s linear;
+            animation-iteration-count: infinite;
         }
     }
 
