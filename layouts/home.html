@@ -25,4 +25,7 @@
 </main>
 {{ $script := resources.Get "/js/home.js" | minify | fingerprint }}
 <script src="{{$script.Permalink}}"></script>
+
+{{ $confetti := resources.Get "/js/libs/confetti.js" | minify | fingerprint }}
+<script src="{{$confetti.Permalink}}"></script>
 {{ end }}
