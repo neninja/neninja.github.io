@@ -1,3 +1,38 @@
+- name: Laravim
+  date: 2023-06-03
+  type: Plugin
+  links:
+    doc: https://github.com/nenitf/laravim#readme
+  technologies: 
+    - Lua
+    - Nvim
+
+- name: Boilerplate para plugins
+  date: 2023-06-03
+  type: Template
+  links:
+    doc: https://github.com/nenitf/Boilerplatim#readme
+  technologies: 
+    - Lua
+    - Nvim
+
+- name: Contributing
+  date: 2023-06-03
+  type: Especificação
+  links:
+    doc: https://neni.dev/contributing
+  technologies: 
+    - Markdown
+
+- name: ClickUp
+  date: 2023-06-03
+  type: Plugin
+  links:
+    doc: https://github.com/nenitf/cu.nvim#readme
+  technologies: 
+    - Lua
+    - Nvim
+
 - name: Local WS
   wip: true
   date: 2022-11-21
@@ -9,7 +44,6 @@
 
 - name: Kros6
   portfolio: true
-  wip: false
   date: 2022-10-21
   type: App
   links:
@@ -280,6 +314,7 @@
   links:
     doc: https://d.neni.dev
   technologies: 
+    - Nvim
     - Vim
     - Bash
 
