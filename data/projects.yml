@@ -308,6 +308,15 @@
     - Hugo
     - Github Actions
 
+- name: Offlinha
+  date: 2019-02-26
+  type: Ferramenta
+  links:
+    doc: https://github.com/nenitf/offlinha#readme
+    demo: https://neni.dev/offlinha
+  technologies: 
+    - Javascript
+
 - name: Dotfiles
   date: 2019-02-01
   type: Ferramenta
