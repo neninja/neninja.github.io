@@ -45,6 +45,10 @@
         </label>
 
         <label>
+            <input type="checkbox" name="has-access"> Acesso
+        </label>
+
+        <label>
             <input type="checkbox" name="has-download"> Download
         </label>
     </fieldset>
@@ -76,10 +80,14 @@
         data-date='{{time.Format "02/01/2006" .date}}'
         data-hasdoc='{{isset .links "doc"}}'
         data-hasdemo='{{isset .links "demo"}}'
+        data-hasaccess='{{isset .links "access"}}'
         data-hasdownload='{{isset .links "download"}}'
         data-wip="{{eq .wip true}}">
-        {{ .name }}
+        <strong>{{ .name }}</strong>
         <ul aria-label="detalhes">
+            {{ if .wip }}
+            <li class="wip">WIP</li>
+            {{ end }}
             <li class="type">{{.type}}</li>
             <li class="date">{{time.Format "2006" .date}}</li>
         </ul>
@@ -89,12 +97,16 @@
             {{ end }}
         </ul>
         <ul aria-label="links">
-            {{ if .links.doc }}
-            <li><a href="{{.links.doc}}">Informação</a></li>
+            {{ if .links.access }}
+            <li><a href="{{.links.access}}">Acessar</a></li>
             {{ end }}
 
             {{ if .links.demo }}
-            <li><a href="{{.links.demo}}">Demo</a></li>
+            <li><a href="{{.links.demo}}">Demonstração</a></li>
+            {{ end }}
+
+            {{ if .links.doc }}
+            <li><a href="{{.links.doc}}">Saiba mais</a></li>
             {{ end }}
 
             {{ if .links.download }}

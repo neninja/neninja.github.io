@@ -26,6 +26,7 @@ function revalidate() {
     });
 
   const hasDoc = document.querySelector('#filter input[name="has-doc"]');
+  const hasAccess = document.querySelector('#filter input[name="has-access"]');
   const hasDemo = document.querySelector('#filter input[name="has-demo"]');
   const hasDownload = document.querySelector('#filter input[name="has-download"]');
 
@@ -35,6 +36,7 @@ function revalidate() {
     const techsp = JSON.parse(e.dataset.techs);
     const typep = e.dataset.type;
     const hasDocp = e.dataset.hasdoc === 'true';
+    const hasAccessp = e.dataset.hasaccess === 'true';
     const hasDemop = e.dataset.hasdemo === 'true';
     const hasDownloadp = e.dataset.hasdownload === 'true';
     const isWip = e.dataset.wip === 'true';
@@ -46,19 +48,21 @@ function revalidate() {
 
     const filtraStatus = hasWip.checked ? isWip : true;
 
-    const deveFiltrarPorLink = hasDoc.checked || hasDemo.checked || hasDownload.checked;
+    const deveFiltrarPorLink = hasDoc.checked || hasDemo.checked || hasDownload.checked || hasAccess.checked;
     const filtraDocSeRequerido = deveFiltrarPorLink || hasDoc.checked ? hasDoc.checked && hasDocp : true;
     const filtraDemoSeRequerido = deveFiltrarPorLink || hasDemo.checked ? hasDemo.checked && hasDemop : true;
-    const filtraDownloadeRequerido = deveFiltrarPorLink || hasDownload.checked ? hasDownload.checked && hasDownloadp : true;
+    const filtraDownloadSeRequerido = deveFiltrarPorLink || hasDownload.checked ? hasDownload.checked && hasDownloadp : true;
+    const filtraAccessSeRequerido = deveFiltrarPorLink || hasAccess.checked ? hasAccess.checked && hasAccessp : true;
 
-    // console.log({filtraTechsSeRequerido, filtraTypesSeRequerido, filtraStatus, filtraDocSeRequerido, filtraDemoSeRequerido, filtraDownloadeRequerido})
+    // console.log({filtraTechsSeRequerido, filtraTypesSeRequerido, filtraStatus, filtraDocSeRequerido, filtraDemoSeRequerido, filtraDownloadSeRequeridom, filtraAccessSeRequerido})
 
     if(filtraTechsSeRequerido
       && filtraTypesSeRequerido
       && filtraStatus
       && ( filtraDocSeRequerido
         || filtraDemoSeRequerido
-        || filtraDownloadeRequerido)) {
+        || filtraDownloadSeRequerido
+        || filtraAccessSeRequerido)) {
       showProject(e);
     } else {
       hideProject(e);

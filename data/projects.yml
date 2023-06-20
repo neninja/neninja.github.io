@@ -1,3 +1,86 @@
+#- name: Hisaishin API
+#  date: 2023-06-03
+#  portfolio: true
+#  wip: true
+#  type: Sistema
+#  links:
+#    doc: https://github.com/nenitf/hiraishin#readme
+#    access: https://hiraish.in
+#  technologies: 
+#    - PHP
+#    - Laravel
+#    - Sail
+#    - Docker
+#    - Pest
+#
+#- name: Hisaishin Web
+#  date: 2023-06-03
+#  portfolio: true
+#  wip: true
+#  type: App
+#  links:
+#    doc: https://github.com/nenitf/hiraishin_app#readme
+#    download: https://hiraish.in/app
+#  technologies: 
+#    - React
+#
+#- name: Hisaishin App
+#  date: 2023-06-03
+#  portfolio: true
+#  wip: true
+#  type: App
+#  links:
+#    doc: https://github.com/nenitf/hiraishin_app#readme
+#    download: https://hiraish.in/download
+#  technologies: 
+#    - Flutter
+#
+#- name: Hisaishin QA
+#  date: 2023-06-03
+#  portfolio: true
+#  wip: true
+#  type: App
+#  links:
+#    doc: https://github.com/nenitf/hiraishin_qa#readme
+#  technologies: 
+#    - Javascript
+#    - Playwright
+#
+#- name: Sinenia
+#  date: 2023-06-03
+#  portfolio: true
+#  wip: true
+#  type: Sistema
+#  links:
+#    doc: https://github.com/nenitf/sinenia#readme
+#    access: https://sinenia.neni.dev
+#  technologies: 
+#    - Elixir
+#    - Phoenix
+#    - Docker
+#
+#- name: Menu estático
+#  date: 2023-06-03
+#  portfolio: true
+#  wip: true
+#  type: Template
+#  links:
+#    doc: https://github.com/nenitf/menu#readme
+#    demo: https://neni.dev/menu
+#  technologies: 
+#    - Hugo
+#
+#- name: Landing page para autônomos
+#  date: 2023-06-03
+#  portfolio: true
+#  wip: true
+#  type: Template
+#  links:
+#    doc: https://github.com/nenitf/lp_autonomo#readme
+#    demo: https://neni.dev/lp_autonomo
+#  technologies: 
+#    - Hugo
+
 - name: Laravim
   date: 2023-06-03
   type: Plugin
@@ -93,13 +176,14 @@
     - Docker
     - Pest
 
-- name: Introdução ao dev web
+- name: Introdução ao desenvolvimento web
   wip: true
+  portfolio: true
   date: 2022-04-22
   type: Livro
   links:
     doc: https://github.com/nenitf/intro-dev-web#readme
-    demo: https://neni.dev/intro-dev-web
+    access: https://neni.dev/intro-dev-web
     download: https://github.com/nenitf/intro-dev-web/releases/latest
   technologies: 
     - Markdown
@@ -115,13 +199,12 @@
   type: Ferramenta
   links:
     doc: https://github.com/nenitf/66#readme
-    demo: https://neni.dev/66
+    access: https://neni.dev/66
   technologies: 
     - React
     - Github Actions
 
 - name: Async Poll
-  portfolio: true
   date: 2022-03-10
   type: Sistema
   links:
@@ -137,7 +220,7 @@
   date: 2022-02-21
   type: Ferramenta
   links:
-    demo: https://codepen.io/nenitf/full/NWwYQoz
+    access: https://codepen.io/nenitf/full/NWwYQoz
   technologies: 
     - React
 
@@ -158,13 +241,12 @@
   type: Blog
   links:
     doc: https://github.com/nenitf/blog_projeto-bilingue#readme
-    demo: https://b.neni.dev
+    access: https://b.neni.dev
   technologies: 
     - Hugo
     - Github Actions
 
 - name: Devtome
-  portfolio: true
   date: 2021-10-14
   type: Ferramenta
   links:
@@ -186,12 +268,11 @@
   date: 2021-09-17
   type: Ferramenta
   links:
-    demo: https://codepen.io/nenitf/full/GREQZRd
+    access: https://codepen.io/nenitf/full/GREQZRd
   technologies: 
     - React
 
 - name: Elefanteca API
-  portfolio: true
   date: 2021-09-10
   type: Sistema
   links:
@@ -209,7 +290,7 @@
   type: Ferramenta
   links:
     doc: https://github.com/nenitf/dailypong#readme
-    demo: https://neni.dev/dailypong
+    access: https://neni.dev/dailypong
   technologies: 
     - React
     - Github Actions
@@ -230,7 +311,7 @@
   type: Ferramenta
   links:
     doc: https://github.com/jooaopc/zombicards#readme
-    demo: https://jooaopc.github.io/zombicards/
+    access: https://jooaopc.github.io/zombicards/
   technologies: 
     - React
     - Github Actions
@@ -240,7 +321,7 @@
   type: Ferramenta
   links:
     doc: https://github.com/nenitf/quemvai#readme
-    demo: https://neni.dev/quemvai
+    access: https://neni.dev/quemvai
   technologies: 
     - React
     - Github Actions
@@ -250,18 +331,17 @@
   type: Site
   links:
     doc: https://github.com/nenitf/cv#readme
-    demo: https://neni.dev/cv
+    access: https://neni.dev/cv
   technologies: 
     - Hugo
     - Github Actions
 
 - name: Blog de snippets
-  portfolio: true
   date: 2021-03-18
   type: Blog
   links:
     doc: https://github.com/nenitf/blog_snippets#readme
-    demo: https://s.neni.dev
+    access: https://s.neni.dev
   technologies: 
     - Hugo
     - Github Actions
@@ -278,7 +358,6 @@
     - Github Actions
 
 - name: Esquecicio
-  portfolio: true
   date: 2020-11-03
   type: Ferramenta
   links:
@@ -303,7 +382,7 @@
   type: Site
   links:
     doc: https://github.com/nenitf/nenitf.github.io#readme
-    demo: https://neni.dev
+    access: https://neni.dev
   technologies: 
     - Hugo
     - Github Actions
@@ -333,17 +412,16 @@
   type: Ferramenta
   links:
     doc: https://github.com/nenitf/rancho#readme
-    demo: https://neni.dev/rancho
+    access: https://neni.dev/rancho
   technologies: 
     - React
     - Github Actions
 
 - name: Kamas
-  portfolio: true
   date: 2018-01-11
   type: Ferramenta
   links:
     doc: https://github.com/nenitf/kamas#readme
-    demo: https://neni.dev/kamas
+    access: https://neni.dev/kamas
   technologies: 
     - JQuery

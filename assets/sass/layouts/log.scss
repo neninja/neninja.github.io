@@ -19,38 +19,54 @@
     }
 
     ul[aria-label="projects"] {
-        .project {
-            .type, .date {
+        //.project {
+        //    .type, .date {
+        //        font-size: 0.8rem;
+        //        color: v("background-color");
+        //        padding: 0.1rem;
+        //        background-color: v("base-color");
+        //        border-radius: 0.3em;
+        //    }
+        //}
+
+        & ul[aria-label="detalhes"] {
+            padding: 0;
+            display: block;
+
+            & > li {
+                display: inline;
                 font-size: 0.8rem;
                 color: v("background-color");
                 padding: 0.1rem;
                 background-color: v("base-color");
                 border-radius: 0.3em;
             }
-        }
 
-        & ul[aria-label="detalhes"] {
-            padding: 0;
-            display: inline;
+            .wip {
+                background: v("background-color");
+                animation: rainbow 2.5s linear;
+                animation-iteration-count: infinite;
 
-            & > li {
-                display: inline;
+                &::before {
+                    content: "{";
+                }
+
+                &::after {
+                    content: "}";
+                }
             }
         }
     }
 
-    ul[aria-label="detalhes"] {
-        display: inline;
-    }
-
     ul[aria-label="tecnologias"] {
+        padding: 0;
         & li {
             display: inline;
             font-size: 0.8rem;
             text-decoration: {
                 line: underline;
                 style: dotted;
-                color: v("link-color");
+                color: v("accent-color");
             }
         }
     }
