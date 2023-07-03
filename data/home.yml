@@ -14,9 +14,9 @@
   href: "/portfolio"
   icon: "fa-solid fa-briefcase"
 
-- name: "Log"
-  href: "/log"
-  icon: "fa-solid fa-timeline"
+#- name: "Log"
+#  href: "/log"
+#  icon: "fa-solid fa-timeline"
 
 - name: "Blog"
   href: "https://wtf.neni.dev"
@@ -25,6 +25,10 @@
 - name: "Codepen"
   href: "https://codepen.io/nenitf/collections"
   icon: "devicon-codepen-plain"
+
+- name: "Ludopedia"
+  href: "https://ludopedia.com.br/usuario/nenitf"
+  icon: "fa-solid fa-dice"
 
 #- name: "Discord"
 #  href: "https://discord.com/users/298546270451269642"
