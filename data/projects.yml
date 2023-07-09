@@ -81,6 +81,17 @@
 #  technologies: 
 #    - Hugo
 
+- name: Cééeerebros
+  portfolio: true
+  date: 2023-07-09
+  type: Ferramenta
+  links:
+    doc: https://github.com/nenitf/ceeeerebros#readme
+    access: https://neni.dev/ceeeerebros
+  technologies: 
+    - React
+    - Github Actions
+
 - name: Laravim
   date: 2023-06-03
   type: Plugin
