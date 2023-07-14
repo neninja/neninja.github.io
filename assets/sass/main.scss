@@ -22,6 +22,14 @@ body {
     max-width: 40em;
     padding: 0 2%;
     margin: auto;
+
+    &.portfolio {
+        max-width: 60em;
+    }
+
+    &.log {
+        max-width: 60em;
+    }
 }
 
 header {

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
-    <body>
+    <body class="{{.Params.Type}}">
         {{- partial "header.html" . -}}
         {{ if (.Params.redirectTo) }}
         Redirecionando para <code>{{.Params.redirectTo}}</code>
