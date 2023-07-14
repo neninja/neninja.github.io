@@ -54,7 +54,7 @@ function revalidate() {
     const filtraDownloadSeRequerido = deveFiltrarPorLink || hasDownload.checked ? hasDownload.checked && hasDownloadp : true;
     const filtraAccessSeRequerido = deveFiltrarPorLink || hasAccess.checked ? hasAccess.checked && hasAccessp : true;
 
-    // console.log({filtraTechsSeRequerido, filtraTypesSeRequerido, filtraStatus, filtraDocSeRequerido, filtraDemoSeRequerido, filtraDownloadSeRequeridom, filtraAccessSeRequerido})
+    // console.log({filtraTechsSeRequerido, filtraTypesSeRequerido, filtraStatus, filtraDocSeRequerido, filtraDemoSeRequerido, filtraDownloadSeRequerido, filtraAccessSeRequerido})
 
     if(filtraTechsSeRequerido
       && filtraTypesSeRequerido
