@@ -90,16 +90,14 @@
     access: https://neni.dev/ceeeerebros
   technologies: 
     - React
-    - Github Actions
 
 - name: Laravim
   date: 2023-06-03
-  type: Plugin
+  type: Plugin Nvim
   links:
     doc: https://github.com/nenitf/laravim#readme
   technologies: 
     - Lua
-    - Nvim
 
 - name: Boilerplate para plugins
   date: 2023-06-03
@@ -108,7 +106,6 @@
     doc: https://github.com/nenitf/Boilerplatim#readme
   technologies: 
     - Lua
-    - Nvim
 
 - name: Contributing
   date: 2023-06-03
@@ -162,7 +159,6 @@
     doc: https://github.com/nenitf/precomar#readme
   technologies: 
     - Go
-    - Github Actions
 
 - name: Gon
   date: 2022-05-03
@@ -172,7 +168,6 @@
     download: https://github.com/nenitf/gon/releases/latest
   technologies: 
     - Go
-    - Github Actions
 
 - name: Gobarber Laravel
   wip: true
@@ -184,7 +179,6 @@
     - PHP
     - Laravel
     - Sail
-    - Docker
     - Pest
 
 - name: Introdução ao desenvolvimento web
@@ -199,10 +193,7 @@
   technologies: 
     - Markdown
     - Pandoc
-    - PDF
-    - Epub
     - Graphviz
-    - Github Actions
 
 - name: 66
   portfolio: true
@@ -213,7 +204,6 @@
     access: https://neni.dev/66
   technologies: 
     - React
-    - Github Actions
 
 - name: Async Poll
   date: 2022-03-10
@@ -223,9 +213,7 @@
   technologies: 
     - PHP
     - Lumen
-    - PHPUnit
     - Swagger
-    - Github Actions
 
 - name: Clover report viewer
   date: 2022-02-21
@@ -243,7 +231,6 @@
     doc: https://github.com/nenitf/conceitorio#readme
   technologies: 
     - React
-    - Github Actions
 
 - name: Projeto bilíngue
   portfolio: true
@@ -255,7 +242,6 @@
     access: https://b.neni.dev
   technologies: 
     - Hugo
-    - Github Actions
 
 - name: Devtome
   date: 2021-10-14
@@ -265,7 +251,6 @@
     download: https://github.com/nenitf/devtome/releases/latest
   technologies: 
     - Go
-    - Github Actions
 
 - name: Emojicom
   date: 2021-10-07
@@ -291,9 +276,7 @@
   technologies: 
     - PHP
     - Lumen
-    - PHPUnit
     - Swagger
-    - Github Actions
 
 - name: Dailypong
   portfolio: true
@@ -304,7 +287,6 @@
     access: https://neni.dev/dailypong
   technologies: 
     - React
-    - Github Actions
 
 - name: Localspa
   date: 2021-06-30
@@ -314,7 +296,6 @@
     download: https://github.com/nenitf/localspa/releases/latest
   technologies: 
     - Go
-    - Github Actions
 
 - name: Zombicards
   portfolio: true
@@ -325,7 +306,6 @@
     access: https://jooaopc.github.io/zombicards/
   technologies: 
     - React
-    - Github Actions
 
 - name: Quem vai
   date: 2021-06-15
@@ -335,7 +315,6 @@
     access: https://neni.dev/quemvai
   technologies: 
     - React
-    - Github Actions
 
 - name: Curriculum Vitae
   date: 2021-03-29
@@ -345,7 +324,6 @@
     access: https://neni.dev/cv
   technologies: 
     - Hugo
-    - Github Actions
 
 - name: Blog de snippets
   date: 2021-03-18
@@ -355,7 +333,6 @@
     access: https://s.neni.dev
   technologies: 
     - Hugo
-    - Github Actions
 
 - name: ISB Conecta
   wip: true
@@ -366,7 +343,6 @@
   technologies: 
     - React
     - Cypress
-    - Github Actions
 
 - name: Esquecicio
   date: 2020-11-03
@@ -376,7 +352,6 @@
     download: https://github.com/nenitf/esquecicio/releases/latest
   technologies: 
     - Go
-    - Github Actions
 
 - name: Simplient
   date: 2020-05-29
@@ -386,7 +361,6 @@
     download: https://github.com/nenitf/simplient/releases/latest
   technologies: 
     - React
-    - Github Actions
 
 - name: neni.dev
   date: 2020-02-13
@@ -396,7 +370,6 @@
     access: https://neni.dev
   technologies: 
     - Hugo
-    - Github Actions
 
 - name: Offlinha
   date: 2019-02-26
@@ -426,7 +399,6 @@
     access: https://neni.dev/rancho
   technologies: 
     - React
-    - Github Actions
 
 - name: Kamas
   date: 2018-01-11

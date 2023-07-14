@@ -83,13 +83,17 @@
         data-hasaccess='{{isset .links "access"}}'
         data-hasdownload='{{isset .links "download"}}'
         data-wip="{{eq .wip true}}">
-        <strong>{{ .name }}</strong>
-        <ul aria-label="detalhes">
+        <div>
+            <strong>{{ .name }}</strong>
             {{ if .wip }}
-            <li class="wip">WIP</li>
+            <span class="wip">WIP</span>
             {{ end }}
-            <li class="type">{{.type}}</li>
-            <li class="date">{{time.Format "2006" .date}}</li>
+        </div>
+        <div>
+        <ul aria-label="detalhes">
+            <li>
+            {{.type}}</li>
+            </li>
         </ul>
         <ul aria-label="tecnologias">
             {{ range .technologies }}
@@ -113,6 +117,14 @@
             <li><a href="{{.links.download}}">Download</a></li>
             {{ end }}
         </ul>
+        </div>
+        <div>
+        <ul aria-hidden class="started-at">
+            <li>
+ {{time.Format "2006" .date}}
+            </li>
+        </ul>
+        </div>
     </li>
     {{ end }}
 </ul>

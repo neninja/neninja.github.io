@@ -1,4 +1,12 @@
 @mixin single-log {
+    ul {
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+    }
+
     .checkboxes {
         display: block;
         label {
@@ -10,56 +18,43 @@
         display: grid;
         justify-content: center;
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-        gap: 2rem 1rem;
+        gap: 1rem;
 
         & > li {
-            list-style: none;
+            display: grid;
+            position: relative;
         }
 
     }
 
-    ul[aria-label="projects"] {
-        //.project {
-        //    .type, .date {
-        //        font-size: 0.8rem;
-        //        color: v("background-color");
-        //        padding: 0.1rem;
-        //        background-color: v("base-color");
-        //        border-radius: 0.3em;
-        //    }
-        //}
+    ul[aria-label="links"] {
+        padding-left: 1.5rem;
+        li {
+            list-style: disc;
+        }
+    }
 
+    ul[aria-label="projects"] {
+        & > li {
+            border-radius: 0.3em;
+            opacity: 0.8;
+            background: v("background-color-pre");
+            color: v("text-color-pre");
+            padding: 1rem;
+        }
         & ul[aria-label="detalhes"] {
-            padding: 0;
             display: block;
 
             & > li {
                 display: inline;
                 font-size: 0.8rem;
-                color: v("background-color");
-                padding: 0.1rem;
-                background-color: v("base-color");
                 border-radius: 0.3em;
             }
 
-            .wip {
-                background: v("background-color");
-                animation: rainbow 2.5s linear;
-                animation-iteration-count: infinite;
-
-                &::before {
-                    content: "{";
-                }
-
-                &::after {
-                    content: "}";
-                }
-            }
         }
     }
 
     ul[aria-label="tecnologias"] {
-        padding: 0;
         & li {
             display: inline;
             font-size: 0.8rem;
@@ -68,10 +63,35 @@
                 style: dotted;
                 color: v("accent-color");
             }
+
+            &:not(:first-child) {
+                margin-left: 0.3em;
+            }
         }
+    }
+
+    ul.started-at {
+        font-style: italic;
+        opacity: 0.2;
+        position: absolute;
+        bottom: 0;
+        right: 0.2rem;
     }
 
     .not-filtered {
         display: none;
+    }
+
+    .wip {
+        animation: rainbow 2.5s linear;
+        animation-iteration-count: infinite;
+
+        &::before {
+            content: "{";
+        }
+
+        &::after {
+            content: "}";
+        }
     }
 }
