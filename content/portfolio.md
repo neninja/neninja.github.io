@@ -4,4 +4,3 @@ footer:
 - name: "Todos projetos"
   url: "/log"
 ---
-# Projetos mantidos
