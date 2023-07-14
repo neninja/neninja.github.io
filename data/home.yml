@@ -8,11 +8,11 @@
 
 - name: "Currículo"
   href: "http://neni.dev/cv"
-  icon: "fa-solid fa-briefcase"
+  icon: "fa-solid fa-user-tie"
 
 - name: "Portfolio"
   href: "/portfolio"
-  icon: "fa-solid fa-briefcase"
+  icon: "fa-solid fa-bolt"
 
 #- name: "Log"
 #  href: "/log"
