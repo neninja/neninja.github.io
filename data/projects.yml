@@ -234,7 +234,6 @@
 
 - name: Lissenin
   portfolio: true
-  wip: true
   date: 2021-12-02
   type: Blog
   links:
