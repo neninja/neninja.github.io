@@ -232,13 +232,13 @@
   technologies: 
     - React
 
-- name: Lissenin
+- name: Lessen
   portfolio: true
   date: 2021-12-02
   type: Blog
   links:
-    doc: https://github.com/nenitf/lissenin#readme
-    access: https://neni.dev/lissenin
+    doc: https://github.com/nenitf/lessen#readme
+    access: https://neni.dev/lessen
   technologies: 
     - Hugo
 
