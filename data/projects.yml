@@ -161,6 +161,7 @@
     - Go
 
 - name: Gon
+  portfolio: true
   date: 2022-05-03
   type: Ferramenta
   links:
@@ -325,6 +326,7 @@
     - Hugo
 
 - name: Blog de snippets
+  portfolio: true
   date: 2021-03-18
   type: Blog
   links:
