@@ -326,7 +326,6 @@
     - Hugo
 
 - name: Blog de snippets
-  portfolio: true
   date: 2021-03-18
   type: Blog
   links:
