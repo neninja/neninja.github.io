@@ -1,88 +1,43 @@
-#- name: Hisaishin API
-#  date: 2023-06-03
-#  portfolio: true
-#  wip: true
-#  type: Sistema
-#  links:
-#    doc: https://github.com/nenitf/hiraishin#readme
-#    access: https://hiraish.in
-#  technologies: 
-#    - PHP
-#    - Laravel
-#    - Sail
-#    - Docker
-#    - Pest
-#
-#- name: Hisaishin Web
-#  date: 2023-06-03
-#  portfolio: true
-#  wip: true
-#  type: App
-#  links:
-#    doc: https://github.com/nenitf/hiraishin_app#readme
-#    download: https://hiraish.in/app
-#  technologies: 
-#    - React
-#
-#- name: Hisaishin App
-#  date: 2023-06-03
-#  portfolio: true
-#  wip: true
-#  type: App
-#  links:
-#    doc: https://github.com/nenitf/hiraishin_app#readme
-#    download: https://hiraish.in/download
-#  technologies: 
-#    - Flutter
-#
-#- name: Hisaishin QA
-#  date: 2023-06-03
-#  portfolio: true
-#  wip: true
-#  type: App
-#  links:
-#    doc: https://github.com/nenitf/hiraishin_qa#readme
-#  technologies: 
-#    - Javascript
-#    - Playwright
-#
-#- name: Sinenia
-#  date: 2023-06-03
-#  portfolio: true
-#  wip: true
-#  type: Sistema
-#  links:
-#    doc: https://github.com/nenitf/sinenia#readme
-#    access: https://sinenia.neni.dev
-#  technologies: 
-#    - Elixir
-#    - Phoenix
-#    - Docker
-#
-#- name: Menu estático
-#  date: 2023-06-03
-#  portfolio: true
-#  wip: true
-#  type: Template
-#  links:
-#    doc: https://github.com/nenitf/menu#readme
-#    demo: https://neni.dev/menu
-#  technologies: 
-#    - Hugo
-#
-#- name: Landing page para autônomos
-#  date: 2023-06-03
-#  portfolio: true
-#  wip: true
-#  type: Template
-#  links:
-#    doc: https://github.com/nenitf/lp_autonomo#readme
-#    demo: https://neni.dev/lp_autonomo
-#  technologies: 
-#    - Hugo
+# sistema web de consultorio
+# sistema academia
+# app academia
+# sistema nutrição
+# app nutrição
+# precomar
+# webapp zapzap pedido de comida
+# sistema local de pedido de restaurante
+# sistema local de folha ponto
+# blog: landing page para anonimos
+# blog: menu de restaurante (para usar com qr code ou nfc)
+- name: Hidroponica QA
+  date: 2023-09-23
+  portfolio: true
+  wip: true
+  type: Automação QA
+  links:
+    doc: https://github.com/nenitf/hidroponiqa#readme
+  technologies: 
+    - Playwright
+    - Typescript
+
+- name: Hidroponica
+  date: 2023-09-10
+  portfolio: true
+  wip: true
+  type: Sistema
+  links:
+    doc: https://github.com/nenitf/hidroponica#readme
+    # access: https://hiraish.in
+  technologies: 
+    - PHP
+    - Laravel
+    - Sail
+    - Docker
+    - Vapor
+    - Pest
+    # access: https://hiraish.in
 
 - name: Cééeerebros
-  portfolio: true
   date: 2023-07-09
   type: Ferramenta
   links:
@@ -134,7 +89,6 @@
     - Rust
 
 - name: Kros6
-  portfolio: true
   date: 2022-10-21
   type: App
   links:
@@ -197,7 +151,6 @@
     - Graphviz
 
 - name: 66
-  portfolio: true
   date: 2022-03-11
   type: Ferramenta
   links:
@@ -279,7 +232,6 @@
     - Swagger
 
 - name: Dailypong
-  portfolio: true
   date: 2021-08-24
   type: Ferramenta
   links:
@@ -298,7 +250,6 @@
     - Go
 
 - name: Zombicards
-  portfolio: true
   date: 2021-06-16
   type: Ferramenta
   links:
@@ -371,6 +322,16 @@
   technologies: 
     - Hugo
 
+- name: WTF
+  portfolio: true
+  date: 2019-09-21
+  type: Blog
+  links:
+    doc: https://github.com/nenitf/wtf#readme
+    access: https://neni.dev/wtf
+  technologies: 
+    - Hugo
+
 - name: Offlinha
   date: 2019-02-26
   type: Ferramenta
@@ -391,7 +352,6 @@
     - Bash
 
 - name: Rancho
-  portfolio: true
   date: 2018-06-30
   type: Ferramenta
   links:
