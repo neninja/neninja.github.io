@@ -136,15 +136,15 @@
     - Sail
     - Pest
 
-- name: Introdução ao desenvolvimento web
+- name: "Espiral: comece entendendo sistemas para internet"
   wip: true
   portfolio: true
   date: 2022-04-22
   type: Livro
   links:
-    doc: https://github.com/nenitf/intro-dev-web#readme
-    access: https://neni.dev/intro-dev-web
-    download: https://github.com/nenitf/intro-dev-web/releases/latest
+    doc: https://github.com/nenitf/espiral#readme
+    access: https://neni.dev/espiral
+    download: https://github.com/nenitf/espiral/releases/latest
   technologies: 
     - Markdown
     - Pandoc
