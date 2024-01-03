@@ -22,9 +22,14 @@
   href: "https://wtf.neni.dev"
   icon: "fa fa-rss"
 
-- name: "Codepen"
-  href: "https://codepen.io/nenitf/collections"
-  icon: "devicon-codepen-plain"
+# - name: "Codepen"
+  # href: "https://codepen.io/nenitf/collections"
+  # icon: "devicon-codepen-plain"
+
+- name: "Goodreads"
+  href: "http://goodreads.com/nenitf"
+  icon: "fa-brands fa-goodreads"
+
 
 - name: "Ludopedia"
   href: "https://ludopedia.com.br/usuario/nenitf"
