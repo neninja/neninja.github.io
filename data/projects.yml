@@ -15,7 +15,7 @@
   wip: true
   type: Automação QA
   links:
-    doc: https://github.com/nenitf/hidroponiqa#readme
+    doc: https://github.com/neninja/hidroponiqa#readme
   technologies: 
     - Playwright
     - Typescript
@@ -26,7 +26,7 @@
   wip: true
   type: Sistema
   links:
-    doc: https://github.com/nenitf/hidroponica#readme
+    doc: https://github.com/neninja/hidroponica#readme
     # access: https://hiraish.in
   technologies: 
     - PHP
@@ -41,7 +41,7 @@
   date: 2023-07-09
   type: Ferramenta
   links:
-    doc: https://github.com/nenitf/ceeeerebros#readme
+    doc: https://github.com/neninja/ceeeerebros#readme
     access: https://neni.dev/ceeeerebros
   technologies: 
     - React
@@ -50,7 +50,7 @@
   date: 2023-06-03
   type: Plugin Nvim
   links:
-    doc: https://github.com/nenitf/laravim#readme
+    doc: https://github.com/neninja/laravim#readme
   technologies: 
     - Lua
 
@@ -58,7 +58,7 @@
   date: 2023-06-03
   type: Template
   links:
-    doc: https://github.com/nenitf/Boilerplatim#readme
+    doc: https://github.com/neninja/Boilerplatim#readme
   technologies: 
     - Lua
 
@@ -74,7 +74,7 @@
   date: 2023-06-03
   type: Plugin
   links:
-    doc: https://github.com/nenitf/cu.nvim#readme
+    doc: https://github.com/neninja/cu.nvim#readme
   technologies: 
     - Lua
     - Nvim
@@ -84,7 +84,7 @@
   date: 2022-11-21
   type: Sistema
   links:
-    doc: https://github.com/nenitf/local-ws#readme
+    doc: https://github.com/neninja/local-ws#readme
   technologies: 
     - Rust
 
@@ -92,7 +92,7 @@
   date: 2022-10-21
   type: App
   links:
-    doc: https://github.com/nenitf/kros6#readme
+    doc: https://github.com/neninja/kros6#readme
   technologies: 
     - Flutter
 
@@ -101,7 +101,7 @@
   date: 2022-05-26
   type: Tema
   links:
-    doc: https://github.com/nenitf/proderit#readme
+    doc: https://github.com/neninja/proderit#readme
   technologies: 
     - Hugo
     
@@ -110,7 +110,7 @@
   date: 2022-05-10
   type: Ferramenta
   links:
-    doc: https://github.com/nenitf/precomar#readme
+    doc: https://github.com/neninja/precomar#readme
   technologies: 
     - Go
 
@@ -119,8 +119,8 @@
   date: 2022-05-03
   type: Ferramenta
   links:
-    doc: https://github.com/nenitf/gon#readme
-    download: https://github.com/nenitf/gon/releases/latest
+    doc: https://github.com/neninja/gon#readme
+    download: https://github.com/neninja/gon/releases/latest
   technologies: 
     - Go
 
@@ -129,7 +129,7 @@
   date: 2022-05-01
   type: Sistema
   links:
-    doc: https://github.com/nenitf/gobarber-laravel#readme
+    doc: https://github.com/neninja/gobarber-laravel#readme
   technologies: 
     - PHP
     - Laravel
@@ -142,9 +142,9 @@
   date: 2022-04-22
   type: Livro
   links:
-    doc: https://github.com/nenitf/espiral#readme
+    doc: https://github.com/neninja/espiral#readme
     access: https://neni.dev/espiral
-    download: https://github.com/nenitf/espiral/releases/latest
+    download: https://github.com/neninja/espiral/releases/latest
   technologies: 
     - Markdown
     - Pandoc
@@ -154,7 +154,7 @@
   date: 2022-03-11
   type: Ferramenta
   links:
-    doc: https://github.com/nenitf/66#readme
+    doc: https://github.com/neninja/66#readme
     access: https://neni.dev/66
   technologies: 
     - React
@@ -163,7 +163,7 @@
   date: 2022-03-10
   type: Sistema
   links:
-    doc: https://github.com/nenitf/async-poll#readme
+    doc: https://github.com/neninja/async-poll#readme
   technologies: 
     - PHP
     - Lumen
@@ -173,7 +173,7 @@
   date: 2022-02-21
   type: Ferramenta
   links:
-    access: https://codepen.io/nenitf/full/NWwYQoz
+    access: https://codepen.io/neninja/full/NWwYQoz
   technologies: 
     - React
 
@@ -182,7 +182,7 @@
   date: 2021-12-21
   type: Sistema
   links:
-    doc: https://github.com/nenitf/conceitorio#readme
+    doc: https://github.com/neninja/conceitorio#readme
   technologies: 
     - React
 
@@ -191,7 +191,7 @@
   date: 2021-12-02
   type: Blog
   links:
-    doc: https://github.com/nenitf/lessen#readme
+    doc: https://github.com/neninja/lessen#readme
     access: https://neni.dev/lessen
   technologies: 
     - Hugo
@@ -200,8 +200,8 @@
   date: 2021-10-14
   type: Ferramenta
   links:
-    doc: https://github.com/nenitf/devtome#readme
-    download: https://github.com/nenitf/devtome/releases/latest
+    doc: https://github.com/neninja/devtome#readme
+    download: https://github.com/neninja/devtome/releases/latest
   technologies: 
     - Go
 
@@ -217,7 +217,7 @@
   date: 2021-09-17
   type: Ferramenta
   links:
-    access: https://codepen.io/nenitf/full/GREQZRd
+    access: https://codepen.io/neninja/full/GREQZRd
   technologies: 
     - React
 
@@ -225,7 +225,7 @@
   date: 2021-09-10
   type: Sistema
   links:
-    doc: https://github.com/nenitf/elefanteca_api#readme
+    doc: https://github.com/neninja/elefanteca_api#readme
   technologies: 
     - PHP
     - Lumen
@@ -235,7 +235,7 @@
   date: 2021-08-24
   type: Ferramenta
   links:
-    doc: https://github.com/nenitf/dailypong#readme
+    doc: https://github.com/neninja/dailypong#readme
     access: https://neni.dev/dailypong
   technologies: 
     - React
@@ -244,8 +244,8 @@
   date: 2021-06-30
   type: Ferramenta
   links:
-    doc: https://github.com/nenitf/localspa#readme
-    download: https://github.com/nenitf/localspa/releases/latest
+    doc: https://github.com/neninja/localspa#readme
+    download: https://github.com/neninja/localspa/releases/latest
   technologies: 
     - Go
 
@@ -262,7 +262,7 @@
   date: 2021-06-15
   type: Ferramenta
   links:
-    doc: https://github.com/nenitf/quemvai#readme
+    doc: https://github.com/neninja/quemvai#readme
     access: https://neni.dev/quemvai
   technologies: 
     - React
@@ -271,7 +271,7 @@
   date: 2021-03-29
   type: Site
   links:
-    doc: https://github.com/nenitf/cv#readme
+    doc: https://github.com/neninja/cv#readme
     access: https://neni.dev/cv
   technologies: 
     - Hugo
@@ -280,7 +280,7 @@
   date: 2021-03-18
   type: Blog
   links:
-    doc: https://github.com/nenitf/blog_snippets#readme
+    doc: https://github.com/neninja/blog_snippets#readme
     access: https://s.neni.dev
   technologies: 
     - Hugo
@@ -290,7 +290,7 @@
   date: 2021-01-08
   type: Sistema
   links:
-    doc: https://github.com/nenitf/isb-conecta#readme
+    doc: https://github.com/neninja/isb-conecta#readme
   technologies: 
     - React
     - Cypress
@@ -299,8 +299,8 @@
   date: 2020-11-03
   type: Ferramenta
   links:
-    doc: https://github.com/nenitf/esquecicio#readme
-    download: https://github.com/nenitf/esquecicio/releases/latest
+    doc: https://github.com/neninja/esquecicio#readme
+    download: https://github.com/neninja/esquecicio/releases/latest
   technologies: 
     - Go
 
@@ -308,8 +308,8 @@
   date: 2020-05-29
   type: Ferramenta
   links:
-    doc: https://github.com/nenitf/simplient#readme
-    download: https://github.com/nenitf/simplient/releases/latest
+    doc: https://github.com/neninja/simplient#readme
+    download: https://github.com/neninja/simplient/releases/latest
   technologies: 
     - React
 
@@ -317,7 +317,7 @@
   date: 2020-02-13
   type: Site
   links:
-    doc: https://github.com/nenitf/nenitf.github.io#readme
+    doc: https://github.com/neninja/neninja.github.io#readme
     access: https://neni.dev
   technologies: 
     - Hugo
@@ -327,7 +327,7 @@
   date: 2019-09-21
   type: Blog
   links:
-    doc: https://github.com/nenitf/wtf#readme
+    doc: https://github.com/neninja/wtf#readme
     access: https://neni.dev/wtf
   technologies: 
     - Hugo
@@ -336,7 +336,7 @@
   date: 2019-02-26
   type: Ferramenta
   links:
-    doc: https://github.com/nenitf/offlinha#readme
+    doc: https://github.com/neninja/offlinha#readme
     demo: https://neni.dev/offlinha
   technologies: 
     - Javascript
@@ -355,7 +355,7 @@
   date: 2018-06-30
   type: Ferramenta
   links:
-    doc: https://github.com/nenitf/rancho#readme
+    doc: https://github.com/neninja/rancho#readme
     access: https://neni.dev/rancho
   technologies: 
     - React
@@ -364,7 +364,7 @@
   date: 2018-01-11
   type: Ferramenta
   links:
-    doc: https://github.com/nenitf/kamas#readme
+    doc: https://github.com/neninja/kamas#readme
     access: https://neni.dev/kamas
   technologies: 
     - JQuery

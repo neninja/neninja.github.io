@@ -8,11 +8,11 @@ url="/portfolio"
 
 [[menus.footer]]
 name = "Github"
-url = "https://github.com/nenitf"
+url = "https://github.com/neninja"
 
 [[menus.footer]]
 name = "Linkedin"
-url = "https://www.linkedin.com/in/nenitf"
+url = "https://www.linkedin.com/in/neninja"
 
 [[menus.footer]]
 name = "Blog"

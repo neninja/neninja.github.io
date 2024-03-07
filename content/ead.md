@@ -1,3 +1,3 @@
 ---
-redirectTo: https://github.com/nenitf?tab=repositories&q=ead_
+redirectTo: https://github.com/neninja?tab=repositories&q=ead_
 ---

@@ -1,9 +1,9 @@
 - name: "Linkedin"
-  href: "https://www.linkedin.com/in/nenitf"
+  href: "https://www.linkedin.com/in/neninja"
   icon: "fa-brands fa-linkedin"
 
 - name: "Github"
-  href: "https://github.com/nenitf"
+  href: "https://github.com/neninja"
   icon: "devicon-github-original"
 
 - name: "Currículo"
@@ -23,16 +23,16 @@
   icon: "fa fa-rss"
 
 # - name: "Codepen"
-  # href: "https://codepen.io/nenitf/collections"
+  # href: "https://codepen.io/neninja/collections"
   # icon: "devicon-codepen-plain"
 
 - name: "Goodreads"
-  href: "http://goodreads.com/nenitf"
+  href: "http://goodreads.com/neninja"
   icon: "fa-brands fa-goodreads"
 
 
 - name: "Ludopedia"
-  href: "https://ludopedia.com.br/usuario/nenitf"
+  href: "https://ludopedia.com.br/usuario/neninja"
   icon: "fa-solid fa-dice"
 
 #- name: "Discord"
@@ -40,15 +40,15 @@
 #  icon: "fab fa-discord"
 #
 #- name: "Telegram"
-#  href: "http://t.me/nenitf"
+#  href: "http://t.me/neninja"
 #  icon: "fa-brands fa-telegram"
 #
 #- name: "SandBox"
-#  href: "https://codesandbox.io/u/nenitf"
+#  href: "https://codesandbox.io/u/neninja"
 #  icon: "fa-solid fa-arrows-spin"
 #
 #- name: "Replit"
-#  href: "https://repl.it/@nenitf"
+#  href: "https://repl.it/@neninja"
 #  icon: "fa-solid fa-arrows-spin"
 #
 #- name: "Wishlist"

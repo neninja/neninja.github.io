@@ -1,3 +1,3 @@
 ---
-redirectTo: https://raw.githubusercontent.com/nenitf/dotfiles/main/nvim/vimrc
+redirectTo: https://raw.githubusercontent.com/neninja/dotfiles/main/nvim/vimrc
 ---
