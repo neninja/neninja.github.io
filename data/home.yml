@@ -1,64 +1,80 @@
-- name: "Linkedin"
-  href: "https://www.linkedin.com/in/neninja"
-  icon: "fa-brands fa-linkedin"
+main_links:
+  - name: "Linkedin"
+    href: "https://www.linkedin.com/in/neninja"
+    icon: "fa-brands fa-linkedin"
 
-- name: "Github"
-  href: "https://github.com/neninja"
-  icon: "devicon-github-original"
+  - name: "Github"
+    href: "https://github.com/neninja"
+    icon: "devicon-github-original"
 
-- name: "Currículo"
-  href: "http://neni.dev/cv"
-  icon: "fa-solid fa-user-tie"
+secondary_links:
+  - name: "Blog"
+    href: "https://wtf.neni.dev"
+    icon: "fa fa-rss"
 
-- name: "Portfolio"
-  href: "/portfolio"
-  icon: "fa-solid fa-bolt"
+  - name: "Goodreads"
+    href: "http://goodreads.com/neninja"
+    icon: "fa-brands fa-goodreads"
 
-#- name: "Log"
-#  href: "/log"
-#  icon: "fa-solid fa-timeline"
+  - name: "Log"
+    href: "/log"
+    icon: "fa-solid fa-timeline"
 
-- name: "Blog"
-  href: "https://wtf.neni.dev"
-  icon: "fa fa-rss"
+  - name: "Currículo"
+    href: "http://neni.dev/cv"
+    icon: "fa-solid fa-user-tie"
 
-# - name: "Codepen"
-  # href: "https://codepen.io/neninja/collections"
-  # icon: "devicon-codepen-plain"
+  - name: "Portfolio"
+    href: "/portfolio"
+    icon: "fa-solid fa-bolt"
 
-- name: "Goodreads"
-  href: "http://goodreads.com/neninja"
-  icon: "fa-brands fa-goodreads"
+  - name: "Codepen"
+    href: "https://codepen.io/neninja/collections"
+    icon: "devicon-codepen-plain"
 
+  - name: "Ludopedia"
+    href: "https://ludopedia.com.br/usuario/neninja"
+    icon: "fa-solid fa-dice"
 
-- name: "Ludopedia"
-  href: "https://ludopedia.com.br/usuario/neninja"
-  icon: "fa-solid fa-dice"
+  - name: "Discord"
+    href: "https://discord.com/users/298546270451269642"
+    icon: "fab fa-discord"
+  #
+  #- name: "Telegram"
+  #  href: "http://t.me/neninja"
+  #  icon: "fa-brands fa-telegram"
+  #
+  #- name: "SandBox"
+  #  href: "https://codesandbox.io/u/neninja"
+  #  icon: "fa-solid fa-arrows-spin"
+  #
+  #- name: "Replit"
+  #  href: "https://repl.it/@neninja"
+  #  icon: "fa-solid fa-arrows-spin"
+  #
+  #- name: "Wishlist"
+  #  href: "https://www.udemy.com/user/99575496-6e04-455c-9a67-348d577597c8/?key=wishlisted_courses&wishlisted_courses=1"
+  #  icon: "fa-solid fa-gift"
+  #
+  #- name: "Wishlist"
+  #  href: "https://www.amazon.com.br/hz/wishlist/ls/2SUJA4C9DQ612/ref=nav_wishlist_lists_1"
+  #  icon: "fa-solid fa-gift"
 
-#- name: "Discord"
-#  href: "https://discord.com/users/298546270451269642"
-#  icon: "fab fa-discord"
-#
-#- name: "Telegram"
-#  href: "http://t.me/neninja"
-#  icon: "fa-brands fa-telegram"
-#
-#- name: "SandBox"
-#  href: "https://codesandbox.io/u/neninja"
-#  icon: "fa-solid fa-arrows-spin"
-#
-#- name: "Replit"
-#  href: "https://repl.it/@neninja"
-#  icon: "fa-solid fa-arrows-spin"
-#
-#- name: "Wishlist"
-#  href: "https://www.udemy.com/user/99575496-6e04-455c-9a67-348d577597c8/?key=wishlisted_courses&wishlisted_courses=1"
-#  icon: "fa-solid fa-gift"
-#
-#- name: "Wishlist"
-#  href: "https://www.amazon.com.br/hz/wishlist/ls/2SUJA4C9DQ612/ref=nav_wishlist_lists_1"
-#  icon: "fa-solid fa-gift"
+  - name: "Vimrc"
+    href: "https://vimrc.neni.dev"
+    icon: "devicon-vim-plain"
 
-- name: "Vimrc"
-  href: "https://vimrc.neni.dev"
-  icon: "devicon-vim-plain"
+main_skills:
+  - PHP
+  - Laravel
+  - Git
+  - PHPUnit
+  - Tailwind
+  - AlpineJS
+  - Livewire
+
+secondary_skills:
+  - Go
+  - Flutter
+  - Elixir
+  - Playwright

@@ -1,83 +1,68 @@
-window.onload = function() {
-  init();
-};
+document.addEventListener('alpine:init', () => {
+  Alpine.data('log', () => ({
+    allProjects: [],
+    filteredProjects: [],
+    filteredTechnologies: [],
+    filteredTypes: [],
+    filteredLinks: [],
+    filteredStatus: [],
+    init() {
+      document.querySelectorAll('#projects > li').forEach(project => {
+        this.allProjects.push({
+          id: project.dataset.id,
+          techs: JSON.parse(project.dataset.techs),
+          type: project.dataset.type,
+          links: ['hasdoc', 'hasaccess'].filter(link => project.dataset[link] === 'true'),
+          wip: project.dataset.wip === 'true'
+        });
+        this.filteredProjects = this.allProjects.map(project => project.id);
+      });
+    },
+    filterProjects() {
+      this.filteredProjects = this.allProjects.filter(project => {
+        const hasTech = this.filteredTechnologies.length === 0 || project.techs.some(tech => this.filteredTechnologies.includes(tech));
+        const hasType = this.filteredTypes.length === 0 || this.filteredTypes.includes(project.type);
+        const hasLink = this.filteredLinks.length === 0 || project.links.some(link => this.filteredLinks.includes(link));
+        const hasStatus = this.filteredStatus.length === 0 || this.filteredStatus.includes(project.wip ? 'wip' : 'done');
 
-function init() {
-  const elements = document.querySelectorAll('#filter input[type="checkbox"]');
-  elements.forEach(function (e) {
-    e.checked=false;  
-    e.addEventListener('change', function() {
-      revalidate()
-    });
-  });
-}
+        return hasTech && hasType && hasLink & hasStatus;
+      }).map(project => project.id);
+    },
+    handleChangeTechnologies(e) {
+      if (e.target.checked) {
+        this.filteredTechnologies.push(e.target.name)
+      } else {
+        this.filteredTechnologies = this.filteredTechnologies.filter(tech => tech !== e.target.name)
+      }
 
-function revalidate() {
-  let techs = [];
-  document.querySelectorAll('#filter [data-field="techs"] input:checked')
-    .forEach(function (e) {
-      techs.push(e.name);
-    });
+      this.filterProjects()
+    },
+    handleChangeTypes(e) {
+      if (e.target.checked) {
+        this.filteredTypes.push(e.target.name)
+      } else {
+        this.filteredTypes = this.filteredTypes.filter(tech => tech !== e.target.name)
+      }
 
-  let types = [];
-  document.querySelectorAll('#filter [data-field="types"] input:checked')
-    .forEach(function (e) {
-      types.push(e.name);
-    });
+      this.filterProjects()
+    },
+    handleChangeLinks(e) {
+      if (e.target.checked) {
+        this.filteredLinks.push(e.target.name)
+      } else {
+        this.filteredLinks = this.filteredLinks.filter(tech => tech !== e.target.name)
+      }
 
-  const hasDoc = document.querySelector('#filter input[name="has-doc"]');
-  const hasAccess = document.querySelector('#filter input[name="has-access"]');
-  const hasDemo = document.querySelector('#filter input[name="has-demo"]');
-  const hasDownload = document.querySelector('#filter input[name="has-download"]');
+      this.filterProjects()
+    },
+    handleChangeStatus(e) {
+      if (e.target.checked) {
+        this.filteredStatus.push(e.target.name)
+      } else {
+        this.filteredStatus = this.filteredStatus.filter(tech => tech !== e.target.name)
+      }
 
-  const hasWip = document.querySelector('#filter input[name="wip"]');
-
-  projects().forEach(function(e) {
-    const techsp = JSON.parse(e.dataset.techs);
-    const typep = e.dataset.type;
-    const hasDocp = e.dataset.hasdoc === 'true';
-    const hasAccessp = e.dataset.hasaccess === 'true';
-    const hasDemop = e.dataset.hasdemo === 'true';
-    const hasDownloadp = e.dataset.hasdownload === 'true';
-    const isWip = e.dataset.wip === 'true';
-
-    const aoMenosUmaTech = techsp.findIndex(t => techs.includes(t)) >= 0;
-
-    const filtraTechsSeRequerido = !!techs.length ? aoMenosUmaTech : true;
-    const filtraTypesSeRequerido = !!types.length ? types.includes(typep) : true;
-
-    const filtraStatus = hasWip.checked ? isWip : true;
-
-    const deveFiltrarPorLink = hasDoc.checked || hasDemo.checked || hasDownload.checked || hasAccess.checked;
-    const filtraDocSeRequerido = deveFiltrarPorLink || hasDoc.checked ? hasDoc.checked && hasDocp : true;
-    const filtraDemoSeRequerido = deveFiltrarPorLink || hasDemo.checked ? hasDemo.checked && hasDemop : true;
-    const filtraDownloadSeRequerido = deveFiltrarPorLink || hasDownload.checked ? hasDownload.checked && hasDownloadp : true;
-    const filtraAccessSeRequerido = deveFiltrarPorLink || hasAccess.checked ? hasAccess.checked && hasAccessp : true;
-
-    // console.log({filtraTechsSeRequerido, filtraTypesSeRequerido, filtraStatus, filtraDocSeRequerido, filtraDemoSeRequerido, filtraDownloadSeRequerido, filtraAccessSeRequerido})
-
-    if(filtraTechsSeRequerido
-      && filtraTypesSeRequerido
-      && filtraStatus
-      && ( filtraDocSeRequerido
-        || filtraDemoSeRequerido
-        || filtraDownloadSeRequerido
-        || filtraAccessSeRequerido)) {
-      showProject(e);
-    } else {
-      hideProject(e);
+      this.filterProjects()
     }
-  });
-}
-
-function projects() {
-  return document.querySelectorAll('#projects > li');
-}
-
-function hideProject(element) {
-  element.classList.add("not-filtered");
-}
-
-function showProject(element) {
-  element.classList.remove("not-filtered");
-}
+  }))
+})
