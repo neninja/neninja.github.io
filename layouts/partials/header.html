@@ -1,20 +1,22 @@
-{{ if or (not (isset .Params "nav")) (.Params.nav) }}
-<header>
-    <nav class="menu cabecalho" role="navigation">
-        <ul>
-            <li>
-                <a href="{{ .Site.Home.RelPermalink }}" class="">
-                    {{ .Site.Title }}
-                </a>
-            </li>
-            {{ range .Site.Menus.header }}
-            <li>
-                <a class="" href="{{ .URL }}" title="{{ .Name }} page">
-                    {{ .Name }}
-                </a>
-            </li>
-            {{ end }}
-        </ul>
-    </nav>
-</header>
-{{ end }}
+<nav class="backdrop-blur-sm sticky top-0 w-full">
+    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="relative flex h-16 items-center justify-between">
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                <div class="flex items-center justify-end w-fit">
+                    <a class="[&_svg]:max-h-[3rem] [&_svg]:w-auto hover:animate-wiggle" href="{{ .Site.Home.RelPermalink }}">
+                        {{ readFile "static/images/rosto-olhando-baixo.svg" | safeHTML }}
+                    </a>
+                </div>
+                <ul class="flex gap-4 justify-end items-center w-full">
+                    {{ range .Site.Menus.header }}
+                    <li>
+                        <a class="text-gray-800 bg-gray-100 hover:bg-gray-300 rounded-md px-3 py-2 text-sm font-medium" href="{{ .URL }}" title="{{ .Name }} page">
+                            {{ .Name }}
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>

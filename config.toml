@@ -3,17 +3,20 @@ languageCode = "pt-br"
 description = "Neni's portfolio"
 
 [[menus.header]]
-name="Portfolio"
-url="/portfolio"
-
-[[menus.footer]]
 name = "Github"
 url = "https://github.com/neninja"
 
-[[menus.footer]]
+[[menus.header]]
 name = "Linkedin"
 url = "https://www.linkedin.com/in/neninja"
 
-[[menus.footer]]
-name = "Blog"
-url = "https://wtf.neni.dev"
+[module]
+  [module.hugoVersion]
+    extended = true
+    min      = "0.115.0"
+[[module.mounts]]
+    source = "node_modules/alpinejs/dist"
+    target = "assets/alpinejs"
+[[module.mounts]]
+    source = "assets"
+    target = "assets"

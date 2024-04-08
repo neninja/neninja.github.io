@@ -28,6 +28,24 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
-    {{ $style := resources.Get "/sass/main.scss" | toCSS | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
-</head>
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=poppins:400,500,600,800,900&display=swap" rel="stylesheet" />
+
+    <!-- THANKS: https://dev.to/jonas_duri/how-to-use-tailwindcss-30-without-external-npm-scripts-just-hugo-pipes-2lg9 -->
+    {{ $styles := resources.Get "css/style.scss" }}
+    {{ $styles = $styles | resources.PostCSS }}
+    {{ if  hugo.IsProduction  }}
+        {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
+    {{ else if .Site.IsServer }}
+        {{ $styles = $styles | resources.ExecuteAsTemplate (printf "styles.dev.%v.css" now.UnixMilli) .}}
+    {{ end }}
+    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
+
+    {{ $alpine := resources.Get "alpinejs/cdn.min.js" }}
+    <script src="{{ $alpine.RelPermalink }}" defer></script>
+
+    {{ $theme := resources.Get "/js/theme.js" }}
+    {{ if not .Site.IsServer }}
+        {{ $theme = $theme | minify | fingerprint }}
+    {{ end }}
+    <script src="{{$theme.Permalink}}"></script>

@@ -1,131 +1,44 @@
-window.onload = function() {
-  var varColors = [
-    "--dynamic-red",
-    "--dynamic-yellow",
-    "--dynamic-blue",
-    "--dynamic-magenta",
-    "--dynamic-cyan",
-    "--dynamic-green"
-  ];
+document.addEventListener('alpine:init', () => {
+  Alpine.data('nav', () => ({
+    show: false,
+    init() {
+      if (document.getElementById('hello-banner').offsetHeight === 0) {
+        this.show = true;
+      }
+    },
+    handleScroll() {
+      this.show = window.scrollY >= document.getElementById('hello-banner').offsetHeight
+    }
+  }));
+})
 
-  function random(items) {
-    return items[Math.floor(Math.random() * items.length)];
-  }
+document.addEventListener('alpine:init', () => {
+  Alpine.data('home', () => ({
+    face: 'neutral',
+    init() {
 
-  function randomColor() {
-    return random(varColors);
-  }
-
-  function updateFgLinkRandomColor(e) {
-    var color = randomColor();
-    e.style.setProperty("color", "var(" + color + ")");
-    e.style.setProperty("background", "var(--background-color)")
-    e.style.setProperty("border", "1px solid var(" + color + ")");
-    e.querySelector("i").style.setProperty("color", "var(" + color + ")")
-
-    e.querySelectorAll("i", function(i) {
-      i.style.setProperty("background", "var(" + color + ")");
-    });
-
-    e.setAttribute("data-type-style", "fg");
-    e.setAttribute("data-color-style", color);
-
-    return color;
-  }
-
-  function updateBgLinkRandomColor(e) {
-    var color = randomColor();
-    e.style.setProperty("color", "var(--background-color)");
-    e.style.setProperty("background", "var(" + color + ")")
-    e.style.setProperty("border", "1px solid var(" + color + ")");
-    e.querySelector("i").style.setProperty("color", "var(--background-color)")
-
-    e.querySelectorAll("i", function(i) {
-      i.style.setProperty("background", "var(--background-color)");
-    });
-
-    e.setAttribute("data-type-style", "bg");
-    e.setAttribute("data-color-style", color);
-
-    return color;
-  }
-
-  var asciiColor = randomColor();
-  var asciiElement = document.getElementById("ascii");
-  asciiElement.style.setProperty("color", "var(" + asciiColor + ")");
-  asciiElement.setAttribute("data-color-style", asciiColor);
-
-  document.querySelectorAll(".link").forEach(function(e) {
-    updateFgLinkRandomColor(e);
-
-    e.addEventListener("mouseover", function() {
-      var selectedColor = null;
-      var selectedType = null;
-      if (e.getAttribute("data-type-style") === "bg") {
-        selectedColor = updateFgLinkRandomColor(e);
-        selectedType = "fg";
+    },
+    eyeballtracking(event) {
+      const face = document.getElementById('face-container');
+      if (event.clientY < 100) {
+        this.face = 'above';
+      } else if (event.clientY > face.clientHeight * 1.2) {
+        this.face = 'below';
       } else {
-        selectedColor = updateBgLinkRandomColor(e);
-        selectedType = "bg";
+        this.face = 'neutral';
       }
 
-      var linksElements = document.querySelectorAll('.link');
-      var linksElementsWithSameColor = document.querySelectorAll('.link[data-type-style="' + selectedType + '"][data-color-style="' + selectedColor + '"]');
-      var allElementsWithSameColor = document.querySelectorAll('[data-color-style="' + selectedColor + '"]');
+      document.querySelectorAll('#hello-banner .eyes').forEach((eye) => {
+        const eyeRect = eye.getBoundingClientRect();
+        const eyeCenterX = eyeRect.left + eyeRect.width / 2;
+        const eyeCenterY = eyeRect.top + eyeRect.height / 2;
 
-      if (linksElements.length === linksElementsWithSameColor.length
-        && allElementsWithSameColor.length === linksElements.length + 1) {
-        confetti.start();
-      }
-    });
-  });
+        const angle = Math.atan2(event.clientX - eyeCenterX, event.clientY - eyeCenterY);
+        const angleX = Math.sin(angle) * 8;
+        const angleY = Math.cos(angle) * 8;
 
-  var asciiArts = [
-    `
-    ███╗   ███╗ █████╗ ██╗  ██╗███████╗   
-    ████╗ ████║██╔══██╗██║ ██╔╝██╔════╝   
-    ██╔████╔██║███████║█████╔╝ █████╗     
-    ██║╚██╔╝██║██╔══██║██╔═██╗ ██╔══╝     
-    ██║ ╚═╝ ██║██║  ██║██║  ██╗███████╗   
-    ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   
-      ██████╗ ██████╗  ██████╗ ██╗        
-     ██╔════╝██╔═══██╗██╔═══██╗██║        
-     ██║     ██║   ██║██║   ██║██║        
-     ██║     ██║   ██║██║   ██║██║        
-     ╚██████╗╚██████╔╝╚██████╔╝███████╗   
-      ╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝   
-███████╗████████╗██╗   ██╗███████╗███████╗
-██╔════╝╚══██╔══╝██║   ██║██╔════╝██╔════╝
-███████╗   ██║   ██║   ██║█████╗  █████╗  
-╚════██║   ██║   ██║   ██║██╔══╝  ██╔══╝  
-███████║   ██║   ╚██████╔╝██║     ██║     
-╚══════╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝     
-  `,
-    `
-       ██████╗ ██╗   ██╗██╗██╗     ██████╗         
-       ██╔══██╗██║   ██║██║██║     ██╔══██╗        
-       ██████╔╝██║   ██║██║██║     ██║  ██║        
-       ██╔══██╗██║   ██║██║██║     ██║  ██║        
-       ██████╔╝╚██████╔╝██║███████╗██████╔╝        
-       ╚═════╝  ╚═════╝ ╚═╝╚══════╝╚═════╝         
-██████╗  ██████╗ ██████╗ ██╗   ██╗███████╗████████╗
-██╔══██╗██╔═══██╗██╔══██╗██║   ██║██╔════╝╚══██╔══╝
-██████╔╝██║   ██║██████╔╝██║   ██║███████╗   ██║   
-██╔══██╗██║   ██║██╔══██╗██║   ██║╚════██║   ██║   
-██║  ██║╚██████╔╝██████╔╝╚██████╔╝███████║   ██║   
-╚═╝  ╚═╝ ╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝   ╚═╝   
-    ███████╗████████╗██╗   ██╗███████╗███████╗     
-    ██╔════╝╚══██╔══╝██║   ██║██╔════╝██╔════╝     
-    ███████╗   ██║   ██║   ██║█████╗  █████╗       
-    ╚════██║   ██║   ██║   ██║██╔══╝  ██╔══╝       
-    ███████║   ██║   ╚██████╔╝██║     ██║          
-    ╚══════╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝          
-  `
-  ];
-
-  function randomAscii() {
-    return random(asciiArts);
-  }
-
-  document.getElementById("ascii").textContent = randomAscii();
-};
+        eye.style.transform = `translate(${angleX}px, ${angleY}px)`;
+      });
+    }
+  }));
+})

@@ -1,21 +1,11 @@
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
-    <body class="{{.Params.Type}}">
-        {{- partial "header.html" . -}}
+    <body class="{{.Params.Type}} antialiased bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-200 scroll-smooth">
         {{ if (.Params.redirectTo) }}
         Redirecionando para <code>{{.Params.redirectTo}}</code>
         {{ end }}
         {{- block "main" . }}{{- end }}
-
-        {{ if (.Params.mermaid) }}
-        {{ $mermaidjs := resources.Get "/js/libs/mermaid.min.js" }}
-        <!-- THANKS: https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js -->
-        <script src="{{ $mermaidjs.Permalink }}"></script>
-        <script>
-            mermaid.initialize({ startOnLoad: true });
-        </script>
-        {{ end }}
         {{- partial "footer.html" . -}}
     </body>
 </html>

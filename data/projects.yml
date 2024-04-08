@@ -9,10 +9,63 @@
 # sistema local de folha ponto
 # blog: landing page para anonimos
 # blog: menu de restaurante (para usar com qr code ou nfc)
+- name: Grigori
+  date: 2024-03-30
+  emoji: 💰
+  portfolio: true
+  description: Controle de orçamentos
+  wip: true
+  type: App
+  technologies: 
+    - Flutter
+
+- name: Julius
+  date: 2024-04-03
+  emoji: 🧠
+  portfolio: true
+  description: Gerenciamento de tempo e tarefas
+  wip: true
+  type: App
+  links:
+    doc: https://github.com/gabrieldebem/julius
+  technologies: 
+    - Flutter
+
+- name: Vi, vim e venci
+  date: 2023-12-14
+  emoji: 🔰
+  description: Sugestão de configuração inicial para Nvim
+  type: Ferramenta
+  technologies: 
+    - Lua
+    - Nvim
+
+- name: Sinergigo
+  date: 2023-10-01
+  emoji: 🪩
+  portfolio: true
+  description: Jogo online com multiplas pessoas
+  wip: true
+  type: Sistema
+  technologies: 
+    - Go
+
+- name: ISB Conecta QA
+  date: 2023-09-23
+  emoji: 🔍
+  portfolio: true
+  description: Validação do design com teste de regressão visual
+  wip: true
+  type: Automação QA
+  technologies: 
+    - Playwright
+    - Typescript
+
 - name: Hidroponica QA
   date: 2023-09-23
+  emoji: ✅
   portfolio: true
-  wip: true
+  description: Validação do funcionamento de backoffice e web app
   type: Automação QA
   links:
     doc: https://github.com/neninja/hidroponiqa#readme
@@ -23,23 +76,25 @@
 - name: Hidroponica
   date: 2023-09-10
   portfolio: true
-  wip: true
+  emoji: 📚
+  description: Plataforma para estudar textos em inglês com backoffice
   type: Sistema
   links:
     doc: https://github.com/neninja/hidroponica#readme
-    # access: https://hiraish.in
+    # access: https://hidroponi.ca
   technologies: 
     - PHP
     - Laravel
     - Sail
-    - Docker
-    - Vapor
     - Pest
-    # access: https://hiraish.in
+    - Livewire
+    - Tailwind
+    - AlpineJS
 
 - name: Cééeerebros
   date: 2023-07-09
   type: Ferramenta
+  emoji: 🧟
   links:
     doc: https://github.com/neninja/ceeeerebros#readme
     access: https://neni.dev/ceeeerebros
@@ -49,6 +104,7 @@
 - name: Laravim
   date: 2023-06-03
   type: Plugin Nvim
+  emoji: ✏️
   links:
     doc: https://github.com/neninja/laravim#readme
   technologies: 
@@ -57,6 +113,7 @@
 - name: Boilerplate para plugins
   date: 2023-06-03
   type: Template
+  emoji: 🪜
   links:
     doc: https://github.com/neninja/Boilerplatim#readme
   technologies: 
@@ -65,6 +122,7 @@
 - name: Contributing
   date: 2023-06-03
   type: Especificação
+  emoji: 📜
   links:
     doc: https://neni.dev/contributing
   technologies: 
@@ -73,40 +131,46 @@
 - name: ClickUp
   date: 2023-06-03
   type: Plugin
+  emoji: ⚡
   links:
     doc: https://github.com/neninja/cu.nvim#readme
   technologies: 
     - Lua
     - Nvim
 
-- name: Local WS
-  wip: true
-  date: 2022-11-21
-  type: Sistema
-  links:
-    doc: https://github.com/neninja/local-ws#readme
-  technologies: 
-    - Rust
+# - name: Local WS
+  # wip: true
+  # date: 2022-11-21
+  # type: Sistema
+  # emoji: 🪃
+  # links:
+    # doc: https://github.com/neninja/local-ws#readme
+  # technologies: 
+    # - Rust
 
 - name: Kros6
   date: 2022-10-21
   type: App
+  emoji: 🎲
   links:
     doc: https://github.com/neninja/kros6#readme
   technologies: 
     - Flutter
 
-- name: Proderit
-  wip: true
-  date: 2022-05-26
-  type: Tema
-  links:
-    doc: https://github.com/neninja/proderit#readme
-  technologies: 
-    - Hugo
+# - name: Proderit
+  # wip: true
+  # date: 2022-05-26
+  # type: Tema
+  # links:
+    # doc: https://github.com/neninja/proderit#readme
+  # technologies: 
+    # - Hugo
     
 - name: Precomar
   wip: true
+  emoji: ✈️
+  portfolio: true
+  description: Pré analise de OPEA
   date: 2022-05-10
   type: Ferramenta
   links:
@@ -116,11 +180,12 @@
 
 - name: Gon
   portfolio: true
+  emoji: 🔂
+  description: CLI para repetir comando com enter
   date: 2022-05-03
   type: Ferramenta
   links:
     doc: https://github.com/neninja/gon#readme
-    download: https://github.com/neninja/gon/releases/latest
   technologies: 
     - Go
 
@@ -128,6 +193,7 @@
   wip: true
   date: 2022-05-01
   type: Sistema
+  emoji: 💈
   links:
     doc: https://github.com/neninja/gobarber-laravel#readme
   technologies: 
@@ -136,15 +202,16 @@
     - Sail
     - Pest
 
-- name: "Espiral: comece entendendo sistemas para internet"
+- name: "Espiral"
   wip: true
+  emoji: 🌀
   portfolio: true
+  description: Iniciação de pessoas na área de desenvolvimento web com Laravel, Tailwind e Alpine
   date: 2022-04-22
   type: Livro
   links:
     doc: https://github.com/neninja/espiral#readme
     access: https://neni.dev/espiral
-    download: https://github.com/neninja/espiral/releases/latest
   technologies: 
     - Markdown
     - Pandoc
@@ -153,6 +220,7 @@
 - name: 66
   date: 2022-03-11
   type: Ferramenta
+  emoji: 🐮
   links:
     doc: https://github.com/neninja/66#readme
     access: https://neni.dev/66
@@ -162,6 +230,7 @@
 - name: Async Poll
   date: 2022-03-10
   type: Sistema
+  emoji: 🗳️
   links:
     doc: https://github.com/neninja/async-poll#readme
   technologies: 
@@ -172,6 +241,7 @@
 - name: Clover report viewer
   date: 2022-02-21
   type: Ferramenta
+  emoji: 🤖
   links:
     access: https://codepen.io/neninja/full/NWwYQoz
   technologies: 
@@ -181,13 +251,16 @@
   wip: true
   date: 2021-12-21
   type: Sistema
+  emoji: 🩺
   links:
     doc: https://github.com/neninja/conceitorio#readme
   technologies: 
     - React
 
 - name: Lessen
+  emoji: 🔊
   portfolio: true
+  description: Textos estáticos em ingês com legenda simultânea ao audio
   date: 2021-12-02
   type: Blog
   links:
@@ -201,13 +274,13 @@
   type: Ferramenta
   links:
     doc: https://github.com/neninja/devtome#readme
-    download: https://github.com/neninja/devtome/releases/latest
   technologies: 
     - Go
 
 - name: Emojicom
   date: 2021-10-07
   type: Especificação
+  emoji: 🤖
   links:
     doc: https://neni.dev/emojicom
   technologies: 
@@ -216,6 +289,7 @@
 - name: JUnit report viewer
   date: 2021-09-17
   type: Ferramenta
+  emoji: 🤖
   links:
     access: https://codepen.io/neninja/full/GREQZRd
   technologies: 
@@ -224,6 +298,7 @@
 - name: Elefanteca API
   date: 2021-09-10
   type: Sistema
+  emoji: 🗓️
   links:
     doc: https://github.com/neninja/elefanteca_api#readme
   technologies: 
@@ -234,6 +309,7 @@
 - name: Dailypong
   date: 2021-08-24
   type: Ferramenta
+  emoji: 🏓
   links:
     doc: https://github.com/neninja/dailypong#readme
     access: https://neni.dev/dailypong
@@ -243,15 +319,16 @@
 - name: Localspa
   date: 2021-06-30
   type: Ferramenta
+  emoji: 🪃
   links:
     doc: https://github.com/neninja/localspa#readme
-    download: https://github.com/neninja/localspa/releases/latest
   technologies: 
     - Go
 
 - name: Zombicards
   date: 2021-06-16
   type: Ferramenta
+  emoji: 🧟
   links:
     doc: https://github.com/jooaopc/zombicards#readme
     access: https://jooaopc.github.io/zombicards/
@@ -261,6 +338,7 @@
 - name: Quem vai
   date: 2021-06-15
   type: Ferramenta
+  emoji: 🎲
   links:
     doc: https://github.com/neninja/quemvai#readme
     access: https://neni.dev/quemvai
@@ -270,6 +348,7 @@
 - name: Curriculum Vitae
   date: 2021-03-29
   type: Site
+  emoji: 👤
   links:
     doc: https://github.com/neninja/cv#readme
     access: https://neni.dev/cv
@@ -279,6 +358,7 @@
 - name: Blog de snippets
   date: 2021-03-18
   type: Blog
+  emoji: 📼
   links:
     doc: https://github.com/neninja/blog_snippets#readme
     access: https://s.neni.dev
@@ -288,34 +368,40 @@
 - name: ISB Conecta
   wip: true
   date: 2021-01-08
+  emoji: 🖇️
+  portfolio: true
+  description: Gerenciamento de usuários e relatórios
   type: Sistema
   links:
     doc: https://github.com/neninja/isb-conecta#readme
   technologies: 
-    - React
-    - Cypress
+    - Laravel
+    - Livewire
+    - Tailwind
+    - AlpineJS
 
 - name: Esquecicio
   date: 2020-11-03
   type: Ferramenta
+  emoji: 🎲
   links:
     doc: https://github.com/neninja/esquecicio#readme
-    download: https://github.com/neninja/esquecicio/releases/latest
   technologies: 
     - Go
 
 - name: Simplient
   date: 2020-05-29
   type: Ferramenta
+  emoji: 📓
   links:
     doc: https://github.com/neninja/simplient#readme
-    download: https://github.com/neninja/simplient/releases/latest
   technologies: 
     - React
 
 - name: neni.dev
   date: 2020-02-13
   type: Site
+  emoji: 🌐
   links:
     doc: https://github.com/neninja/neninja.github.io#readme
     access: https://neni.dev
@@ -323,9 +409,9 @@
     - Hugo
 
 - name: WTF
-  portfolio: true
   date: 2019-09-21
   type: Blog
+  emoji: 📼
   links:
     doc: https://github.com/neninja/wtf#readme
     access: https://neni.dev/wtf
@@ -335,15 +421,17 @@
 - name: Offlinha
   date: 2019-02-26
   type: Ferramenta
+  emoji: 🚌
   links:
     doc: https://github.com/neninja/offlinha#readme
-    demo: https://neni.dev/offlinha
+    access: https://neni.dev/offlinha
   technologies: 
     - Javascript
 
 - name: Dotfiles
   date: 2019-02-01
   type: Ferramenta
+  emoji: 🧰
   links:
     doc: https://d.neni.dev
   technologies: 
@@ -354,6 +442,7 @@
 - name: Rancho
   date: 2018-06-30
   type: Ferramenta
+  emoji: 🧮
   links:
     doc: https://github.com/neninja/rancho#readme
     access: https://neni.dev/rancho
@@ -363,6 +452,7 @@
 - name: Kamas
   date: 2018-01-11
   type: Ferramenta
+  emoji: 🪙
   links:
     doc: https://github.com/neninja/kamas#readme
     access: https://neni.dev/kamas
