@@ -87,7 +87,7 @@
 
     {{ $script := resources.Get "/js/log.js" }}
     {{ if not .Site.IsServer }}
-        {{ $theme = $theme | minify | fingerprint }}
+        {{ $script = $script | minify | fingerprint }}
     {{ end }}
     <script src="{{$script.Permalink}}"></script>
 </main>
