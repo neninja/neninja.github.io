@@ -42,7 +42,7 @@
     <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
 
     {{ $alpine := resources.Get "alpinejs/cdn.min.js" }}
-    <script src="{{ $alpine.RelPermalink }}" defer></script>
+    <script src="{{ $alpine.Permalink }}" defer></script>
 
     {{ $theme := resources.Get "/js/theme.js" }}
     {{ if not .Site.IsServer }}
