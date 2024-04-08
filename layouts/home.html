@@ -44,23 +44,22 @@
 
     <div class="colored-segment w-full flex justify-center">
         <section class="flex flex-col gap-4">
-            <div class="flex gap-4 items-center">
-                <div class="flex flex-col justify-around sm:items-end w-auto sm:w-3/12">
+            <div class="flex gap-4 items-center flex-col sm:flex-row">
+                <div class="flex flex-col justify-around sm:items-end w-auto">
                     <div class="text-lg font-bold leading-5 uppercase">Proeficiência</div>
-                    <div class="text-sm leading-5">Experiência profissional</div>
                 </div>
-                <ul class="flex flex-wrap gap-2 w-9/12">
+                <ul class="flex flex-wrap gap-2 justify-center w-full sm:justify-start">
                     {{ range .Site.Data.home.main_skills }}
                     <li class="inline-flex items-center rounded-md uppercase bg-slate-400/10 px-2 py-1">{{ . }}</li>
                     {{ end }}
                 </ul>
             </div>
-            <div class="flex gap-2 items-center">
-                <div class="flex flex-col justify-around sm:items-end w-auto sm:w-3/12">
+            <hr class="w-full border-slate-200/10"/>
+            <div class="flex gap-4 items-center flex-col sm:flex-row">
+                <div class="flex flex-col justify-around sm:items-end w-auto">
                     <div class="text-lg font-bold leading-5 uppercase">Familiaridade</div>
-                    <div class="text-sm leading-5">Em aprimoramento</div>
                 </div>
-                <ul class="flex flex-wrap gap-4 w-9/12">
+                <ul class="flex flex-wrap gap-2 justify-center w-full sm:justify-start">
                     {{ range .Site.Data.home.secondary_skills }}
                     <li class="inline-flex items-center rounded-md uppercase bg-slate-400/10 px-2 py-1">{{ . }}</li>
                     {{ end }}
