@@ -44,6 +44,7 @@
 
     <div class="colored-segment w-full flex justify-center">
         <section class="flex flex-col gap-4">
+            <h3 class="text-black dark:text-slate-100 text-2xl font-extrabold uppercase mb-4">Ferramentas</h3>
             <div class="flex gap-4 items-center flex-col sm:flex-row">
                 <div class="flex flex-col justify-around sm:items-end w-auto">
                     <div class="text-lg font-bold leading-5 uppercase">Proeficiência</div>
@@ -68,7 +69,7 @@
         </section>
     </div>
     <section class="">
-        <h3 class="text-black dark:text-slate-100 text-3xl font-extrabold uppercase mb-4">Projetos open source</h3>
+        <h3 class="text-black dark:text-slate-100 text-2xl font-extrabold uppercase mb-4">Projetos open source</h3>
         <ul class="grid gap-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {{ $projects := .Site.Data.projects }}
         {{ $projects := where .Site.Data.projects "portfolio" true }}
@@ -80,6 +81,7 @@
 
     <div class="bg-cartoon-yellow dark:bg-slate-900 w-full flex justify-center">
         <section class="mb-20">
+            <h3 class="text-black dark:text-slate-100 text-2xl font-extrabold uppercase mb-4">Links</h3>
             <ul class="flex flex-wrap gap-8">
                 {{ range .Site.Data.home.secondary_links }}
                 <a role="listitem" href="{{.href}}" class="flex flex-col justify-center items-center border border-slate-400/10 bg-slate-100/10 hover:opacity-60 rounded-md shadow w-32 aspect-square">
