@@ -13,7 +13,7 @@ url = "https://www.linkedin.com/in/neninja"
 [module]
   [module.hugoVersion]
     extended = true
-    min      = "0.115.0"
+    min      = "0.124.0"
 [[module.mounts]]
     source = "node_modules/alpinejs/dist"
     target = "assets/alpinejs"
