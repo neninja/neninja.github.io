@@ -36,6 +36,8 @@
   emoji: 🔰
   description: Sugestão de configuração inicial para Nvim
   type: Ferramenta
+  links:
+    doc: https://github.com/neninja/vi-vim-venci
   technologies: 
     - Lua
     - Nvim
