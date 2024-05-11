@@ -52,17 +52,6 @@
   technologies: 
     - Go
 
-- name: ISB Conecta QA
-  date: 2023-09-23
-  emoji: 🔍
-  portfolio: true
-  description: Validação do design com teste de regressão visual
-  wip: true
-  type: Automação QA
-  technologies: 
-    - Playwright
-    - Typescript
-
 - name: Hidroponica QA
   date: 2023-09-23
   emoji: ✅
@@ -368,10 +357,8 @@
     - Hugo
 
 - name: ISB Conecta
-  wip: true
   date: 2021-01-08
   emoji: 🖇️
-  portfolio: true
   description: Gerenciamento de usuários e relatórios
   type: Sistema
   links:
