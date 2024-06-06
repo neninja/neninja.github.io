@@ -9,6 +9,15 @@
 # sistema local de folha ponto
 # blog: landing page para anonimos
 # blog: menu de restaurante (para usar com qr code ou nfc)
+- name: Dailypong Nvim
+  date: 2024-06-06
+  type: Plugin Nvim
+  emoji: 🏓
+  links:
+    doc: https://github.com/neninja/nvim-dailypong#readme
+  technologies: 
+    - Lua
+
 - name: Grigori
   date: 2024-03-30
   emoji: 💰
