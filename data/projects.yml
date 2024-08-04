@@ -9,6 +9,17 @@
 # sistema local de folha ponto
 # blog: landing page para anonimos
 # blog: menu de restaurante (para usar com qr code ou nfc)
+- name: Sobreviventez
+  date: 2024-08-04
+  type: Ferramenta
+  emoji: 🔥
+  links:
+    doc: https://github.com/neninja/sobreviventez#readme
+    access: https://neni.dev/sobreviventez
+  technologies: 
+    - Tailwind
+    - AlpineJS
+
 - name: Dailypong Nvim
   date: 2024-06-06
   type: Plugin Nvim
