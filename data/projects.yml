@@ -1,18 +1,8 @@
-# sistema web de consultorio
-# sistema academia
-# app academia
-# sistema nutrição
-# app nutrição
-# precomar
-# webapp zapzap pedido de comida
-# sistema local de pedido de restaurante
-# sistema local de folha ponto
-# blog: landing page para anonimos
-# blog: menu de restaurante (para usar com qr code ou nfc)
 - name: Sobreviventez
   date: 2024-08-04
   type: Ferramenta
   emoji: 🔥
+  description: Filtro de habilidades de Zombicide Fantasy
   links:
     doc: https://github.com/neninja/sobreviventez#readme
     access: https://neni.dev/sobreviventez
@@ -24,6 +14,7 @@
   date: 2024-06-06
   type: Plugin Nvim
   emoji: 🏓
+  description: Todo list de quem já falou na daily dentro do editor
   links:
     doc: https://github.com/neninja/nvim-dailypong#readme
   technologies: 
@@ -31,8 +22,8 @@
 
 - name: Grigori
   date: 2024-03-30
-  emoji: 💰
   portfolio: true
+  emoji: 💰
   description: Controle de orçamentos
   wip: true
   type: App
@@ -41,8 +32,8 @@
 
 - name: Julius
   date: 2024-04-03
-  emoji: 🧠
   portfolio: true
+  emoji: 🧠
   description: Gerenciamento de tempo e tarefas
   wip: true
   type: App
@@ -64,8 +55,8 @@
 
 - name: Sinergigo
   date: 2023-10-01
-  emoji: 🪩
   portfolio: true
+  emoji: 🪩
   description: Jogo online com multiplas pessoas
   wip: true
   type: Sistema
@@ -74,8 +65,8 @@
 
 - name: Hidroponica QA
   date: 2023-09-23
-  emoji: ✅
   portfolio: true
+  emoji: ✅
   description: Validação do funcionamento de backoffice e web app
   type: Automação QA
   links:
@@ -106,6 +97,7 @@
   date: 2023-07-09
   type: Ferramenta
   emoji: 🧟
+  description: Contador do jogo Zombie Dice
   links:
     doc: https://github.com/neninja/ceeeerebros#readme
     access: https://neni.dev/ceeeerebros
