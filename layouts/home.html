@@ -76,6 +76,13 @@
             <li>{{ partial "project.html" . }}</li>
         {{ end }}
         </ul>
+        {{ if (gt ($projects | len) 0) }}
+        <div class="w-full flex justify-center py-4">
+            <a href="/log" type="button" class="project-link project-link-access">
+                Listar todos projetos
+            </a>
+        </div>
+        {{ end }}
     </section>
 
     <div class="bg-cartoon-yellow dark:bg-slate-900 w-full flex justify-center">
