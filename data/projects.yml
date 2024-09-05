@@ -1,3 +1,23 @@
+- name: Sinergia
+  date: 2024-09-05
+  portfolio: true
+  emoji: 🪩
+  description: Jogo online com multiplas pessoas
+  links:
+    doc: https://github.com/neninja/sinergia#readme
+  wip: true
+  type: Sistema
+  technologies: 
+    - PHP
+    - Laravel
+    - Laravel Reverb
+    - Sail
+    - Websocket
+    - Ngrok
+    - Livewire
+    - Tailwind
+    - AlpineJS
+
 - name: Sobreviventez
   date: 2024-08-04
   type: Ferramenta
@@ -52,16 +72,6 @@
   technologies: 
     - Lua
     - Nvim
-
-- name: Sinergigo
-  date: 2023-10-01
-  portfolio: true
-  emoji: 🪩
-  description: Jogo online com multiplas pessoas
-  wip: true
-  type: Sistema
-  technologies: 
-    - Go
 
 - name: Hidroponica QA
   date: 2023-09-23
