@@ -5,6 +5,7 @@
         {{ $types := slice }}
         {{ $techs := slice }}
         {{ $projects := .Site.Data.projects }}
+        {{ $projects := where $projects "show" true }}
         {{ range $projects }}
         {{ $techsP :=  .technologies }}
         {{ range $techsP }}

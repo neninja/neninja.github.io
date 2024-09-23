@@ -1,3 +1,7 @@
+# capivara festeira
+# hiraishin é novo nome do julius
+# terminar sinergia
+
 - name: Sinergia
   date: 2024-09-05
   portfolio: true
@@ -20,6 +24,7 @@
 
 - name: Sobreviventez
   date: 2024-08-04
+  show: true
   type: Ferramenta
   emoji: 🔥
   description: Filtro de habilidades de Zombicide Fantasy
@@ -32,6 +37,7 @@
 
 - name: Dailypong Nvim
   date: 2024-06-06
+  show: true
   type: Plugin Nvim
   emoji: 🏓
   description: Todo list de quem já falou na daily dentro do editor
@@ -64,6 +70,7 @@
 
 - name: Vi, vim e venci
   date: 2023-12-14
+  show: true
   emoji: 🔰
   description: Sugestão de configuração inicial para Nvim
   type: Ferramenta
@@ -75,6 +82,7 @@
 
 - name: Hidroponica QA
   date: 2023-09-23
+  show: true
   portfolio: true
   emoji: ✅
   description: Validação do funcionamento de backoffice e web app
@@ -87,6 +95,7 @@
 
 - name: Hidroponica
   date: 2023-09-10
+  show: true
   portfolio: true
   emoji: 📚
   description: Plataforma para estudar textos em inglês com backoffice
@@ -105,6 +114,7 @@
 
 - name: Cééeerebros
   date: 2023-07-09
+  show: true
   type: Ferramenta
   emoji: 🧟
   description: Contador do jogo Zombie Dice
@@ -125,6 +135,7 @@
 
 - name: Boilerplate para plugins
   date: 2023-06-03
+  show: true
   type: Template
   emoji: 🪜
   links:
@@ -134,6 +145,7 @@
 
 - name: Contributing
   date: 2023-06-03
+  show: true
   type: Especificação
   emoji: 📜
   links:
@@ -163,6 +175,7 @@
 
 - name: Kros6
   date: 2022-10-21
+  show: true
   type: App
   emoji: 🎲
   links:
@@ -170,14 +183,14 @@
   technologies: 
     - Flutter
 
-# - name: Proderit
-  # wip: true
-  # date: 2022-05-26
-  # type: Tema
-  # links:
-    # doc: https://github.com/neninja/proderit#readme
-  # technologies: 
-    # - Hugo
+- name: Proderit
+  wip: true
+  date: 2022-05-26
+  type: Tema
+  links:
+    doc: https://github.com/neninja/proderit#readme
+  technologies: 
+    - Hugo
     
 - name: Precomar
   wip: true
@@ -196,6 +209,7 @@
   emoji: 🔂
   description: CLI para repetir comando com enter
   date: 2022-05-03
+  show: true
   type: Ferramenta
   links:
     doc: https://github.com/neninja/gon#readme
@@ -221,6 +235,7 @@
   portfolio: true
   description: Iniciação de pessoas na área de desenvolvimento web com Laravel, Tailwind e Alpine
   date: 2022-04-22
+  show: true
   type: Livro
   links:
     doc: https://github.com/neninja/espiral#readme
@@ -232,6 +247,7 @@
 
 - name: 66
   date: 2022-03-11
+  show: true
   type: Ferramenta
   emoji: 🐮
   links:
@@ -242,6 +258,7 @@
 
 - name: Async Poll
   date: 2022-03-10
+  show: true
   type: Sistema
   emoji: 🗳️
   links:
@@ -253,6 +270,7 @@
 
 - name: Clover report viewer
   date: 2022-02-21
+  show: true
   type: Ferramenta
   emoji: 🤖
   links:
@@ -275,6 +293,7 @@
   portfolio: true
   description: Textos estáticos em ingês com legenda simultânea ao audio
   date: 2021-12-02
+  show: true
   type: Blog
   links:
     doc: https://github.com/neninja/lessen#readme
@@ -292,6 +311,7 @@
 
 - name: Emojicom
   date: 2021-10-07
+  show: true
   type: Especificação
   emoji: 🤖
   links:
@@ -301,6 +321,7 @@
 
 - name: JUnit report viewer
   date: 2021-09-17
+  show: true
   type: Ferramenta
   emoji: 🤖
   links:
@@ -310,6 +331,7 @@
 
 - name: Elefanteca API
   date: 2021-09-10
+  show: true
   type: Sistema
   emoji: 🗓️
   links:
@@ -321,6 +343,7 @@
 
 - name: Dailypong
   date: 2021-08-24
+  show: true
   type: Ferramenta
   emoji: 🏓
   links:
@@ -331,6 +354,7 @@
 
 - name: Localspa
   date: 2021-06-30
+  show: true
   type: Ferramenta
   emoji: 🪃
   links:
@@ -340,6 +364,7 @@
 
 - name: Zombicards
   date: 2021-06-16
+  show: true
   type: Ferramenta
   emoji: 🧟
   links:
@@ -360,6 +385,7 @@
 
 - name: Curriculum Vitae
   date: 2021-03-29
+  show: true
   type: Site
   emoji: 👤
   links:
@@ -380,6 +406,7 @@
 
 - name: ISB Conecta
   date: 2021-01-08
+  show: true
   emoji: 🖇️
   description: Gerenciamento de usuários e relatórios
   type: Sistema
@@ -452,6 +479,7 @@
 
 - name: Rancho
   date: 2018-06-30
+  show: true
   type: Ferramenta
   emoji: 🧮
   links:
