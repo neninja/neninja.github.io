@@ -54,6 +54,7 @@
     doc: https://github.com/neninja/nvim-dailypong#readme
   technologies: 
     - Lua
+    - Nvim
 
 - name: Grigori
   date: 2024-03-30
