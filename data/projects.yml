@@ -1,6 +1,15 @@
-# capivara festeira
-# hiraishin é novo nome do julius
-# terminar sinergia
+- name: Batesul
+  date: 2024-11-03
+  show: true
+  type: Ferramenta
+  emoji: ⌛
+  description: Cálculo do horário da saída pela folha ponto
+  links:
+    doc: https://github.com/neninja/batesul#readme
+  technologies: 
+    - Go
+    - Tailwind
+    - AlpineJS
 
 - name: Sinergia
   date: 2024-09-05
