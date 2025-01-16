@@ -11,6 +11,19 @@
     - Tailwind
     - AlpineJS
 
+- name: Oh my gowsh
+  date: 2024-11-18
+  show: true
+  type: Template
+  emoji: 🪜
+  description: Boilerplate para Go, Tailwind e AlpineJS
+  links:
+    doc: https://github.com/neninja/oh-my-gowsh#readme
+  technologies: 
+    - Go
+    - Tailwind
+    - AlpineJS
+
 - name: Sinergia
   date: 2024-09-05
   portfolio: true
