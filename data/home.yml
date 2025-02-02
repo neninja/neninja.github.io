@@ -12,21 +12,21 @@ secondary_links:
     href: "https://wtf.neni.dev"
     icon: "fa fa-rss"
 
-  - name: "Goodreads"
-    href: "http://goodreads.com/neninja"
-    icon: "fa-brands fa-goodreads"
+  # - name: "Goodreads"
+  #   href: "http://goodreads.com/neninja"
+  #   icon: "fa-brands fa-goodreads"
 
-  - name: "Log"
-    href: "/log"
-    icon: "fa-solid fa-timeline"
+  # - name: "Log"
+  #   href: "/log"
+  #   icon: "fa-solid fa-timeline"
 
   - name: "Currículo"
     href: "http://neni.dev/cv"
     icon: "fa-solid fa-user-tie"
 
-  - name: "Portfolio"
-    href: "/portfolio"
-    icon: "fa-solid fa-bolt"
+  # - name: "Portfolio"
+  #   href: "/portfolio"
+  #   icon: "fa-solid fa-bolt"
 
   - name: "Codepen"
     href: "https://codepen.io/neninja/collections"
@@ -36,9 +36,9 @@ secondary_links:
     href: "https://ludopedia.com.br/usuario/nenitf"
     icon: "fa-solid fa-dice"
 
-  - name: "Discord"
-    href: "https://discord.com/users/298546270451269642"
-    icon: "fab fa-discord"
+  # - name: "Discord"
+  #   href: "https://discord.com/users/298546270451269642"
+  #   icon: "fab fa-discord"
   #
   #- name: "Telegram"
   #  href: "http://t.me/neninja"

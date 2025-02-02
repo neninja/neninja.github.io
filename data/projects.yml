@@ -26,7 +26,6 @@
 
 - name: Sinergia
   date: 2024-09-05
-  portfolio: true
   emoji: 🪩
   description: Jogo online com multiplas pessoas
   links:
@@ -79,17 +78,17 @@
   technologies: 
     - Flutter
 
-- name: Julius
-  date: 2024-04-03
-  portfolio: true
-  emoji: 🧠
-  description: Gerenciamento de tempo e tarefas
-  wip: true
-  type: App
-  links:
-    doc: https://github.com/gabrieldebem/julius
-  technologies: 
-    - Flutter
+# - name: Julius
+#   date: 2024-04-03
+#   portfolio: true
+#   emoji: 🧠
+#   description: Gerenciamento de tempo e tarefas
+#   wip: true
+#   type: App
+#   links:
+#     doc: https://github.com/gabrieldebem/julius
+#   technologies: 
+#     - Flutter
 
 - name: Vi, vim e venci
   date: 2023-12-14
@@ -106,7 +105,6 @@
 - name: Hidroponica QA
   date: 2023-09-23
   show: true
-  portfolio: true
   emoji: ✅
   description: Validação do funcionamento de backoffice e web app
   type: Automação QA
@@ -119,7 +117,6 @@
 - name: Hidroponica
   date: 2023-09-10
   show: true
-  portfolio: true
   emoji: 📚
   description: Plataforma para estudar textos em inglês com backoffice
   type: Sistema
