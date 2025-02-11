@@ -1,3 +1,22 @@
+- name: Grigori
+  date: 2025-02-10
+  portfolio: true
+  emoji: 💰
+  description: Controle de orçamentos
+  wip: true
+  show: true
+  type: Sistema
+  links:
+    doc: https://github.com/neninja/grigori#readme
+  technologies: 
+    - PHP
+    - Laravel
+    - ReactJS
+    - PWA
+    - Livewire
+    - Tailwind
+    - AlpineJS
+
 - name: Batesul
   date: 2024-11-03
   show: true
@@ -68,16 +87,6 @@
     - Lua
     - Nvim
 
-- name: Grigori
-  date: 2024-03-30
-  portfolio: true
-  emoji: 💰
-  description: Controle de orçamentos
-  wip: true
-  type: App
-  technologies: 
-    - Flutter
-
 # - name: Julius
 #   date: 2024-04-03
 #   portfolio: true
@@ -142,7 +151,7 @@
     doc: https://github.com/neninja/ceeeerebros#readme
     access: https://neni.dev/ceeeerebros
   technologies: 
-    - React
+    - ReactJS
 
 - name: Laravim
   date: 2023-06-03
@@ -274,7 +283,7 @@
     doc: https://github.com/neninja/66#readme
     access: https://neni.dev/66
   technologies: 
-    - React
+    - ReactJS
 
 - name: Async Poll
   date: 2022-03-10
@@ -296,7 +305,7 @@
   links:
     access: https://codepen.io/neninja/full/NWwYQoz
   technologies: 
-    - React
+    - ReactJS
 
 - name: Conceitorio
   wip: true
@@ -306,7 +315,7 @@
   links:
     doc: https://github.com/neninja/conceitorio#readme
   technologies: 
-    - React
+    - ReactJS
 
 - name: Lessen
   emoji: 🔊
@@ -347,7 +356,7 @@
   links:
     access: https://codepen.io/neninja/full/GREQZRd
   technologies: 
-    - React
+    - ReactJS
 
 - name: Elefanteca API
   date: 2021-09-10
@@ -370,7 +379,7 @@
     doc: https://github.com/neninja/dailypong#readme
     access: https://neni.dev/dailypong
   technologies: 
-    - React
+    - ReactJS
 
 - name: Localspa
   date: 2021-06-30
@@ -391,7 +400,7 @@
     doc: https://github.com/jooaopc/zombicards#readme
     access: https://jooaopc.github.io/zombicards/
   technologies: 
-    - React
+    - ReactJS
 
 - name: Quem vai
   date: 2021-06-15
@@ -401,7 +410,7 @@
     doc: https://github.com/neninja/quemvai#readme
     access: https://neni.dev/quemvai
   technologies: 
-    - React
+    - ReactJS
 
 - name: Curriculum Vitae
   date: 2021-03-29
@@ -454,7 +463,7 @@
   links:
     doc: https://github.com/neninja/simplient#readme
   technologies: 
-    - React
+    - ReactJS
 
 - name: neni.dev
   date: 2020-02-13
@@ -506,10 +515,11 @@
     doc: https://github.com/neninja/rancho#readme
     access: https://neni.dev/rancho
   technologies: 
-    - React
+    - ReactJS
 
 - name: Kamas
   date: 2018-01-11
+  show: true
   type: Ferramenta
   emoji: 🪙
   links:
