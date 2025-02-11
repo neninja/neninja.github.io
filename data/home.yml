@@ -72,9 +72,10 @@ main_skills:
   - Tailwind
   - AlpineJS
   - Livewire
+  - Filament
 
 secondary_skills:
   - Go
-  - Flutter
+  - Hugo
   - Elixir
   - Playwright
