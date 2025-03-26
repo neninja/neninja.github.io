@@ -1,0 +1,1 @@
+- Abreviação de `por exemplo`

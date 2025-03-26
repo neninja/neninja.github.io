@@ -1,0 +1,1 @@
+- [[é importante manter-se ocupado]], porém ter 2 [trabalhos]([[trabalho]]) não melhora tão bem sua [[gestão de tempo]] , pois ficará constantemente cansado e desmotivado
