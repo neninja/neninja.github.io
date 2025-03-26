@@ -1,46 +1,19 @@
 name: github pages
 
-on:
-  push:
-    branches:
-      - main  # Set a branch to deploy
-  workflow_dispatch:
+on: [push]
 
+permissions:
+  contents: write
 jobs:
-  deploy:
-    runs-on: ubuntu-20.04
+  test:
+    runs-on: ubuntu-latest
+    name: Publish Logseq graph
     steps:
       - uses: actions/checkout@v4
+      - uses: logseq/publish-spa@v0.3.0
+      - name: Add a nojekyll file # to make sure asset paths are correctly identified
+        run: touch $GITHUB_WORKSPACE/www/.nojekyll
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '0.124.0'
-          extended: true
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-          # The action defaults to search for the dependency file (package-lock.json,
-          # npm-shrinkwrap.json or yarn.lock) in the repository root, and uses its
-          # hash as a part of the cache key.
-          # https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#caching-packages-data
-          cache-dependency-path: '**/package-lock.json'
-
-      - run: npm ci
-
-      - name: Build
-        run: hugo --minify
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-
-
-
+          folder: www
