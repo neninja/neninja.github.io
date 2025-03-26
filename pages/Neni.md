@@ -1,0 +1,19 @@
+- Sou desenvolvedor web
+	- Tenho interesse em entrega de valor com a agilidade de desenvolvimento do ecossistema [[Laravel]], juntamente com [[Alpine JS]], [[Tailwind CSS]], [[Livewire]] e [[Filament]] com [[desenvolvimento web]]
+	- Trabalho mantendo sistemas [[Java]]
+	- Acho [[Elixir]] promissor
+	- Vez que outra utilizo [[Go]] quando preciso de performance, scripts pontuais ou quando é um [[requisito]] do projeto ser [[self hosted]]
+- Experiências profissionais podem ser encontradas no meu [currículum](https://neni.dev/cv) e [Linkedin](https://www.linkedin.com/in/neninja/)
+	- Códigos públicos no [Github](https://github.com/neninja)
+- Tenho alguns [[Projetos]] [[open source]] ou não
+- Frequentemente adapto meu [ambiente de desenvolvimento](https://github.com/neninja/dotfiles), em especial meu [vimrc](https://neni.dev/dotfiles/#1)
+- No meu tempo livre gosto de jogos multiplayer
+	- [[Splatoon]] é meu jogo digital favorito
+	- [[Mage Knight]] é meu [[boardgame]] favorito
+		- Organizo minha coleção na [Ludopedia](https://ludopedia.com.br/usuario/nenitf)
+- Este site é meu [[PKM público]] feito com [[Logseq]]
+	- O propósito é unificar minhas anotações e snippets em conteúdo de blog
+		- Espero que seja tão útil e com páginas tão específicas quanto https://flaviocopes.com
+		- A ideia veio de https://expertise.matdata.eu
+	- Aplicarei mais esforço nas minhas anotações pensando na possibilidade de outras pessoas lerem
+	- Possuo um [blog](https://wtf.neni.dev/) com páginas perenes, o propósito desse ambiente são ideias que podem ser adicionadas, modificadas ou removidas a qualquer momento

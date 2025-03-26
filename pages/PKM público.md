@@ -1,0 +1,2 @@
+- public knowledge management
+- Versão publica de um [[PKM]]
