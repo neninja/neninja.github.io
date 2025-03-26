@@ -1,4 +1,4 @@
-- [[Javascript]]
+- [[snippet]] [[Javascript]]
 - ```js
   setTimeout(
     async() => console.log(
