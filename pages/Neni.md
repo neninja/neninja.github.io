@@ -1,7 +1,6 @@
 - Sou desenvolvedor web
-	- Tenho interesse em entrega de valor com a agilidade de desenvolvimento do ecossistema [[Laravel]], juntamente com [[Alpine JS]], [[Tailwind CSS]], [[Livewire]] e [[Filament]] com [[desenvolvimento web]]
+	- Tenho interesse em entrega de valor com [[desenvolvimento web]] usando [[Phoenix]], juntamente com [[Alpine JS]] e [[Tailwind CSS]]
 	- Trabalho mantendo sistemas [[Java]]
-	- Acho [[Elixir]] promissor
 	- Vez que outra utilizo [[Go]] quando preciso de performance, scripts pontuais ou quando é um [[requisito]] do projeto ser [[self hosted]]
 - Experiências profissionais podem ser encontradas no meu [currículum](https://neni.dev/cv) e [Linkedin](https://www.linkedin.com/in/neninja/)
 	- Códigos públicos no [Github](https://github.com/neninja)
