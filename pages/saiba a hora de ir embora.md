@@ -1,0 +1,1 @@
+- Seu tempo é precioso, por que desperdiçar ele com o que não tem interesse?

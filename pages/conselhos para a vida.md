@@ -1,0 +1,7 @@
+- [[beba muita água]]
+- [[motive-se pelas suas metas]]
+- [[nunca dê uma chance para o cigarro]]
+- [[saiba a hora de ir embora]]
+- [[você não é o que as pessoas acham de você]]
+- [[você tem tempo]]
+- [[nunca é tarde demais]]

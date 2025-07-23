@@ -1,0 +1,3 @@
+- Vivemos figuras diferentes em aspectos diferentes das nossas vidas
+	- Com pais somos bons filhos, com amigos somos divertidos, com colegas somos responsáveis
+- Não esqueça quem você é dentre tantas formas diferentes como você pode ser visto

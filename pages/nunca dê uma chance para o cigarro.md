@@ -1,0 +1,1 @@
+- Não faz sentido adquirir um vício que você sabe que não traz bem nenhum

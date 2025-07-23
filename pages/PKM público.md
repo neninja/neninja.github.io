@@ -1,6 +1,7 @@
 - public knowledge management
 - Versão publica de um [[PKM]]
 - Exige um esforço em não só "jogar" anotações, pois podem ser lidas e interpretadas por outras pessoas
+	- Um dos meus fatores motivantes foi expor publicamente alguns [[conselhos para a vida]] que ninguém nunca me perguntou
 - Diferente de um [[blog]], as páginas são instaveis pois mudam organicamente
 - Útil para centralizar [[snippet]]
 	- [[e.g.]] https://flaviocopes.com, https://expertise.matdata.eu
