@@ -1,2 +1,2 @@
-- Alimentação, água e exercício auxiliam seu cérebro a funcionar melhor, facilitando sua vida a aguentar esforços físicos e emocionais
-- Ao criar o hábito de uma vida mais saudável, é mais difícil deixar
+- Alimentação, água, descanso e exercícios auxiliam seu cérebro a funcionar melhor, facilitando sua vida a aguentar esforços físicos e emocionais
+- Ao criar o hábito de uma vida mais saudável, torna mais fácil permanecer nele

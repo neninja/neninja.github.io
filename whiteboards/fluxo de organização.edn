@@ -434,7 +434,7 @@
 :nonce 1753317970603
 :italic false}}
 :block/updated-at 1753319973523} 
-{:block/created-at 1753319744168
+{:block/created-at 1753320034426
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -446,11 +446,11 @@
 :scaleLevel "md"
 :fill ""
 :type "box"
-:size [456 64]
+:size [760 64]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:label "Áreas: algo sem tempo de vida"
+:label "Áreas: demandas de continuação prolongada"
 :id "ad40be40-6827-11f0-bc94-493da66231df"
 :fontWeight 400
 :noFill false
@@ -458,10 +458,10 @@
 :point [1688 288]
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753317970585
+:nonce 1753317970742
 :italic false}}
-:block/updated-at 1753319744168} 
-{:block/created-at 1753319744166
+:block/updated-at 1753320034426} 
+{:block/created-at 1753320070012
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -473,11 +473,11 @@
 :scaleLevel "md"
 :fill ""
 :type "box"
-:size [456 64]
+:size [760 64]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:label "Recursos: projetos inativos que vou retomar"
+:label "Recursos: projetos adiados que serão retomados"
 :id "b521a660-6827-11f0-bc94-493da66231df"
 :fontWeight 400
 :noFill false
@@ -485,10 +485,10 @@
 :point [1688 392]
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753317970696
+:nonce 1753317970844
 :italic false}}
-:block/updated-at 1753319744166} 
-{:block/created-at 1753319744167
+:block/updated-at 1753320070012} 
+{:block/created-at 1753320076952
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -500,7 +500,7 @@
 :scaleLevel "md"
 :fill ""
 :type "box"
-:size [456 64]
+:size [760 64]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -512,9 +512,9 @@
 :point [1688 496]
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753317970561
+:nonce 1753317970635
 :italic false}}
-:block/updated-at 1753319744167} 
+:block/updated-at 1753320076952} 
 {:block/created-at 1753319204139
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -621,7 +621,7 @@
 :block/parent 
 {:block/uuid #uuid "68818006-1416-44ff-be0e-9b1d830e0bc0"}
 :block/uuid #uuid "688183d9-ce20-43e8-99e9-f7957e0a46ae"} 
-{:block/created-at 1753319744168
+{:block/created-at 1753320081114
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -633,7 +633,7 @@
 :scaleLevel "md"
 :fill ""
 :type "box"
-:size [528 456]
+:size [824 456]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -644,10 +644,10 @@
 :point [1648 136]
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753318409228
+:nonce 1753318409320
 :italic false}}
-:block/updated-at 1753319744168} 
-{:block/created-at 1753319744167
+:block/updated-at 1753320081114} 
+{:block/created-at 1753320083779
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -668,14 +668,14 @@
 :padding 4
 :fontWeight 400
 :noFill true
-:point [1600 80]
+:point [1632 80]
 :lineHeight 1.2
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753318691425
+:nonce 1753318691469
 :italic false
 :text "Toda lista, menos inbox (caixa de entrada), pertence a uma pasta"}}
-:block/updated-at 1753319744167} 
+:block/updated-at 1753320083779} 
 {:block/created-at 1753319204140
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -912,7 +912,7 @@
 :nonce 1753318962597
 :italic false}}
 :block/updated-at 1753319204139} 
-{:block/created-at 1753319744234
+{:block/created-at 1753320083781
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -929,7 +929,7 @@
 :id "e8642370-6829-11f0-bc94-493da66231df"
 :fontWeight 400
 :noFill true
-:point [1403.3 118]
+:point [1407.31 118]
 :fontSize 10
 :handles 
 {:start 
@@ -940,15 +940,15 @@
 :end 
 {:id "end"
 :canBind true
-:point [200.79 0]
+:point [226.55 0]
 :bindingId "e863fc61-6829-11f0-bc94-493da66231df"}}
 :decorations 
 {:end "arrow"}
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753318965312
+:nonce 1753318965322
 :italic false}}
-:block/updated-at 1753319744234} 
-{:block/created-at 1753319966936
+:block/updated-at 1753320083781} 
+{:block/created-at 1753320135892
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -969,13 +969,13 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [2816 168]
+:point [2552 168]
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753317970897
+:nonce 1753317970959
 :italic false}}
-:block/updated-at 1753319966936} 
-{:block/created-at 1753319966936
+:block/updated-at 1753320135892} 
+{:block/created-at 1753320135890
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -996,13 +996,13 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [2976 168]
+:point [2712 168]
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753317971186
+:nonce 1753317971248
 :italic false}}
-:block/updated-at 1753319966936} 
-{:block/created-at 1753319966935
+:block/updated-at 1753320135890} 
+{:block/created-at 1753320135893
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1023,13 +1023,13 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [2816 240]
+:point [2552 240]
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753317971277
+:nonce 1753317971339
 :italic false}}
-:block/updated-at 1753319966935} 
-{:block/created-at 1753319966936
+:block/updated-at 1753320135893} 
+{:block/created-at 1753320135892
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1050,13 +1050,13 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [2952 240]
+:point [2688 240]
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753317971573
+:nonce 1753317971635
 :italic false}}
-:block/updated-at 1753319966936} 
-{:block/created-at 1753319966936
+:block/updated-at 1753320135892} 
+{:block/created-at 1753320135892
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1077,13 +1077,13 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [3080 240]
+:point [2816 240]
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753317971556
+:nonce 1753317971618
 :italic false}}
-:block/updated-at 1753319966936} 
-{:block/created-at 1753319966936
+:block/updated-at 1753320135892} 
+{:block/created-at 1753320135893
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1103,13 +1103,13 @@
 :id "6b307ba0-682a-11f0-bc94-493da66231df"
 :fontWeight 400
 :noFill true
-:point [2800 152]
+:point [2536 152]
 :fontSize 10
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753319185163
+:nonce 1753319185225
 :italic false}}
-:block/updated-at 1753319966936} 
-{:block/created-at 1753319966936
+:block/updated-at 1753320135893} 
+{:block/created-at 1753320135893
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1130,15 +1130,15 @@
 :padding 4
 :fontWeight 400
 :noFill true
-:point [2800 96]
+:point [2536 96]
 :lineHeight 1.2
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753319195198
+:nonce 1753319195260
 :italic false
 :text "Exemplos de listas em \"Projetos\""}}
-:block/updated-at 1753319966936} 
-{:block/created-at 1753319966936
+:block/updated-at 1753320135893} 
+{:block/created-at 1753320135893
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1159,13 +1159,13 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [2984 424]
+:point [2720 424]
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753317971420
+:nonce 1753317971482
 :italic false}}
-:block/updated-at 1753319966936} 
-{:block/created-at 1753319966935
+:block/updated-at 1753320135893} 
+{:block/created-at 1753320135891
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1186,13 +1186,13 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [2944 496]
+:point [2680 496]
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753317971621
+:nonce 1753317971683
 :italic false}}
-:block/updated-at 1753319966935} 
-{:block/created-at 1753319966936
+:block/updated-at 1753320135891} 
+{:block/created-at 1753320135893
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1213,13 +1213,13 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [2824 424]
+:point [2560 424]
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753317971009
+:nonce 1753317971071
 :italic false}}
-:block/updated-at 1753319966936} 
-{:block/created-at 1753319966936
+:block/updated-at 1753320135893} 
+{:block/created-at 1753320135892
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1241,15 +1241,15 @@
 :fontWeight 400
 :noFill true
 :isLocked false
-:point [2808 360]
+:point [2544 360]
 :lineHeight 1.2
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753319195280
+:nonce 1753319195342
 :italic false
 :text "Exemplos de listas em \"Área\""}}
-:block/updated-at 1753319966936} 
-{:block/created-at 1753319966936
+:block/updated-at 1753320135892} 
+{:block/created-at 1753320135892
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1270,13 +1270,13 @@
 :fontWeight 400
 :noFill true
 :isLocked false
-:point [2808 408]
+:point [2544 408]
 :fontSize 10
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753319185322
+:nonce 1753319185384
 :italic false}}
-:block/updated-at 1753319966936} 
-{:block/created-at 1753319966936
+:block/updated-at 1753320135892} 
+{:block/created-at 1753320135892
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1297,13 +1297,13 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [3160 424]
+:point [2896 424]
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753317971695
+:nonce 1753317971757
 :italic false}}
-:block/updated-at 1753319966936} 
-{:block/created-at 1753319966936
+:block/updated-at 1753320135892} 
+{:block/created-at 1753320135892
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1324,13 +1324,13 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [2824 496]
+:point [2560 496]
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753317971380
+:nonce 1753317971442
 :italic false}}
-:block/updated-at 1753319966936} 
-{:block/created-at 1753319966936
+:block/updated-at 1753320135892} 
+{:block/created-at 1753320135892
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1351,13 +1351,13 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [3072 496]
+:point [2808 496]
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753317971951
+:nonce 1753317972013
 :italic false}}
-:block/updated-at 1753319966936} 
-{:block/created-at 1753319966935
+:block/updated-at 1753320135892} 
+{:block/created-at 1753320135893
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1378,12 +1378,12 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [3192 496]
+:point [2928 496]
 :fontSize 20
 :parentId "68818006-1416-44ff-be0e-9b1d830e0bc0"
-:nonce 1753317972106
+:nonce 1753317972168
 :italic false}}
-:block/updated-at 1753319966935})
+:block/updated-at 1753320135893})
 :pages (
 {:block/uuid #uuid "68818006-1416-44ff-be0e-9b1d830e0bc0"
 :block/properties 
@@ -1555,7 +1555,7 @@
 :nonce 1
 :assets []
 :shapes-index ("6b307ba0-682a-11f0-bc94-493da66231df" "43c930b0-6826-11f0-bc94-493da66231df" "56041740-6826-11f0-bc94-493da66231df" "7671c9a1-6826-11f0-bc94-493da66231df" "b12fef40-6826-11f0-bc94-493da66231df" "ccf3efb0-6826-11f0-bc94-493da66231df" "f6e11f00-6826-11f0-bc94-493da66231df" "5a6f4422-6827-11f0-bc94-493da66231df" "60b17062-6827-11f0-bc94-493da66231df" "725d8470-6827-11f0-bc94-493da66231df" "7ae6ba82-6827-11f0-bc94-493da66231df" "81bc4d22-6827-11f0-bc94-493da66231df" "897eb0c2-6827-11f0-bc94-493da66231df" "96f22430-6827-11f0-bc94-493da66231df" "9b736690-6827-11f0-bc94-493da66231df" "ad40be40-6827-11f0-bc94-493da66231df" "b521a660-6827-11f0-bc94-493da66231df" "c41cf250-6827-11f0-bc94-493da66231df" "d52fd3a2-6827-11f0-bc94-493da66231df" "5ce72c80-6828-11f0-bc94-493da66231df" "754608f2-6828-11f0-bc94-493da66231df" "9cdcc520-6828-11f0-bc94-493da66231df" "44ec2580-6829-11f0-bc94-493da66231df" "7b51c674-6829-11f0-bc94-493da66231df" "7b51c675-6829-11f0-bc94-493da66231df" "7b51c670-6829-11f0-bc94-493da66231df" "a8b8da40-6829-11f0-bc94-493da66231df" "af1f0940-6829-11f0-bc94-493da66231df" "b6aec420-6829-11f0-bc94-493da66231df" "c2194830-6829-11f0-bc94-493da66231df" "e6d4a9d2-6829-11f0-bc94-493da66231df" "e8642370-6829-11f0-bc94-493da66231df" "2b04b7d0-682a-11f0-bc94-493da66231df" "3a9a9610-682a-11f0-bc94-493da66231df" "49dab330-682a-11f0-bc94-493da66231df" "4e2666a0-682a-11f0-bc94-493da66231df" "55d4a600-682a-11f0-bc94-493da66231df" "714a1140-682a-11f0-bc94-493da66231df" "9ae61350-682a-11f0-bc94-493da66231df" "9ae61351-682a-11f0-bc94-493da66231df" "9ae61352-682a-11f0-bc94-493da66231df" "9ae61353-682a-11f0-bc94-493da66231df" "9ae61354-682a-11f0-bc94-493da66231df" "9ae61355-682a-11f0-bc94-493da66231df" "9ae61356-682a-11f0-bc94-493da66231df" "e5520c00-682a-11f0-bc94-493da66231df" "18b2f870-682b-11f0-bc94-493da66231df")}}
-:block/updated-at 1753319973523
+:block/updated-at 1753320135890
 :block/created-at 1753317382323
 :block/type "whiteboard"
 :block/name "fluxo de organização"

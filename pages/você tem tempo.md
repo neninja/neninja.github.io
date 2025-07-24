@@ -1,3 +1,3 @@
 - Quando não executamos algo por falta de tempo, precisamos entender que demos preferência a fazer outra coisa
-- Às vezes somos obrigados a fazer o que não queremos, porém se nos propormos a fazer é porque temos algo que nos motive a isso
-- Não é que seja o discurso "todos temos as mesmas 24h", é justamente a tentativa de recobrir a consciência do presente
+- Às vezes somos obrigados a fazer o que não queremos, porém se nos propormos a fazer é porque temos algo que nos mantenha nisso
+- Não como o discurso "todos temos as mesmas 24h", mas sim a reflexão de estar presente no tempo em que você possui
