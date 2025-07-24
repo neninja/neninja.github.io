@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["fluxo logseq" "conselhos para a vida" "PKM público"]
+ :favorites ["fluxo de organização" "fluxo logseq" "conselhos para a vida" "PKM público"]
 
  ;; Set flashcards interval.
  ;; Expected value:
