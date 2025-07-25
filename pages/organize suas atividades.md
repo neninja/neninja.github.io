@@ -1,0 +1,2 @@
+- Utilize um sistema seja em papel ou digital para criar notas e tarefas
+-
