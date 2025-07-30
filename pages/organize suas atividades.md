@@ -1,2 +1,2 @@
-- Utilize um sistema seja em papel ou digital para criar notas e tarefas
--
+- Seu cérebro é bom em criar e ligar ideias, não em mantê-las
+- Utilize um sistema seja em papel ou digital para notas e tarefas
