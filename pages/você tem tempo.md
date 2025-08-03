@@ -1,3 +1,5 @@
 - Quando não executamos algo por falta de tempo, precisamos entender que demos preferência a fazer outra coisa
+	- Entenda que "não tenho tempo" faz mais sentido de ser entendido como "para **isso** não tenho interesse pois estou fazendo **aquilo**"
 - Às vezes somos obrigados a fazer o que não queremos, porém se nos propormos a fazer é porque temos algo que nos mantenha nisso
-- Não como o discurso "todos temos as mesmas 24h", mas sim a reflexão de estar presente no tempo em que você possui
+	- Lembre-se a todo momento o porquê esta fazendo algo e motive-se com isso
+- Tenha um plano para tornar sua vida mais fácil no futuro e trilhe-o

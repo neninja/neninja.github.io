@@ -1,1 +1,2 @@
 - Seu tempo é precioso, por que desperdiçar ele com o que não tem interesse?
+- Sua família lembrará de eventos em que foi ou não, diferente do seu trabalho

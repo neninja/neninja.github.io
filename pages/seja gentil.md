@@ -1,0 +1,4 @@
+- O mundo se torna mais agradável quando somos gentis
+- Trate alguém como gostaria de ser tratado
+- A gentileza fortalece sua presença, para você e para os outros
+	- Gentileza não é sobre inocência, mas sim sobre optar por ser gentil

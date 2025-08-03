@@ -1,1 +1,1 @@
-- Não faz sentido adquirir um vício que você sabe que não traz bem nenhum
+- Não faz sentido adquirir um vício que você sabe que não traz bem nenhum, seja cigarro ou qualquer outra droga viciante
