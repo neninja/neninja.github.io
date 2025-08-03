@@ -1,5 +1,6 @@
 - Quando não executamos algo por falta de tempo, precisamos entender que demos preferência a fazer outra coisa
 	- Entenda que "não tenho tempo" faz mais sentido de ser entendido como "para **isso** não tenho interesse pois estou fazendo **aquilo**"
 - Às vezes somos obrigados a fazer o que não queremos, porém se nos propormos a fazer é porque temos algo que nos mantenha nisso
-	- Lembre-se a todo momento o porquê esta fazendo algo e motive-se com isso
+	- Lembre-se a todo momento o porquê esta fazendo algo e [[motive-se pelas suas metas]]
 - Tenha um plano para tornar sua vida mais fácil no futuro e trilhe-o
+- [[nunca é tarde demais]]
