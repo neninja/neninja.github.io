@@ -1,0 +1,1 @@
+- Permita-se errar, aprender e melhorar rápido

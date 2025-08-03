@@ -6,3 +6,6 @@
 - [[organize seu conhecimento]]
 - [[seja gentil]]
 - [[aproveite o presente e economize para o futuro]]
+- [[a responsabilidade do entendimento da mensagem é do emissor]]
+- [[o combinado não sai caro]]
+- [[feito é melhor que perfeito]]

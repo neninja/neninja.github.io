@@ -2,3 +2,4 @@
 	- Com pais somos bons filhos, com amigos somos divertidos, com colegas somos responsáveis
 	- Não esqueça quem você é dentre tantas formas diferentes como você pode ser visto
 - Não tenha medo de passar vergonha, no final todos vamos morrer
+	- [[memento mori]]
