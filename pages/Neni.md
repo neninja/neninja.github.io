@@ -8,7 +8,7 @@
 - No meu tempo livre gosto de jogos multiplayer
 	- [[Splatoon]] é meu jogo digital favorito
 	- [[Mage Knight]] é meu [[jogo de tabuleiro]] favorito
-		- Organizo minha coleção na [Ludopedia](https://ludopedia.com.br/usuario/nenitf)
+		- Organizo minha coleção na [Ludopedia](https://ludopedia.com.br/usuario/tsunadinha)
 - Este site é meu [[PKM público]] feito com [[Logseq]]
 	- A ideia veio de https://expertise.matdata.eu
 	- Leia meu [blog](https://wtf.neni.dev/) para acessar páginas perenes
