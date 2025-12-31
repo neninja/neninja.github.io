@@ -3,3 +3,4 @@
 - Conhecimento é o investimento mais valioso
 - Evite ao máximo a [[ânsia de ter e o tédio de possuir]]
 - Seu dinheiro equivale a tempo que foi aplicado no seu trabalho, faça valer o esforço
+- É muito mais fácil tomar decisões com dinheiro no bolso do que sem
