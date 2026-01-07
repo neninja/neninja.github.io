@@ -1,3 +1,3 @@
-- Alimentação, água, descanso e exercícios auxiliam seu cérebro a funcionar melhor, facilitando sua vida a aguentar esforços físicos e emocionais
+- Alimentação, água, descanso e exercícios auxiliam seu cérebro a funcionar melhor, facilitando sua vida te ajudando a aguentar esforços físicos e emocionais
 	- [ Exercícios também podem ser feitos de casa](exercícios em casa)
 - Ao criar o hábito de uma vida mais saudável, fica mais fácil permanecer nele

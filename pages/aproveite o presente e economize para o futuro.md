@@ -1,6 +1,8 @@
 - Tente gastar abaixo do que poderia
 - Toda economia de agora é um alívio na emergência/oportunidade do futuro
 - Conhecimento é o investimento mais valioso
+	- ![xcom-dumbol-status-1959706131343011982-photo-1.jpeg](../assets/xcom-dumbol-status-1959706131343011982-photo-1_1767755522659_0.jpeg)
 - Evite ao máximo a [[ânsia de ter e o tédio de possuir]]
 - Seu dinheiro equivale a tempo que foi aplicado no seu trabalho, faça valer o esforço
 - É muito mais fácil tomar decisões com dinheiro no bolso do que sem
+- [[disciplina dói no começo, o arrependimento dói todo dia]]

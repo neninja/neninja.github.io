@@ -1,1 +1,2 @@
 - Permita-se errar, aprender e melhorar rápido
+- Caso soubesse que daqui a 10 erros você teria um acerto que tem muito interesse, diminuiria seu perfeccionismo?
