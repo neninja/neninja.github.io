@@ -1,3 +1,7 @@
 - Seu cérebro é bom em criar e ligar ideias, não em mantê-las
-	- Evite criar uma fadiga ao forçar lembrar de coisas que poderiam ser anotadas, como datas, tarefas, informações, estudos etc
-- Utilize um sistema seja em papel ou digital para notas e tarefas
+	- Evite criar uma fadiga ao forçar lembrar de coisas que poderiam ser anotadas, como: datas, tarefas, informações, estudos etc
+- Utilize um sistema, seja em analógico ou digital, para notas e tarefas
+- Quanto mais simples for seu fluxo de organização, mais fácil de mantê-lo
+	- O fluxo tende a ser único pois cada um da importâncias diferentes a coisas diferentes
+		- Eu, por exemplo, dou muita importância a estudar assuntos de programação e a publicar/separar [[PKM público]] do meu individual com resumos de cursos e livros concluídos ou não
+		- Um exemplo simples de [[fluxo de organização]] onde que o importante é entender qual o aspecto da vida, o que registrar e como organizar para ser encontrado depois

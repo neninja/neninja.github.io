@@ -1,0 +1,2 @@
+- Seja claro com suas intenções
+- Caso não tenha alguma resposta no momento, seja sincero e dê uma previsão ou plano

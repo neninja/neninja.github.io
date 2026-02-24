@@ -9,3 +9,4 @@
 - [[a responsabilidade do entendimento da mensagem é do emissor]]
 - [[o combinado não sai caro]]
 - [[feito é melhor que perfeito]]
+- [[leia mais livros]]

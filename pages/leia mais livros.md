@@ -1,0 +1,3 @@
+- Qualquer tipo de leitura (técnico ou fictício) exige atenção ativa
+- Para evitar distrações enquanto lê provocando esquecimento do que foi lido, imagine que o texto é uma conversa de alguém que está te passando informação cujo você tem genuinamente interesse em compreender
+- [[recomendação de livros]]

@@ -1,0 +1,12 @@
+- Ryan Holiday, Stephen Hanselman: **Diário Estóico**
+- **Fábulas de Esopo**
+- Sêneca: **Sobre a Brevidade da Vida**
+- Epicteto: **A Arte de Viver**
+- Marco Aurélio: **Meditações**
+- Liev Tolstói: **A Morte de Ivan Ilitch**
+- John Ronald Reuel Tolkien: **O Hobbit**
+- Austin Kleon: **Roube como um artista**
+- Sheila Heen, Douglas Stone: **Obrigado pelo feedback**
+- Spencer Johnson: **Quem Mexeu no Meu Queijo?**
+- Clóvis de Barros Filho, Leandro Karnal: **Felicidade ou morte**
+- Greg McKeown: **Essencialismo**

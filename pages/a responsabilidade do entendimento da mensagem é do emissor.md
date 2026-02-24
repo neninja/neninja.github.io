@@ -1,0 +1,3 @@
+- Confirme se foi entendido
+- Tenha empatia e adapte a mensagem para facilitar o entendimento
+- Entenda que todos temos experiências de vidas diferentes e até estados emocionais distintos durante o dia, portanto se é do seu interesse ser entendido busque ser efetivo
