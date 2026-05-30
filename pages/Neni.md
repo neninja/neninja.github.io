@@ -1,7 +1,6 @@
 - Sou desenvolvedor web
-	- Tenho interesse em entrega de valor com [[desenvolvimento web]] usando [[Phoenix]], juntamente com [[Alpine JS]] e [[Tailwind CSS]]
-	- Trabalho mantendo sistemas [[Java]]
-	- Vez que outra utilizo [[Go]] quando preciso de performance, scripts pontuais ou quando é um [[requisito]] do projeto ser [[self hosted]]
+	- Tenho interesse em entrega de valor com [[desenvolvimento web]] com [[Phoenix]] [[Alpine JS]] [[Tailwind CSS]] [[Playwright]]
+	- Trabalho como **analista de sistemas** mantendo sistemas [[Java]]
 - Experiências profissionais podem ser encontradas no meu [currículum](https://neni.dev/cv) e [Linkedin](https://www.linkedin.com/in/neninja/)
 	- Códigos públicos no [Github](https://github.com/neninja)
 	- Registro alguns [projetos](projeto) aqui como vitrine
