@@ -4,6 +4,8 @@
 - Epicteto: **A Arte de Viver**
 - Marco Aurélio: **Meditações**
 - Liev Tolstói: **A Morte de Ivan Ilitch**
+- Oscar Wilde: **O retrato de Dorian Gray**
+- Edgar Allan Poe: **O Coração Delator**
 - John Ronald Reuel Tolkien: **O Hobbit**
 - Austin Kleon: **Roube como um artista**
 - Sheila Heen, Douglas Stone: **Obrigado pelo feedback**
